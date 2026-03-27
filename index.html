@@ -277,7 +277,7 @@
       return `
         <div class="agent-card">
           ${locationTag}
-          <div class="agent-name">${icon} ${a.name}</div>
+          <div class="agent-name">${icon} ${a.name}${a.ai_label ? `<span style="font-size:.7rem;color:#a78bfa;margin-left:4px">（${a.ai_label}）</span>` : ''}</div>
           <div class="agent-persona">${a.persona || ''}</div>
           <div class="realm-bar-wrap">
             <div class="realm-bar-label">
@@ -325,7 +325,7 @@
   function renderActions(actionsMap, agents) {
     const log = document.getElementById('actionLog');
     const nameMap = {};
-    agents.forEach(a => nameMap[a.agent_id] = a.name);
+    agents.forEach(a => nameMap[a.agent_id] = a.name + (a.ai_label ? `（${a.ai_label}）` : ''));
 
     const entries = Object.entries(actionsMap);
     if (!entries.length) { log.innerHTML = '<div class="empty">暂无行动记录</div>'; return; }
@@ -381,7 +381,7 @@
     list.innerHTML = sorted.map((a, i) => `
       <div class="rank-item">
         <span class="rank-num">${medals[i] || (i+1)}</span>
-        <span class="rank-name">${a.name}</span>
+        <span class="rank-name">${a.name}${a.ai_label ? `<span style="font-size:.7rem;color:#a78bfa;margin-left:3px">（${a.ai_label}）</span>` : ''}</span>
         <span class="rank-realm">${a.true_realm}</span>
         <span class="rank-stones">💎${a.spirit_stones}</span>
       </div>`).join('');
