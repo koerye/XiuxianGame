@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌑 苍渺大陆 · 黑暗森林修仙观战台</title>
+  <script src="./snapshot_data.js"></script>
+  <style>
+    :root {
+      --bg: #0a0a0f;
+      --card: #12121a;
+      --border: #2a2a3a;
+      --accent: #7c3aed;
+      --accent2: #db2777;
+      --gold: #f59e0b;
+      --green: #10b981;
+      --red: #ef4444;
+      --blue: #3b82f6;
+      --text: #e2e8f0;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', 'PingFang SC', sans-serif; min-height: 100vh; }
+
+    /* ── 头部 ── */
+    header { background: linear-gradient(135deg, #1a0a2e, #0a1628); border-bottom: 1px solid var(--border); padding: 16px 24px; display: flex; align-items: center; justify-content: space-between; }
+    header h1 { font-size: 1.4rem; background: linear-gradient(90deg, #a78bfa, #f472b6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+    .tick-badge { background: var(--accent); color: white; padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; font-weight: 700; }
+    .status-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); display: inline-block; margin-right: 6px; animation: pulse 2s infinite; }
+    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:.4} }
+
+    /* ── 主体布局 ── */
+    .container { max-width: 1400px; margin: 0 auto; padding: 20px; display: grid; grid-template-columns: 1fr 340px; gap: 20px; }
+    @media (max-width: 900px) { .container { grid-template-columns: 1fr; } }
+
+    /* ── 卡片 ── */
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; }
+    .card h2 { font-size: 0.9rem; color: var(--muted); text-transform: uppercase; letter-spacing: .06em; margin-bottom: 12px; }
+
+    /* ── 修士列表 ── */
+    .agents-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 20px; }
+    .agent-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 14px; position: relative; transition: border-color .2s; }
+    .agent-card:hover { border-color: var(--accent); }
+    .agent-card.dead { opacity: .4; filter: grayscale(1); }
+    .agent-name { font-size: 1.05rem; font-weight: 700; margin-bottom: 4px; }
+    .agent-persona { font-size: 0.72rem; color: var(--muted); margin-bottom: 8px; }
+    .realm-bar-wrap { margin: 8px 0; }
+    .realm-bar-label { display: flex; justify-content: space-between; font-size: 0.72rem; color: var(--muted); margin-bottom: 3px; }
+    .realm-bar { height: 6px; background: #1e1e2e; border-radius: 3px; overflow: hidden; }
+    .realm-bar-fill { height: 100%; background: linear-gradient(90deg, var(--accent), var(--accent2)); border-radius: 3px; transition: width .6s ease; }
+    .agent-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 4px; font-size: 0.75rem; margin-top: 8px; }
+    .stat { background: #1a1a2a; border-radius: 6px; padding: 4px 8px; }
+    .stat-label { color: var(--muted); }
+    .stat-value { color: var(--gold); font-weight: 600; }
+    .location-tag { position: absolute; top: 10px; right: 10px; font-size: 0.65rem; background: #1e293b; color: var(--blue); padding: 2px 8px; border-radius: 10px; }
+    .wanted-tag { position: absolute; top: 10px; right: 10px; font-size: 0.65rem; background: #450a0a; color: var(--red); padding: 2px 8px; border-radius: 10px; }
+    .persona-icon { margin-right: 4px; }
+
+    /* ── 事件流 ── */
+    .event-log { height: 320px; overflow-y: auto; display: flex; flex-direction: column; gap: 6px; }
+    .event-log::-webkit-scrollbar { width: 4px; } .event-log::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+    .event-item { background: #0f0f1a; border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; padding: 8px 10px; font-size: 0.82rem; animation: slidein .3s ease; }
+    .event-item.combat { border-color: var(--red); }
+    .event-item.world { border-color: var(--gold); }
+    .event-item.system { border-color: var(--green); }
+    @keyframes slidein { from { opacity:0; transform: translateX(-10px); } to { opacity:1; transform: none; } }
+    .event-tick { font-size: 0.68rem; color: var(--muted); margin-bottom: 2px; }
+
+    /* ── 地图 ── */
+    .map-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .map-node { background: #0f0f1a; border: 1px solid var(--border); border-radius: 8px; padding: 10px; font-size: 0.8rem; }
+    .map-node.active { border-color: #7c3aed44; }
+    .map-node.forbidden { border-color: var(--red); }
+    .node-name { font-weight: 600; margin-bottom: 4px; display: flex; align-items: center; gap: 6px; }
+    .node-danger { font-size: 0.65rem; color: var(--muted); }
+    .node-agents { margin-top: 6px; display: flex; flex-wrap: wrap; gap: 4px; }
+    .agent-tag { font-size: 0.65rem; background: #1e2030; color: var(--blue); padding: 2px 7px; border-radius: 10px; }
+
+    /* ── 行动日志 ── */
+    .action-log { height: 200px; overflow-y: auto; font-size: 0.78rem; }
+    .action-item { padding: 5px 0; border-bottom: 1px solid #1a1a2a; display: flex; gap: 8px; }
+    .action-name { color: var(--gold); min-width: 70px; }
+    .action-type { color: var(--accent); min-width: 80px; }
+    .action-mono { color: var(--muted); flex: 1; }
+
+    /* ── 侧栏 ── */
+    .sidebar { display: flex; flex-direction: column; gap: 16px; }
+
+    /* ── 刷新控制 ── */
+    .refresh-bar { display: flex; align-items: center; gap: 10px; margin-bottom: 16px; }
+    .refresh-bar input { accent-color: var(--accent); }
+    .refresh-label { font-size: 0.8rem; color: var(--muted); }
+    .last-update { font-size: 0.72rem; color: var(--muted); margin-left: auto; }
+
+    /* ── 排行榜 ── */
+    .ranking-list { display: flex; flex-direction: column; gap: 6px; }
+    .rank-item { display: flex; align-items: center; gap: 8px; font-size: 0.82rem; padding: 6px 8px; background: #0f0f1a; border-radius: 6px; }
+    .rank-num { width: 20px; color: var(--muted); font-size: 0.7rem; }
+    .rank-name { flex: 1; }
+    .rank-realm { font-size: 0.7rem; color: var(--accent); }
+    .rank-stones { color: var(--gold); font-size: 0.75rem; }
+
+    /* ── 统计卡 ── */
+    .stats-row { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; margin-bottom: 16px; }
+    .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 12px; text-align: center; }
+    .stat-card .num { font-size: 1.6rem; font-weight: 700; color: var(--gold); }
+    .stat-card .lbl { font-size: 0.7rem; color: var(--muted); margin-top: 2px; }
+
+    /* ── 空状态 ── */
+    .empty { text-align: center; color: var(--muted); padding: 40px; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="display:flex;align-items:center;gap:14px">
+    <h1>🌑 苍渺大陆 · 黑暗森林修仙</h1>
+    <span class="tick-badge" id="tickBadge">第 - 回合</span>
+  </div>
+  <div style="display:flex;align-items:center;gap:8px;font-size:0.82rem">
+    <span class="status-dot" id="statusDot"></span>
+    <span id="statusText">等待数据...</span>
+  </div>
+</header>
+
+<div class="container">
+  <!-- 左侧主区 -->
+  <div>
+    <!-- 统计行 -->
+    <div class="stats-row">
+      <div class="stat-card"><div class="num" id="aliveCount">-</div><div class="lbl">存活修士</div></div>
+      <div class="stat-card"><div class="num" id="combatCount">-</div><div class="lbl">本回合战斗</div></div>
+      <div class="stat-card"><div class="num" id="eventCount">-</div><div class="lbl">世界事件</div></div>
+    </div>
+
+    <!-- 刷新控制 -->
+    <div class="refresh-bar">
+      <label style="display:flex;align-items:center;gap:6px;cursor:pointer">
+        <input type="checkbox" id="autoRefresh" checked />
+        <span class="refresh-label">自动刷新（3秒）</span>
+      </label>
+      <button onclick="loadData()" style="background:var(--accent);color:white;border:none;border-radius:6px;padding:4px 12px;cursor:pointer;font-size:0.8rem">立即刷新</button>
+      <span class="last-update" id="lastUpdate">-</span>
+    </div>
+
+    <!-- 修士状态 -->
+    <div id="agentsGrid" class="agents-grid">
+      <div class="empty">⏳ 等待游戏数据...</div>
+    </div>
+
+    <!-- 地图 -->
+    <div class="card" style="margin-bottom:16px">
+      <h2>🗺️ 苍渺大陆地图</h2>
+      <div id="mapGrid" class="map-grid">
+        <div class="empty">加载中...</div>
+      </div>
+    </div>
+
+    <!-- 行动日志 -->
+    <div class="card">
+      <h2>📋 本回合行动记录</h2>
+      <div id="actionLog" class="action-log">
+        <div class="empty">等待行动...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 右侧栏 -->
+  <div class="sidebar">
+    <!-- 实时事件流 -->
+    <div class="card" style="flex:1">
+      <h2>⚡ 世界事件流</h2>
+      <div id="eventLog" class="event-log">
+        <div class="empty">暂无事件</div>
+      </div>
+    </div>
+
+    <!-- 排行榜 -->
+    <div class="card">
+      <h2>🏆 修为排行</h2>
+      <div id="rankingList" class="ranking-list">
+        <div class="empty">加载中...</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // ── 配置 ──
+  const SNAPSHOT_PATH = './snapshot.json';
+  let autoRefreshTimer = null;
+  let allEvents = [];   // 累积的事件流
+
+  // ── 人格图标映射 ──
+  const PERSONA_ICONS = {
+    '苟道散修': '🦊', '名门正派': '⚔️', '和气生财': '💰',
+    '嗜血魔修': '🩸', '傲娇天骄': '🌸',
+  };
+
+  // ── 境界进度映射（用于进度条）──
+  const REALM_ORDER = {
+    '凡人':0,'练气一层':1,'练气二层':2,'练气三层':3,'练气四层':4,
+    '练气五层':5,'练气六层':6,'练气七层':7,'练气八层':8,'练气九层':9,
+    '练气十层':10,'练气十一层':11,'练气十二层':12,
+    '筑基期':20,'筑基中期':25,'筑基后期':30,'结丹期':40,'元婴期':60,
+  };
+  const MAX_ORDER = 60;
+
+  // ── 主加载函数 ──
+  async function loadData() {
+    try {
+      // 优先尝试动态 fetch（本地运行时有效）
+      const r = await fetch(SNAPSHOT_PATH + '?t=' + Date.now());
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      const data = await r.json();
+      renderAll(data);
+      document.getElementById('statusDot').style.background = '#10b981';
+      document.getElementById('statusText').textContent = '实时同步中';
+      document.getElementById('lastUpdate').textContent = '更新于 ' + new Date().toLocaleTimeString();
+    } catch(e) {
+      // fetch 失败时（GitHub Pages 静态托管场景）使用内嵌快照数据
+      if (window.GAME_SNAPSHOT) {
+        renderAll(window.GAME_SNAPSHOT);
+        document.getElementById('statusDot').style.background = '#f59e0b';
+        document.getElementById('statusText').textContent = '静态快照（第' + (window.GAME_SNAPSHOT.current_tick || '?') + '回合）';
+        document.getElementById('lastUpdate').textContent = window.GAME_SNAPSHOT.updated_at || '快照时间未知';
+      } else {
+        document.getElementById('statusDot').style.background = '#ef4444';
+        document.getElementById('statusText').textContent = '等待游戏启动...';
+      }
+    }
+  }
+
+  function renderAll(data) {
+    // Tick
+    document.getElementById('tickBadge').textContent = '第 ' + (data.current_tick || '-') + ' 回合';
+
+    const report = data.current_report || {};
+    const agents = data.agent_states || [];
+
+    // 统计
+    document.getElementById('aliveCount').textContent = agents.length;
+    document.getElementById('combatCount').textContent = (report.combat_logs || []).length;
+    document.getElementById('eventCount').textContent = (report.events || []).length;
+
+    // 修士卡片
+    renderAgents(agents);
+
+    // 地图
+    renderMap(data.map_nodes || {});
+
+    // 行动记录
+    renderActions(report.agent_actions || {}, agents);
+
+    // 事件流
+    renderEvents(report, data.current_tick);
+
+    // 排行榜
+    renderRanking(agents);
+  }
+
+  function renderAgents(agents) {
+    const grid = document.getElementById('agentsGrid');
+    if (!agents.length) { grid.innerHTML = '<div class="empty">暂无存活修士</div>'; return; }
+
+    grid.innerHTML = agents.map(a => {
+      const icon = PERSONA_ICONS[a.persona] || '👤';
+      const realmOrder = REALM_ORDER[a.true_realm] || 0;
+      const barWidth = Math.round(realmOrder / MAX_ORDER * 100);
+      const progressPct = Math.round((a.cultivation_progress || 0) * 100);
+      const pills = Object.entries(a.pills || {}).map(([k,v]) => `${k}×${v}`).join('、') || '无';
+      const lifeYears = Math.round((a.lifespan_remaining || 0) / 12);
+      const locationTag = a.is_wanted
+        ? `<span class="wanted-tag">⚠️ 通缉</span>`
+        : `<span class="location-tag">📍 ${a.location || '未知'}</span>`;
+
+      return `
+        <div class="agent-card">
+          ${locationTag}
+          <div class="agent-name">${icon} ${a.name}</div>
+          <div class="agent-persona">${a.persona || ''}</div>
+          <div class="realm-bar-wrap">
+            <div class="realm-bar-label">
+              <span>${a.true_realm || '?'}</span>
+              <span style="color:#7c3aed">${progressPct}%</span>
+            </div>
+            <div class="realm-bar">
+              <div class="realm-bar-fill" style="width:${barWidth + progressPct * (100/MAX_ORDER) * 0.01}%"></div>
+            </div>
+          </div>
+          <div class="agent-stats">
+            <div class="stat"><div class="stat-label">灵石</div><div class="stat-value">${a.spirit_stones || 0}</div></div>
+            <div class="stat"><div class="stat-label">剩余寿元</div><div class="stat-value">${lifeYears}年</div></div>
+            <div class="stat" style="grid-column:1/-1"><div class="stat-label">储物袋丹药</div><div class="stat-value" style="color:#86efac">${pills}</div></div>
+          </div>
+        </div>`;
+    }).join('');
+  }
+
+  function renderMap(nodes) {
+    const grid = document.getElementById('mapGrid');
+    if (!Object.keys(nodes).length) { grid.innerHTML = '<div class="empty">加载中...</div>'; return; }
+
+    grid.innerHTML = Object.values(nodes).map(n => {
+      const isActive = n.is_active !== false;
+      const isForbidden = n.type === '禁地';
+      const cls = isForbidden ? 'map-node forbidden' : isActive ? 'map-node active' : 'map-node';
+      const statusIcon = isForbidden ? (isActive ? '🔴 已开启' : '⚫ 封印中') : '';
+      const agentTags = (n.agents || []).map(name => `<span class="agent-tag">👤 ${name}</span>`).join('');
+      const dangerStars = '⚡'.repeat(Math.min(n.danger || 0, 5));
+
+      return `
+        <div class="${cls}">
+          <div class="node-name">
+            <span>${n.name}</span>
+            <span style="font-size:.65rem;color:#64748b">[${n.type}]</span>
+            ${statusIcon ? `<span style="font-size:.65rem;color:#ef4444">${statusIcon}</span>` : ''}
+          </div>
+          <div class="node-danger">${dangerStars} 危险等级 ${n.danger}/10</div>
+          <div class="node-agents">${agentTags || '<span style="font-size:.65rem;color:#334155">空无一人</span>'}</div>
+        </div>`;
+    }).join('');
+  }
+
+  function renderActions(actionsMap, agents) {
+    const log = document.getElementById('actionLog');
+    const nameMap = {};
+    agents.forEach(a => nameMap[a.agent_id] = a.name);
+
+    const entries = Object.entries(actionsMap);
+    if (!entries.length) { log.innerHTML = '<div class="empty">暂无行动记录</div>'; return; }
+
+    log.innerHTML = entries.map(([id, summary]) => {
+      const match = summary.match(/^\[(.+?)\]\s*(.*)/);
+      const type = match ? match[1] : '?';
+      const mono = match ? match[2].replace(/\.\.\.$/, '') : summary;
+      return `
+        <div class="action-item">
+          <span class="action-name">${nameMap[id] || id}</span>
+          <span class="action-type">[${type}]</span>
+          <span class="action-mono">${mono}</span>
+        </div>`;
+    }).join('');
+  }
+
+  function renderEvents(report, tick) {
+    const logEl = document.getElementById('eventLog');
+    const newItems = [];
+
+    const combats = report.combat_logs || [];
+    const events = report.events || [];
+    const announcements = report.world_announcements || [];
+
+    combats.forEach(c => newItems.push({ type: 'combat', text: c, tick }));
+    events.forEach(e => newItems.push({ type: 'world', text: e, tick }));
+    announcements.forEach(a => newItems.push({ type: 'system', text: a, tick }));
+
+    if (newItems.length) {
+      newItems.forEach(item => allEvents.unshift(item));
+      if (allEvents.length > 60) allEvents = allEvents.slice(0, 60);
+
+      logEl.innerHTML = allEvents.map(item => `
+        <div class="event-item ${item.type}">
+          <div class="event-tick">第${item.tick}回合</div>
+          <div>${item.text}</div>
+        </div>`).join('');
+    } else if (!allEvents.length) {
+      logEl.innerHTML = '<div class="empty">暂无世界事件</div>';
+    }
+  }
+
+  function renderRanking(agents) {
+    const list = document.getElementById('rankingList');
+    if (!agents.length) { list.innerHTML = '<div class="empty">暂无修士</div>'; return; }
+
+    const sorted = [...agents].sort((a, b) =>
+      (REALM_ORDER[b.true_realm] || 0) - (REALM_ORDER[a.true_realm] || 0)
+    );
+
+    const medals = ['🥇','🥈','🥉'];
+    list.innerHTML = sorted.map((a, i) => `
+      <div class="rank-item">
+        <span class="rank-num">${medals[i] || (i+1)}</span>
+        <span class="rank-name">${a.name}</span>
+        <span class="rank-realm">${a.true_realm}</span>
+        <span class="rank-stones">💎${a.spirit_stones}</span>
+      </div>`).join('');
+  }
+
+  // ── 自动刷新控制 ──
+  function startAutoRefresh() {
+    stopAutoRefresh();
+    autoRefreshTimer = setInterval(loadData, 3000);
+  }
+  function stopAutoRefresh() {
+    if (autoRefreshTimer) { clearInterval(autoRefreshTimer); autoRefreshTimer = null; }
+  }
+
+  document.getElementById('autoRefresh').addEventListener('change', e => {
+    e.target.checked ? startAutoRefresh() : stopAutoRefresh();
+  });
+
+  // ── 初始化 ──
+  loadData();
+  startAutoRefresh();
+</script>
+</body>
+</html>
