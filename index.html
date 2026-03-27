@@ -247,7 +247,7 @@
     renderAgents(agents);
 
     // 地图
-    renderMap(data.map_nodes || {});
+    renderMap(data.map_nodes || {}, agents);
 
     // 行动记录
     renderActions(report.agent_actions || {}, agents);
@@ -297,16 +297,26 @@
     }).join('');
   }
 
-  function renderMap(nodes) {
+  function renderMap(nodes, agents) {
     const grid = document.getElementById('mapGrid');
     if (!Object.keys(nodes).length) { grid.innerHTML = '<div class="empty">加载中...</div>'; return; }
+
+    // 建立 名字 → AI标签 反查表（名字可能是化名/真名，都记录）
+    const nameLabelMap = {};
+    (agents || []).forEach(a => {
+      if (a.ai_label) nameLabelMap[a.name] = a.ai_label;
+    });
 
     grid.innerHTML = Object.values(nodes).map(n => {
       const isActive = n.is_active !== false;
       const isForbidden = n.type === '禁地';
       const cls = isForbidden ? 'map-node forbidden' : isActive ? 'map-node active' : 'map-node';
       const statusIcon = isForbidden ? (isActive ? '🔴 已开启' : '⚫ 封印中') : '';
-      const agentTags = (n.agents || []).map(name => `<span class="agent-tag">👤 ${name}</span>`).join('');
+      const agentTags = (n.agents || []).map(name => {
+        const label = nameLabelMap[name];
+        const suffix = label ? `<span style="color:#a78bfa;font-size:.6rem">（${label}）</span>` : '';
+        return `<span class="agent-tag">👤 ${name}${suffix}</span>`;
+      }).join('');
       const dangerStars = '⚡'.repeat(Math.min(n.danger || 0, 5));
 
       return `
