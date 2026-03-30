@@ -1,0 +1,77 @@
+{
+  "version": "2.0",
+  "updated_at": "2026-03-30",
+  "game_round": 2,
+  "characters": [
+    {
+      "agent_id": "agent_a",
+      "name": "冯怒潮",
+      "ai_label": "C",
+      "ai_model": "claude-3-5-sonnet",
+      "persona": "苟道散修",
+      "alignment": "绝对中立",
+      "spiritual_root": "水火双灵根",
+      "constitution": "五行体",
+      "attributes": {"insight": 5, "luck": 4, "physique": 1},
+      "portrait": "char_fengnuchao_01.jpeg",
+      "portrait_url": "https://koerye.github.io/XiuxianGame/images/characters/char_fengnuchao_01.jpeg",
+      "appearance": "他身着靛青布袍，袖口磨损处透出一丝江湖老手的沧桑。面容棱角分明，神情永远带着几分漫不经心的警惕，如同深渊中伺机而动的水兽。腰间随意别着水火交融的玄铁令牌，发色如墨，几缕散发遮住额角——看似落魄，实则气机内敛如渊。"
+    },
+    {
+      "agent_id": "agent_b",
+      "name": "陆霜华",
+      "ai_label": "G",
+      "ai_model": "gemini-2.0-flash",
+      "persona": "名门正派",
+      "alignment": "守序善良",
+      "spiritual_root": "五灵根（变异）",
+      "constitution": "变异灵根体",
+      "attributes": {"insight": 3, "luck": 2, "physique": 5},
+      "portrait": "char_lushuanghua_01.jpeg",
+      "portrait_url": "https://koerye.github.io/XiuxianGame/images/characters/char_lushuanghua_01.jpeg",
+      "appearance": "她一身素白剑袍，衣摆绣着金线云纹，背负长剑，剑鞘镶嵌五色灵石。五官端正清秀，眉目如画，发髻用玉簪挽起，气质如山巅白鹤，端庄却不失锋芒。举手投足间自有一股正道弟子的凛然正气，却隐有一种无法言说的变异之力在体内流转。"
+    },
+    {
+      "agent_id": "agent_c",
+      "name": "苏寒衣",
+      "ai_label": "DS",
+      "ai_model": "deepseek-v3",
+      "persona": "嗜血魔修",
+      "alignment": "混乱邪恶",
+      "spiritual_root": "血阴双灵根",
+      "constitution": "五行体",
+      "attributes": {"insight": 2, "luck": 7, "physique": 1},
+      "portrait": "char_suhanyi_01.jpeg",
+      "portrait_url": "https://koerye.github.io/XiuxianGame/images/characters/char_suhanyi_01.jpeg",
+      "appearance": "她身着墨黑长裙，裙摆暗绣血色符文，随风微动时隐隐散发幽冥之气。面如白玉，薄唇嫣红，眼眸深邃如寒潭，偶尔掠过一丝令人心悸的红光。发如泼墨，垂至腰际，以一枚骨质发钗绾住。表面看来不过是个普通的练气散修，浑身上下却藏着惊人的修为与万丈杀气。"
+    },
+    {
+      "agent_id": "agent_d",
+      "name": "魏玄机",
+      "ai_label": "K",
+      "ai_model": "moonshot-v1-8k",
+      "persona": "傲娇天骄",
+      "alignment": "中立善良",
+      "spiritual_root": "天灵单灵根",
+      "constitution": "冰灵体",
+      "attributes": {"insight": 1, "luck": 3, "physique": 6},
+      "portrait": "char_weixuanji_01.jpeg",
+      "portrait_url": "https://koerye.github.io/XiuxianGame/images/characters/char_weixuanji_01.jpeg",
+      "appearance": "他身着霜白广袖长袍，衣领处绣冰晶纹路，气质高华冷峻，如积雪千年的寒峰。眉峰微蹙，神情中带着天骄特有的傲然与几分不经意流露的清冷，宛如不食人间烟火的仙人遗子。白发三千随风轻扬，眼瞳淡蓝如冰，握有一卷泛着寒芒的功法秘籍。"
+    },
+    {
+      "agent_id": "agent_e",
+      "name": "孟长歌",
+      "ai_label": "Q",
+      "ai_model": "qwen-max",
+      "persona": "和气生财",
+      "alignment": "绝对中立",
+      "spiritual_root": "水火双灵根",
+      "constitution": "灵体",
+      "attributes": {"insight": 4, "luck": 3, "physique": 3},
+      "portrait": "char_mengchangge_01.jpeg",
+      "portrait_url": "https://koerye.github.io/XiuxianGame/images/characters/char_mengchangge_01.jpeg",
+      "appearance": "他一袭烟灰色商贾式劲装，腰间挂着一排药葫芦与灵石荷包，面若弥勒，笑意常驻眉梢，却眼光流转，精明如市。生得中等身材，体态圆润，却暗含一股柔中带刚的灵力。对谁都笑脸相迎，让人如沐春风，实则心中算盘拨得噼啪作响，是这片荒野中最难看透的修士。"
+    }
+  ]
+}
