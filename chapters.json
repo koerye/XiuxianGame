@@ -21,8 +21,7 @@
     "combat_logs": 0,
     "world_events": 12,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick6_境界突破_赵破虏_01.jpeg"
+    "is_major": false
   },
   {
     "index": 3,
@@ -34,8 +33,7 @@
     "combat_logs": 0,
     "world_events": 13,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick12_境界突破_秦雪见_01.jpeg"
+    "is_major": false
   },
   {
     "index": 4,
@@ -47,8 +45,7 @@
     "combat_logs": 0,
     "world_events": 9,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick18_境界突破_破碗老爷_01.jpeg"
+    "is_major": false
   },
   {
     "index": 5,
@@ -60,8 +57,7 @@
     "combat_logs": 0,
     "world_events": 10,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick23_境界突破_红袖添香_01.jpeg"
+    "is_major": false
   },
   {
     "index": 6,
@@ -73,8 +69,7 @@
     "combat_logs": 0,
     "world_events": 9,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick26_世界大事件_秘境开启_01.jpeg"
+    "is_major": false
   },
   {
     "index": 7,
@@ -86,8 +81,7 @@
     "combat_logs": 0,
     "world_events": 7,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick33_境界突破_赵破虏_01.jpeg"
+    "is_major": false
   },
   {
     "index": 8,
@@ -99,8 +93,7 @@
     "combat_logs": 0,
     "world_events": 14,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick36_境界突破_云灵儿_01.jpeg"
+    "is_major": false
   },
   {
     "index": 9,
@@ -112,8 +105,7 @@
     "combat_logs": 0,
     "world_events": 8,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick44_境界突破_王捕头_01.jpeg"
+    "is_major": false
   },
   {
     "index": 10,
@@ -125,8 +117,7 @@
     "combat_logs": 0,
     "world_events": 8,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick50_境界突破_铁牛_01.jpeg"
+    "is_major": false
   },
   {
     "index": 11,
@@ -150,8 +141,7 @@
     "combat_logs": 0,
     "world_events": 6,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick60_境界突破_楚离尘_01.jpeg"
+    "is_major": false
   },
   {
     "index": 13,
@@ -163,8 +153,7 @@
     "combat_logs": 0,
     "world_events": 8,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick62_境界突破_秦雪见_01.jpeg"
+    "is_major": false
   },
   {
     "index": 14,
@@ -176,8 +165,7 @@
     "combat_logs": 0,
     "world_events": 15,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick68_境界突破_小宝_01.jpeg"
+    "is_major": false
   },
   {
     "index": 15,
@@ -189,8 +177,7 @@
     "combat_logs": 0,
     "world_events": 12,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick75_境界突破_陈神医_01.jpeg"
+    "is_major": false
   },
   {
     "index": 16,
@@ -202,8 +189,7 @@
     "combat_logs": 0,
     "world_events": 13,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick77_境界突破_黑风寨主_01.jpeg"
+    "is_major": false
   },
   {
     "index": 17,
@@ -215,8 +201,7 @@
     "combat_logs": 0,
     "world_events": 3,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick82_境界突破_周天问_01.jpeg"
+    "is_major": false
   },
   {
     "index": 18,
@@ -228,8 +213,7 @@
     "combat_logs": 0,
     "world_events": 8,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick87_世界大事件_灵脉喷发_01.jpeg"
+    "is_major": false
   },
   {
     "index": 19,
@@ -241,8 +225,7 @@
     "combat_logs": 0,
     "world_events": 11,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick93_境界突破_赵破虏_01.jpeg"
+    "is_major": false
   },
   {
     "index": 20,
@@ -254,8 +237,7 @@
     "combat_logs": 0,
     "world_events": 11,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick96_境界突破_秦雪见_01.jpeg"
+    "is_major": false
   },
   {
     "index": 1000,
@@ -268,8 +250,7 @@
     "world_events": 0,
     "image_url": null,
     "is_major": true,
-    "chapter_num": 1,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick6_境界突破_赵破虏_01.jpeg"
+    "chapter_num": 1
   },
   {
     "index": 21,
@@ -281,8 +262,7 @@
     "combat_logs": 0,
     "world_events": 15,
     "image_url": null,
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick101_境界突破_破碗老爷_01.jpeg"
+    "is_major": false
   },
   {
     "index": 22,
@@ -293,6 +273,18 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 10,
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 23,
+    "start_tick": 111,
+    "end_tick": 115,
+    "story_text": "第111月，青云城上空阴云沉沉，坊市里的叫卖声依旧，却难掩暗流涌动的杀机。灵气在这片天地间浓烈如雾，嗅得出血腥，也嗅得出机遇。\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气四层！\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气十一层！\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 云灵儿 探索有收获。，天下局势悄然生变。\n\n　　血与道，从来不曾分离。第115月的故事，暂且写到这里。",
+    "alive_count": 20,
+    "breakthroughs": 2,
+    "combat_logs": 0,
+    "world_events": 12,
     "image_url": null,
     "is_major": false
   }
