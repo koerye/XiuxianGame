@@ -202,5 +202,17 @@
     "world_events": 3,
     "image_url": null,
     "is_major": false
+  },
+  {
+    "index": 18,
+    "start_tick": 86,
+    "end_tick": 90,
+    "story_text": "第86月，青云城上空阴云沉沉，坊市里的叫卖声依旧，却难掩暗流涌动的杀机。灵气在这片天地间浓烈如雾，嗅得出血腥，也嗅得出机遇。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 赵破虏 探索有收获。，天下局势悄然生变。\n\n　　当第90月的最后一缕灵气散尽，这一段因果，已然落定。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 8,
+    "image_url": null,
+    "is_major": false
   }
 ]
