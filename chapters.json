@@ -193,5 +193,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick74/tick74_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%8E%8B%E6%8D%95%E5%A4%B4_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick74_境界突破_王捕头_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 16,
+    "start_tick": 76,
+    "end_tick": 80,
+    "story_text": "血与剑的故事从未停歇，第76月，又是新的一章。🔍 小宝 探索有收获。 🔍 黑风寨主 探索有收获。\n\n第77月，苍渺大陆的暗流继续涌动。表面平静，暗流涌动——每一名修士都在积蓄力量。\n\n方无忧（C）移动，心道：\"去坊市打探消息，也许有人需要援手。 既是通缉恶徒，正道弟子义不容辞！\"\n\n楚离尘（G）（练气十层）在灵脉荒野盘膝而坐，修炼《太清剑典（完本）》。心道：\"趁四下无人，偷偷修炼。苟着苟着就突破了。\"\n\n萧云飞（DS）传音，心道：\"和几位道友保持联络，关键时刻互通消息。\"\n\n林玉璃（K）劫杀，心道：\"区区宵小，也配与我并列？今日教他们知道天高地厚！ 通缉令的事不能大意……\"\n\n苏慕雪（Q）劫杀，心道：\"孤身修士……正好，今日就用你的血，喂养我的道！ 通缉令的事不能大意……\"\n\n老赵掌柜传音，心道：\"和几位道友保持联络，关键时刻互通消息。 风声这么紧，行事更要小心…… 这波肯定能发财！\"\n\n🔍 小宝 探索有收获。\n\n🔍 黑风寨主 探索有收获。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 5,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
