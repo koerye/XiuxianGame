@@ -659,7 +659,8 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 7,
-    "image_url": null,
-    "is_major": false
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick265/tick265_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch53_01.jpeg",
+    "is_major": false,
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick265_大回合终章_backfill_ch53_01.jpeg"
   }
 ]
