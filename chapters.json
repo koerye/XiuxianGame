@@ -115,5 +115,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick45/tick45_%E4%B8%96%E7%95%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6_%E5%AE%97%E9%97%A8%E5%A4%A7%E6%88%98_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick45_世界大事件_宗门大战_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 10,
+    "start_tick": 46,
+    "end_tick": 50,
+    "story_text": "第46月，青云城上空阴云沉沉，坊市里的叫卖声依旧，却难掩暗流涌动的杀机。灵气在这片天地间浓烈如雾，嗅得出血腥，也嗅得出机遇。\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气二层！\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气五层！\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 小翠 探索有收获。，天下局势悄然生变。\n\n　　第50月，苍渺大陆的天地棋盘又落下了几枚棋子。谁生谁死，谁主沉浮，尚未可知。",
+    "alive_count": 20,
+    "breakthroughs": 3,
+    "combat_logs": 0,
+    "world_events": 9,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
