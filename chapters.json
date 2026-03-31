@@ -99,8 +99,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 5,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick39/tick39_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E6%A5%9A%E7%A6%BB%E5%B0%98_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick39_境界突破_楚离尘_01.jpeg",
     "is_major": false
   }
 ]
