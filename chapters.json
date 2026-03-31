@@ -646,9 +646,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick260/tick260_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch52_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick260_大回合终章_backfill_ch52_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 53,
@@ -671,8 +670,19 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 9,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick270/tick270_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch54_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick270_大回合终章_backfill_ch54_01.jpeg"
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 55,
+    "start_tick": 271,
+    "end_tick": 275,
+    "story_text": "灵脉荒野，第271月。地脉灵气从地缝中渗出，连空气都带着令人心悸的灵压。几道身影散落四方，各自打着自己的算盘。\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气十层！\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 红袖添香 探索有收获。，天下局势悄然生变。\n\n　　当第275月的最后一缕灵气散尽，这一段因果，已然落定。",
+    "alive_count": 20,
+    "breakthroughs": 1,
+    "combat_logs": 0,
+    "world_events": 14,
+    "image_url": null,
+    "is_major": false
   }
 ]
