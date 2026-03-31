@@ -598,9 +598,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 14,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick240/tick240_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch48_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick240_大回合终章_backfill_ch48_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 49,
@@ -623,9 +622,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick250/tick250_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch50_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick250_大回合终章_backfill_ch50_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 51,
@@ -648,8 +646,19 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick260/tick260_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch52_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick260_大回合终章_backfill_ch52_01.jpeg"
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 53,
+    "start_tick": 261,
+    "end_tick": 265,
+    "story_text": "第261月，青云城上空阴云沉沉，坊市里的叫卖声依旧，却难掩暗流涌动的杀机。灵气在这片天地间浓烈如雾，嗅得出血腥，也嗅得出机遇。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 梨花娘子 探索有收获。，天下局势悄然生变。\n\n　　第265月，苍渺大陆的天地棋盘又落下了几枚棋子。谁生谁死，谁主沉浮，尚未可知。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 7,
+    "image_url": null,
+    "is_major": false
   }
 ]
