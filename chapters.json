@@ -574,9 +574,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick230/tick230_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch46_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick230_大回合终章_backfill_ch46_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 47,
@@ -623,8 +622,19 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick250/tick250_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch50_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick250_大回合终章_backfill_ch50_01.jpeg"
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 51,
+    "start_tick": 251,
+    "end_tick": 255,
+    "story_text": "苍渺大陆，第251月。寒风扫过灵脉荒野，天地间的灵气在夜色中悄然流动，隐约可见几道人影在各处蛰伏，修炼或谋划。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 万财爷 探索有收获。，天下局势悄然生变。\n\n　　血与道，从来不曾分离。第255月的故事，暂且写到这里。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 8,
+    "image_url": null,
+    "is_major": false
   }
 ]
