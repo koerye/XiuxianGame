@@ -242,8 +242,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 9,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick92/tick92_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%BA%A2%E8%A2%96%E6%B7%BB%E9%A6%99_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick92_境界突破_红袖添香_01.jpeg",
     "is_major": false
   }
 ]
