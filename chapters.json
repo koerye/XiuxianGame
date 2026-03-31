@@ -229,8 +229,8 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 9,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick90/tick90_%E4%B8%96%E7%95%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6_%E8%A1%80%E6%9C%88%E9%99%8D%E4%B8%B4_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick90_世界大事件_血月降临_01.jpeg",
     "is_major": false
   }
 ]
