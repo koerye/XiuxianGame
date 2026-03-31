@@ -193,5 +193,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick72/tick72_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%BA%A2%E8%A2%96%E6%B7%BB%E9%A6%99_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick72_境界突破_红袖添香_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 16,
+    "start_tick": 76,
+    "end_tick": 80,
+    "story_text": "第76月，青云城上空阴云沉沉，坊市里的叫卖声依旧，却难掩暗流涌动的杀机。灵气在这片天地间浓烈如雾，嗅得出血腥，也嗅得出机遇。\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气九层！\n\n　　天穹之上，隐隐有灵气漩涡凝聚，那是境界壁障破碎时才有的异象。滚滚灵压自丹田涌出，周身经脉尽皆震鸣——突破了，突破至练气七层！\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，✨ 周天问 修为精进，突破至，天下局势悄然生变。\n\n　　血与道，从来不曾分离。第80月的故事，暂且写到这里。",
+    "alive_count": 20,
+    "breakthroughs": 4,
+    "combat_logs": 0,
+    "world_events": 15,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
