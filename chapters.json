@@ -550,9 +550,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 10,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick220/tick220_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch44_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick220_大回合终章_backfill_ch44_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 45,
@@ -575,8 +574,19 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick230/tick230_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch46_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick230_大回合终章_backfill_ch46_01.jpeg"
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 47,
+    "start_tick": 231,
+    "end_tick": 235,
+    "story_text": "幽冥谷的磷火在第231月时格外幽蓝，腐败的灵气裹挟着死气，却也孕育着异样的契机。天地棋盘上，每一枚棋子都在悄然落位。\n\n　　突破的那一刻，天地间仿佛静止了。丹田深处，一道桎梏轰然崩碎，磅礴的灵力如决堤洪流喷薄而出——练气十层，终于踏上了新的境界。\n\n　　突破的那一刻，天地间仿佛静止了。丹田深处，一道桎梏轰然崩碎，磅礴的灵力如决堤洪流喷薄而出——【练气十层】！，终于踏上了新的境界。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 梨花娘子 探索有收获。，天下局势悄然生变。\n\n　　第235月，苍渺大陆的天地棋盘又落下了几枚棋子。谁生谁死，谁主沉浮，尚未可知。",
+    "alive_count": 20,
+    "breakthroughs": 1,
+    "combat_logs": 0,
+    "world_events": 12,
+    "image_url": null,
+    "is_major": false
   }
 ]
