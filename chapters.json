@@ -102,5 +102,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick37/tick37_%E4%B8%96%E7%95%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6_%E4%B8%8A%E5%8F%A4%E6%B4%9E%E5%BA%9C%E7%8E%B0%E4%B8%96_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick37_世界大事件_上古洞府现世_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 9,
+    "start_tick": 41,
+    "end_tick": 45,
+    "story_text": "灵脉荒野，第41月。地脉灵气从地缝中渗出，连空气都带着令人心悸的灵压。几道身影散落四方，各自打着自己的算盘。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　第45月，苍渺大陆的天地棋盘又落下了几枚棋子。谁生谁死，谁主沉浮，尚未可知。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 8,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
