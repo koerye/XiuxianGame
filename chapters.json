@@ -115,5 +115,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick44/tick44_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E5%B0%8F%E5%AE%9D_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick44_境界突破_小宝_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 10,
+    "start_tick": 46,
+    "end_tick": 50,
+    "story_text": "第46月，苍渺大陆的暗流继续涌动。🔍 刘二蛋 探索有收获。 🔍 青云长老 探索有收获。\n\n岁月如刀，47月已过。各方蛰伏，天地之间只剩修炼的气息流转。修仙之路，从不平静。\n\n方无忧（C）移动，心道：\"去坊市打探消息，也许有人需要援手。 既是通缉恶徒，正道弟子义不容辞！\"\n\n楚离尘（G）（练气十层）在灵脉荒野盘膝而坐，修炼《太清剑典（完本）》。心道：\"趁四下无人，偷偷修炼。苟着苟着就突破了。 通缉令的事不能大意…… 灵气真浓……苟修的好地方。\"\n\n萧云飞（DS）传音，心道：\"和几位道友保持联络，关键时刻互通消息。 风声这么紧，行事更要小心…… 这波肯定能发财！\"\n\n林玉璃（K）神识探察，心道：\"那几人的实力……得摸清楚，免得看走了眼。 通缉令的事不能大意……\"\n\n苏慕雪（Q）隐匿修为，心道：\"收敛气息，伪装成普通散修。猎物放松警惕后再出手。 通缉令的事不能大意……\"\n\n老赵掌柜闭关修炼，心道：\"修炼为要，厚积薄发。\"\n\n🔍 刘二蛋 探索有收获。\n\n🔍 青云长老 探索有收获。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 4,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
