@@ -245,5 +245,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick92/tick92_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E9%93%81%E7%89%9B_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick92_境界突破_铁牛_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 20,
+    "start_tick": 96,
+    "end_tick": 100,
+    "story_text": "第96回合，天地间的棋局又落下了一颗子。1名修士境界突破。 🔍 李凤鸣 探索有收获。 🔍 老李头 探索有收获。\n\n第97回合，天地间的棋局又落下了一颗子。表面平静，暗流涌动——每一名修士都在积蓄力量。\n\n许流年（C）探索，心道：\"先摸清周围情况，确认没有危险再说。 通缉令的事不能大意……\"\n\n顾绯羽（G）移动，心道：\"人少的地方才安全，溜去荒野修炼。 通缉令的事不能大意……\"\n\n李凤鸣（DS）探索，心道：\"先摸清周围情况，确认没有危险再说。 通缉令的事不能大意……\"\n\n宁无缺（K）隐匿修为，心道：\"压制气息，装成练气三层的废材，绝不出头。 通缉令的事不能大意……\"\n\n林玉璃（Q）移动，心道：\"人少的地方才安全，溜去荒野修炼。 通缉令的事不能大意……\"\n\n老赵掌柜探索，心道：\"四处探查，寻找机遇。\"\n\n王捕头突破至练气四层，又一人踏上了更高的修炼之路。\n\n林玉璃突破至练气十层，又一人踏上了更高的修炼之路。\n\n🔍 李凤鸣 探索有收获。\n\n🔍 老李头 探索有收获。",
+    "alive_count": 20,
+    "breakthroughs": 2,
+    "combat_logs": 0,
+    "world_events": 14,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
