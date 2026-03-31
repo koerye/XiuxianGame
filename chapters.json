@@ -112,8 +112,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 2,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick44/tick44_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E5%B0%8F%E5%AE%9D_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick44_境界突破_小宝_01.jpeg",
     "is_major": false
   }
 ]
