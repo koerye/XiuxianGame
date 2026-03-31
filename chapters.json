@@ -610,9 +610,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick245/tick245_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch49_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick245_大回合终章_backfill_ch49_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 50,
@@ -623,9 +622,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick250/tick250_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch50_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick250_大回合终章_backfill_ch50_01.jpeg"
+    "image_url": null,
+    "is_major": false
   },
   {
     "index": 51,
@@ -636,8 +634,19 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 8,
-    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick255/tick255_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch51_01.jpeg",
-    "is_major": false,
-    "image_local": "/data/workspace/xianxia_engine/data/images/tick255_大回合终章_backfill_ch51_01.jpeg"
+    "image_url": null,
+    "is_major": false
+  },
+  {
+    "index": 52,
+    "start_tick": 256,
+    "end_tick": 260,
+    "story_text": "苍渺大陆，第256月。寒风扫过灵脉荒野，天地间的灵气在夜色中悄然流动，隐约可见几道人影在各处蛰伏，修炼或谋划。\n\n　　突破的那一刻，天地间仿佛静止了。丹田深处，一道桎梏轰然崩碎，磅礴的灵力如决堤洪流喷薄而出——练气七层，终于踏上了新的境界。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 赵破虏 探索有收获。，天下局势悄然生变。\n\n　　血与道，从来不曾分离。第260月的故事，暂且写到这里。",
+    "alive_count": 20,
+    "breakthroughs": 1,
+    "combat_logs": 0,
+    "world_events": 11,
+    "image_url": null,
+    "is_major": false
   }
 ]
