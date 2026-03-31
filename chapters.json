@@ -60,8 +60,8 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 6,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick21/tick21_%E4%B8%96%E7%95%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6_%E9%AD%94%E6%BD%AE%E6%B6%8C%E5%8A%A8_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick21_世界大事件_魔潮涌动_01.jpeg",
     "is_major": false
   }
 ]
