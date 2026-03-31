@@ -60,8 +60,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick22/tick22_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E8%AE%B8%E6%B5%81%E5%B9%B4_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick22_境界突破_许流年_01.jpeg",
     "is_major": false
   }
 ]
