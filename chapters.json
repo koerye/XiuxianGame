@@ -11,5 +11,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick4/tick4_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%A7%A6%E9%9B%AA%E8%A7%81_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick4_境界突破_秦雪见_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 2,
+    "start_tick": 6,
+    "end_tick": 10,
+    "story_text": "苍渺大陆，第6月。寒风扫过灵脉荒野，天地间的灵气在夜色中悄然流动，隐约可见几道人影在各处蛰伏，修炼或谋划。\n\n　　突破的那一刻，天地间仿佛静止了。丹田深处，一道桎梏轰然崩碎，磅礴的灵力如决堤洪流喷薄而出——练气七层，终于踏上了新的境界。\n\n　　突破的那一刻，天地间仿佛静止了。丹田深处，一道桎梏轰然崩碎，磅礴的灵力如决堤洪流喷薄而出——【练气七层】！，终于踏上了新的境界。\n\n　　与此同时，各方修士也在暗流中各自筹谋——\n\n　　江湖之上，🔍 青云长老 探索有收获。，天下局势悄然生变。\n\n　　第10月，苍渺大陆的天地棋盘又落下了几枚棋子。谁生谁死，谁主沉浮，尚未可知。",
+    "alive_count": 20,
+    "breakthroughs": 1,
+    "combat_logs": 0,
+    "world_events": 5,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
