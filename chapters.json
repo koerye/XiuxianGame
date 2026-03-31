@@ -206,5 +206,18 @@
     "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick76/tick76_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E5%AE%81%E6%97%A0%E7%BC%BA_01.jpeg",
     "image_local": "/data/workspace/xianxia_engine/data/images/tick76_境界突破_宁无缺_01.jpeg",
     "is_major": false
+  },
+  {
+    "index": 17,
+    "start_tick": 81,
+    "end_tick": 85,
+    "story_text": "第81回合，天地间的棋局又落下了一颗子。🔍 顾绯羽 探索有收获。 🔍 老赵掌柜 探索有收获。\n\n血与剑的故事从未停歇，第82月，又是新的一章。🔍 林玉璃 探索有收获。 🔍 黑风寨主 探索有收获。\n\n许流年（C）蛰伏，心道：\"静观其变，伺机而动。\"\n\n顾绯羽（G）探索，心道：\"先摸清周围情况，确认没有危险再说。 通缉令的事不能大意……\"\n\n李凤鸣（DS）移动，心道：\"人少的地方才安全，溜去荒野修炼。 通缉令的事不能大意……\"\n\n宁无缺（K）（练气十层）在幽冥谷盘膝而坐，修炼《噬血魔经（上册）》。心道：\"趁四下无人，偷偷修炼。苟着苟着就突破了。 通缉令的事不能大意……\"\n\n林玉璃（Q）（练气九层）在灵脉荒野盘膝而坐，修炼《玄灵决（残本）》。心道：\"趁四下无人，偷偷修炼。苟着苟着就突破了。 通缉令的事不能大意……\"\n\n老赵掌柜探索，心道：\"灵石灵石！到处找！肯定还有没挖完的宝！ 这波肯定能发财！\"\n\n🔍 顾绯羽 探索有收获。\n\n🔍 老赵掌柜 探索有收获。",
+    "alive_count": 20,
+    "breakthroughs": 0,
+    "combat_logs": 0,
+    "world_events": 9,
+    "image_url": null,
+    "image_local": null,
+    "is_major": false
   }
 ]
