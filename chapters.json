@@ -125,8 +125,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 6,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick49/tick49_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E4%B8%80%E4%B8%BE_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick49_境界突破_一举_01.jpeg",
     "is_major": false
   },
   {
