@@ -598,8 +598,9 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 14,
-    "image_url": null,
-    "is_major": false
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick240/tick240_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch48_01.jpeg",
+    "is_major": false,
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick240_大回合终章_backfill_ch48_01.jpeg"
   },
   {
     "index": 49,
@@ -622,8 +623,9 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": null,
-    "is_major": false
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick250/tick250_%E5%A4%A7%E5%9B%9E%E5%90%88%E7%BB%88%E7%AB%A0_backfill_ch50_01.jpeg",
+    "is_major": false,
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick250_大回合终章_backfill_ch50_01.jpeg"
   },
   {
     "index": 51,
