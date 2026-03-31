@@ -34,8 +34,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 11,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick12/tick12_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%A8%8B%E7%A6%BB%E6%84%81_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick12_境界突破_程离愁_01.jpeg",
     "is_major": false
   }
 ]
