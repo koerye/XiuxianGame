@@ -255,8 +255,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 14,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick96/tick96_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E7%8E%8B%E6%8D%95%E5%A4%B4_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick96_境界突破_王捕头_01.jpeg",
     "is_major": false
   },
   {
