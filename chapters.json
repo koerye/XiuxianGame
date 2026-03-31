@@ -164,8 +164,8 @@
     "breakthroughs": 2,
     "combat_logs": 0,
     "world_events": 8,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick61/tick61_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E9%A1%BE%E7%BB%AF%E7%BE%BD_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick61_境界突破_顾绯羽_01.jpeg",
     "is_major": false
   }
 ]
