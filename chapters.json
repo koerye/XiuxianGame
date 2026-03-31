@@ -86,8 +86,8 @@
     "breakthroughs": 1,
     "combat_logs": 0,
     "world_events": 1,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick32/tick32_%E5%A2%83%E7%95%8C%E7%AA%81%E7%A0%B4_%E9%93%81%E7%89%9B_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick32_境界突破_铁牛_01.jpeg",
     "is_major": false
   }
 ]
