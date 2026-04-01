@@ -981,8 +981,8 @@
     "breakthroughs": 0,
     "combat_logs": 0,
     "world_events": 4,
-    "image_url": null,
-    "image_local": null,
+    "image_url": "https://mjai-1300343106.cos.accelerate.myqcloud.com/xianxia/tick151/tick151_%E4%B8%96%E7%95%8C%E5%A4%A7%E4%BA%8B%E4%BB%B6_%E7%81%B5%E8%84%89%E5%96%B7%E5%8F%91_01.jpeg",
+    "image_local": "/data/workspace/xianxia_engine/data/images/tick151_世界大事件_灵脉喷发_01.jpeg",
     "is_major": false
   },
   {
