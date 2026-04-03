@@ -1,7 +1,7 @@
 {
-  "turn": 758,
-  "game_month": "第64年·二月",
-  "timestamp": "2026-04-03T17:04:24",
+  "turn": 759,
+  "game_month": "第64年·三月",
+  "timestamp": "2026-04-03T17:04:29",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 18441,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 10628,
+      "spirit_stones": 10644,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 69320,
+      "combat_power": 69604,
       "hp": 31,
       "hp_max": 100,
       "spirit_stones": 11666,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 2416,
-      "hp": 42,
+      "combat_power": 2294,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 10301,
       "location": "wilderness",
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 47962,
+      "combat_power": 48556,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1416,6 +1416,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "zhongzhou_city"
     }
   ]
 }
