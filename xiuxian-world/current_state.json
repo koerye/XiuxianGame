@@ -1,7 +1,7 @@
 {
-  "turn": 78,
-  "game_month": "第7年·六月",
-  "timestamp": "2026-04-03T15:55:45",
+  "turn": 79,
+  "game_month": "第7年·七月",
+  "timestamp": "2026-04-03T15:55:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 3924,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 2427,
+      "spirit_stones": 2449,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.5126,
-      "combat_power": 1153,
+      "realm_progress": 0.5933,
+      "combat_power": 1177,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.6574,
-      "combat_power": 2274,
+      "realm_progress": 0.7595,
+      "combat_power": 2332,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 12687,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 2367,
+      "spirit_stones": 2396,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 255,
-      "hp": 25,
+      "combat_power": 282,
+      "hp": 40,
       "hp_max": 100,
       "spirit_stones": 844,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6654,
-      "hp": 24,
+      "combat_power": 7364,
+      "hp": 39,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -385,6 +385,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
