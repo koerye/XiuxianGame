@@ -266,3 +266,4 @@
 {"turn": 74, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 76, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 76, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 77, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
