@@ -15,3 +15,4 @@
 {"turn": 11, "type": "growth.breakthrough", "actors": ["bai_he"], "location": "qingyun_peak", "weight": 4, "data": {}, "narrative_tags": []}
 {"turn": 12, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 13, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 14, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
