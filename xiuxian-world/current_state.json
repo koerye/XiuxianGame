@@ -1,7 +1,7 @@
 {
-  "turn": 18,
-  "game_month": "第2年·六月",
-  "timestamp": "2026-04-03T15:59:07",
+  "turn": 19,
+  "game_month": "第2年·七月",
+  "timestamp": "2026-04-03T15:59:10",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1986,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 926,
+      "spirit_stones": 997,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.9979,
-      "combat_power": 464,
+      "realm_progress": 0.8,
+      "combat_power": 442,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7115,
-      "combat_power": 655,
+      "realm_progress": 0.811,
+      "combat_power": 671,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -169,7 +169,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 174,
+      "combat_power": 197,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 246,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4692,
-      "hp": 33,
+      "combat_power": 4190,
+      "hp": 17,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -288,11 +288,11 @@
     {
       "from": "yun_yin_zi",
       "to": "zi_die",
-      "favor": 10,
+      "favor": 12,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 31,
+      "familiarity": 36,
       "tags": []
     },
     {
@@ -302,7 +302,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 31,
+      "familiarity": 36,
       "tags": []
     }
   ],
@@ -336,8 +336,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }

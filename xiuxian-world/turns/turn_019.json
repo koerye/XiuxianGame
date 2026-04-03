@@ -1,15 +1,24 @@
 {
   "turn": 19,
   "game_month": "第2年·七月",
-  "timestamp": "2026-04-03T15:52:08",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T15:59:10",
+  "world_events_triggered": [
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "location": "wilderness",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
+        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
+        "result": "获得71灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +29,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +0%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +40,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +49,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得火灵根"
+        "result": "获得寒铁矿"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +60,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一株灵药",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得寒铁矿"
+        "result": "获得火云诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -62,16 +71,30 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇险地BOSS"
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_019_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yun_yin_zi",
+      "target_name": "云隐子",
+      "location": "中州城",
+      "type": "greet",
+      "initiator_message": "（紫蝶向云隐子打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "紫蝶向云隐子主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
@@ -79,11 +102,23 @@
   "events": [
     {
       "turn": 19,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 19,
       "type": "adventure.treasure_found",
       "actors": [
         "cang_qiong"
       ],
-      "location": "wilderness",
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -103,9 +138,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 71,
       "expense": 0,
-      "current_stones": 1206
+      "current_stones": 997
     },
     "yue_hua": {
       "income": 0,
@@ -120,12 +155,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1368
+      "current_stones": 1438
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 223
+      "current_stones": 246
     },
     "po_jun": {
       "income": 0,
