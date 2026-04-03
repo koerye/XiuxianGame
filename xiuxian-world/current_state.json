@@ -1,7 +1,7 @@
 {
-  "turn": 576,
-  "game_month": "第48年·腊月",
-  "timestamp": "2026-04-03T16:50:09",
+  "turn": 577,
+  "game_month": "第49年·正月",
+  "timestamp": "2026-04-03T16:50:13",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 14613,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 8054,
+      "spirit_stones": 8173,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 39662,
-      "hp": 39,
+      "combat_power": 35330,
+      "hp": 22,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
