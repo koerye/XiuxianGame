@@ -1,7 +1,7 @@
 {
-  "turn": 236,
-  "game_month": "第20年·八月",
-  "timestamp": "2026-04-03T16:27:11",
+  "turn": 237,
+  "game_month": "第20年·九月",
+  "timestamp": "2026-04-03T16:27:15",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 5708,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 2786,
+      "spirit_stones": 2899,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神后期",
-      "realm_progress": 0.4431,
-      "combat_power": 15860,
+      "realm_progress": 0.511,
+      "combat_power": 16146,
       "hp": 1058,
       "hp_max": 1058,
       "spirit_stones": 210,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 30684,
+      "combat_power": 31274,
       "hp": 37,
       "hp_max": 100,
       "spirit_stones": 4088,
@@ -174,7 +174,7 @@
       "combat_power": 931,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 4070,
+      "spirit_stones": 4083,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 13370,
+      "combat_power": 14011,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -632,6 +632,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
