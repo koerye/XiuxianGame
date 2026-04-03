@@ -1,0 +1,136 @@
+{
+  "turn": 734,
+  "game_month": "第62年·二月",
+  "timestamp": "2026-04-03T17:02:39",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
+        "success": true,
+        "result": "获得火灵根"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：在石壁上发现了残破功法刻文",
+        "success": true,
+        "result": "获得冰心诀"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
+        "success": true,
+        "result": "获得23灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "雪影"
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "success": true,
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "破军"
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [
+    {
+      "turn": 734,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 734,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 10437
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 11273
+    },
+    "xue_ying": {
+      "income": 23,
+      "expense": 0,
+      "current_stones": 10018
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
