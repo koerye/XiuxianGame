@@ -1,7 +1,7 @@
 {
-  "turn": 698,
-  "game_month": "第59年·二月",
-  "timestamp": "2026-04-03T17:00:03",
+  "turn": 699,
+  "game_month": "第59年·三月",
+  "timestamp": "2026-04-03T17:00:07",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 17926,
+      "combat_power": 18021,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 9894,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 39027,
-      "hp": 14,
+      "combat_power": 43507,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1350,7 +1350,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
     },
     {
@@ -1358,7 +1358,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     }
   ]
