@@ -1,7 +1,7 @@
 {
-  "turn": 56,
-  "game_month": "第5年·八月",
-  "timestamp": "2026-04-03T16:01:29",
+  "turn": 57,
+  "game_month": "第5年·九月",
+  "timestamp": "2026-04-03T16:01:33",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.4261,
-      "combat_power": 857,
+      "realm_progress": 0.4849,
+      "combat_power": 870,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.3814,
-      "combat_power": 1560,
+      "realm_progress": 0.4876,
+      "combat_power": 1604,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -113,16 +113,16 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.803,
-      "combat_power": 322,
-      "hp": 120,
+      "realm_progress": 0.7,
+      "combat_power": 295,
+      "hp": 48,
       "hp_max": 120,
-      "spirit_stones": 950,
+      "spirit_stones": 850,
       "location": "wanyao_cave",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -131,7 +131,9 @@
       "life_goal": "积累足够的财富和人脉，成为修仙界最大的商人",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     },
     "cang_qiong": {
       "name": "苍穹子",
@@ -454,14 +456,6 @@
       "location": "south_frontier"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
@@ -474,7 +468,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     },
     {
@@ -482,7 +476,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "wilderness"
     },
     {

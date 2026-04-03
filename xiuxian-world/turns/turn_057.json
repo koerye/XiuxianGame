@@ -1,15 +1,15 @@
 {
   "turn": 57,
   "game_month": "第5年·九月",
-  "timestamp": "2026-04-03T15:54:28",
+  "timestamp": "2026-04-03T16:01:33",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
+        "detail": "赤蟒在东海探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得寒铁剑"
+        "result": "获得虚步诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +5%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,18 +31,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +7%；突破至金丹中期"
+        "result": "修炼进度 +10%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
+    "zi_die": {
+      "main_action": {
+        "action": "seclusion",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +19%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
+    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得冰心草"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
       "plan_update": null,
@@ -50,10 +61,10 @@
     },
     "xue_ying": {
       "main_action": {
-        "action": "heal",
-        "detail": "雪影静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "恢复15HP"
+        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
       "plan_update": null,
@@ -73,14 +84,7 @@
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [
-    {
-      "cultivator": "bai_he",
-      "name": "",
-      "new_realm": "金丹中期",
-      "old_realm": "金丹初期"
-    }
-  ],
+  "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
   "events": [
@@ -97,22 +101,11 @@
     },
     {
       "turn": 57,
-      "type": "growth.breakthrough",
-      "actors": [
-        "bai_he"
-      ],
-      "location": "qingyun_peak",
-      "weight": 4,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 57,
       "type": "adventure.treasure_found",
       "actors": [
         "cang_qiong"
       ],
-      "location": "wilderness",
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -123,7 +116,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1628
+      "current_stones": 1544
     },
     "yue_hua": {
       "income": 0,
@@ -135,15 +128,20 @@
       "expense": 0,
       "current_stones": 180
     },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 850
+    },
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1761
+      "current_stones": 2125
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 713
     },
     "po_jun": {
       "income": 0,
