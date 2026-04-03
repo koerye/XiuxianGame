@@ -1,15 +1,15 @@
 {
   "turn": 55,
   "game_month": "第5年·七月",
-  "timestamp": "2026-04-03T15:54:20",
+  "timestamp": "2026-04-03T16:01:25",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一株灵药",
+        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得寒铁矿"
+        "result": "获得23灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +5%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,18 +31,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +7%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
+    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得28灵石"
+        "result": "获得146灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +62,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得冰心诀"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -61,10 +72,10 @@
     },
     "po_jun": {
       "main_action": {
-        "action": "heal",
-        "detail": "破军静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "破军在九幽渊探索：险地中发现极品宝物",
         "success": true,
-        "result": "恢复15HP"
+        "result": "获得灵玉剑"
       },
       "free_actions": [],
       "plan_update": null,
@@ -81,9 +92,9 @@
       "turn": 55,
       "type": "adventure.treasure_found",
       "actors": [
-        "chi_mang"
+        "xue_ying"
       ],
-      "location": "east_sea",
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -92,9 +103,9 @@
       "turn": 55,
       "type": "adventure.treasure_found",
       "actors": [
-        "xue_ying"
+        "po_jun"
       ],
-      "location": "wilderness",
+      "location": "nine_abyssal",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -103,9 +114,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 23,
       "expense": 0,
-      "current_stones": 1628
+      "current_stones": 1544
     },
     "yue_hua": {
       "income": 0,
@@ -117,15 +128,20 @@
       "expense": 0,
       "current_stones": 180
     },
-    "cang_qiong": {
-      "income": 28,
+    "zi_die": {
+      "income": 0,
       "expense": 0,
-      "current_stones": 1761
+      "current_stones": 950
+    },
+    "cang_qiong": {
+      "income": 146,
+      "expense": 0,
+      "current_stones": 2125
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 713
     },
     "po_jun": {
       "income": 0,
