@@ -1,7 +1,7 @@
 {
-  "turn": 351,
-  "game_month": "第30年·三月",
-  "timestamp": "2026-04-03T16:34:44",
+  "turn": 352,
+  "game_month": "第30年·四月",
+  "timestamp": "2026-04-03T16:34:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 7786,
       "hp": 36,
       "hp_max": 100,
-      "spirit_stones": 5126,
+      "spirit_stones": 5157,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1157,
-      "hp": 19,
+      "combat_power": 1285,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 5360,
       "location": "wilderness",
@@ -798,7 +798,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     },
     {
@@ -814,7 +814,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "medicine_valley"
     }
   ]
