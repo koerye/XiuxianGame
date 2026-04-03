@@ -1,7 +1,7 @@
 {
-  "turn": 51,
-  "game_month": "第5年·三月",
-  "timestamp": "2026-04-03T15:11:15",
+  "turn": 52,
+  "game_month": "第5年·四月",
+  "timestamp": "2026-04-03T15:11:18",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.1485,
-      "combat_power": 1044,
+      "realm_progress": 0.2198,
+      "combat_power": 1065,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.8,
-      "combat_power": 1240,
+      "realm_progress": 0.8838,
+      "combat_power": 1265,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.4917,
-      "combat_power": 7634,
+      "combat_power": 8298,
       "hp": 34,
       "hp_max": 100,
       "spirit_stones": 1927,
@@ -174,7 +174,7 @@
       "combat_power": 278,
       "hp": 35,
       "hp_max": 100,
-      "spirit_stones": 952,
+      "spirit_stones": 1101,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4511,
-      "hp": 11,
+      "combat_power": 5041,
+      "hp": 26,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -384,6 +384,14 @@
       "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
