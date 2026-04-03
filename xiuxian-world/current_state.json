@@ -1,7 +1,7 @@
 {
-  "turn": 140,
-  "game_month": "第12年·八月",
-  "timestamp": "2026-04-03T16:20:56",
+  "turn": 141,
+  "game_month": "第12年·九月",
+  "timestamp": "2026-04-03T16:21:00",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3776,
-      "hp": 35,
+      "combat_power": 3602,
+      "hp": 28,
       "hp_max": 100,
       "spirit_stones": 2003,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴中期",
-      "realm_progress": 0.5107,
-      "combat_power": 4843,
+      "realm_progress": 0.5741,
+      "combat_power": 4923,
       "hp": 426,
       "hp_max": 426,
       "spirit_stones": 210,
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "元婴后期",
-      "realm_progress": 0.962,
-      "combat_power": 7087,
-      "hp": 511,
-      "hp_max": 511,
+      "realm": "元婴巅峰",
+      "realm_progress": 0.0,
+      "combat_power": 7000,
+      "hp": 613,
+      "hp_max": 613,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -174,7 +174,7 @@
       "combat_power": 572,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 2264,
+      "spirit_stones": 2388,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7224,
-      "hp": 14,
+      "combat_power": 8053,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -472,14 +472,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "east_sea"
     }
   ]
 }
