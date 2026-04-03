@@ -1,23 +1,23 @@
 {
-  "turn": 9,
-  "game_month": "第1年·九月",
-  "timestamp": "2026-04-03T15:08:43",
+  "turn": 10,
+  "game_month": "第1年·十月",
+  "timestamp": "2026-04-03T15:08:47",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.761,
-      "combat_power": 663,
+      "realm_progress": 0.8,
+      "combat_power": 669,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 320,
+      "spirit_stones": 220,
       "location": "zhongzhou_city",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -26,7 +26,9 @@
       "life_goal": "在百岁之前突破元婴期",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     },
     "chi_mang": {
       "name": "赤蟒",
@@ -63,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.637,
-      "combat_power": 452,
+      "realm_progress": 0.7206,
+      "combat_power": 462,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -87,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8675,
-      "combat_power": 478,
+      "realm_progress": 0.9727,
+      "combat_power": 490,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -166,7 +168,7 @@
       "combat_power": 185,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 355,
+      "spirit_stones": 390,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -193,8 +195,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2318,
-      "hp": 34,
+      "combat_power": 2072,
+      "hp": 18,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -218,8 +220,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.5352,
-      "combat_power": 301,
+      "realm_progress": 0.6271,
+      "combat_power": 308,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -270,7 +272,28 @@
     ],
     "unnamed_cave": []
   },
-  "relationships": [],
+  "relationships": [
+    {
+      "from": "yun_yin_zi",
+      "to": "zi_die",
+      "favor": 2,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    },
+    {
+      "from": "zi_die",
+      "to": "yun_yin_zi",
+      "favor": 0,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    }
+  ],
   "active_world_events": [
     {
       "id": "demon_tide",
