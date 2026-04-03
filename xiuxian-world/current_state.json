@@ -1,7 +1,7 @@
 {
-  "turn": 783,
-  "game_month": "第66年·三月",
-  "timestamp": "2026-04-03T17:06:14",
+  "turn": 784,
+  "game_month": "第66年·四月",
+  "timestamp": "2026-04-03T17:06:18",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 20277,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 10886,
+      "spirit_stones": 11033,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -1440,22 +1440,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "wilderness"
     },
     {
       "id": "legendary_treasure",
