@@ -15,3 +15,4 @@
 {"turn": 9, "type": "adventure.treasure_found", "actors": ["po_jun"], "location": "nine_abyssal", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 10, "type": "social.greet", "actors": ["zi_die", "yun_yin_zi"], "location": "zhongzhou_city", "weight": 2, "data": {}, "narrative_tags": []}
 {"turn": 10, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 11, "type": "growth.breakthrough", "actors": ["bai_he"], "location": "qingyun_peak", "weight": 4, "data": {}, "narrative_tags": []}
