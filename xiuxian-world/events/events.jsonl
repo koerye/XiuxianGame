@@ -906,3 +906,6 @@
 {"turn": 659, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 660, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 661, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 662, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 662, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 662, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
