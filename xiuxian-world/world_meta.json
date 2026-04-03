@@ -1,0 +1,324 @@
+{
+  "game_id": "sim_20260403_150427",
+  "started_at": "2026-04-03T15:04:27",
+  "seed": 42,
+  "max_turns": 100,
+  "time_scale": "1回合 = 1个月",
+  "locations": [
+    {
+      "id": "qingyun_peak",
+      "name": "青云峰",
+      "type": "sect",
+      "description": "青云宗驻地，灵气充沛，有宗门功法阁和练功场",
+      "position": {
+        "x": 2,
+        "y": 1
+      },
+      "neighbors": [
+        "zhongzhou_city",
+        "medicine_valley"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "tianji_mountain",
+      "name": "天机山",
+      "type": "sect",
+      "description": "天机阁驻地，擅长炼丹和阵法",
+      "position": {
+        "x": 7,
+        "y": 1
+      },
+      "neighbors": [
+        "zhongzhou_city",
+        "east_sea"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "wanyao_cave",
+      "name": "万妖洞",
+      "type": "sect",
+      "description": "万妖宫驻地，妖修聚集之地，充满凶煞之气",
+      "position": {
+        "x": 5,
+        "y": 8
+      },
+      "neighbors": [
+        "south_frontier",
+        "nine_abyssal"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "zhongzhou_city",
+      "name": "中州城",
+      "type": "city",
+      "description": "修仙界最繁华的城市，各方势力汇聚，有灵药阁、万宝楼、酒楼等",
+      "position": {
+        "x": 5,
+        "y": 3
+      },
+      "neighbors": [
+        "qingyun_peak",
+        "tianji_mountain",
+        "market_street",
+        "wilderness"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "market_street",
+      "name": "坊市街",
+      "type": "city",
+      "description": "各类修仙物资交易中心，悬赏告示板在此处",
+      "position": {
+        "x": 6,
+        "y": 4
+      },
+      "neighbors": [
+        "zhongzhou_city",
+        "penglai_island"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "medicine_valley",
+      "name": "药谷",
+      "type": "wilderness",
+      "description": "灵药遍地，炼丹材料丰富，也有药草妖兽出没",
+      "position": {
+        "x": 3,
+        "y": 2
+      },
+      "neighbors": [
+        "qingyun_peak",
+        "wilderness"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "wilderness",
+      "name": "荒野",
+      "type": "wilderness",
+      "description": "荒无人烟，妖兽出没，偶有散修行走其间",
+      "position": {
+        "x": 4,
+        "y": 5
+      },
+      "neighbors": [
+        "zhongzhou_city",
+        "medicine_valley",
+        "ancient_ruins",
+        "south_frontier"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "east_sea",
+      "name": "东海",
+      "type": "wilderness",
+      "description": "东海之滨，海底秘境传说丰富，水系修炼圣地",
+      "position": {
+        "x": 9,
+        "y": 2
+      },
+      "neighbors": [
+        "tianji_mountain",
+        "penglai_island"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "penglai_island",
+      "name": "蓬莱仙岛",
+      "type": "refuge",
+      "description": "散修聚居之地，远离纷争，灵气充沛，适合隐居修炼",
+      "position": {
+        "x": 10,
+        "y": 3
+      },
+      "neighbors": [
+        "east_sea",
+        "market_street"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "ancient_ruins",
+      "name": "上古遗迹",
+      "type": "secret_realm",
+      "description": "上古修仙者留下的遗迹，宝物众多但危机四伏",
+      "position": {
+        "x": 6,
+        "y": 6
+      },
+      "neighbors": [
+        "wilderness",
+        "nine_abyssal"
+      ],
+      "entry_requirement": "foundation"
+    },
+    {
+      "id": "sword_tomb",
+      "name": "上古剑冢",
+      "type": "secret_realm",
+      "description": "传说中的剑修圣地，内有无数上古飞剑，机遇与危险并存",
+      "position": {
+        "x": 8,
+        "y": 4
+      },
+      "neighbors": [
+        "wilderness"
+      ],
+      "entry_requirement": "golden_core"
+    },
+    {
+      "id": "south_frontier",
+      "name": "南疆",
+      "type": "wilderness",
+      "description": "蛮荒之地，各种异族和妖兽横行，适合历练",
+      "position": {
+        "x": 4,
+        "y": 8
+      },
+      "neighbors": [
+        "wanyao_cave",
+        "wilderness",
+        "nine_abyssal"
+      ],
+      "entry_requirement": null
+    },
+    {
+      "id": "nine_abyssal",
+      "name": "九幽渊",
+      "type": "dangerous",
+      "description": "极危之地，深不见底，其中有上古魔物，入则九死一生",
+      "position": {
+        "x": 6,
+        "y": 9
+      },
+      "neighbors": [
+        "ancient_ruins",
+        "south_frontier",
+        "wanyao_cave"
+      ],
+      "entry_requirement": "foundation"
+    },
+    {
+      "id": "unnamed_cave",
+      "name": "无名洞府",
+      "type": "refuge",
+      "description": "偏僻隐秘的修炼洞府，躲避仇家的好去处",
+      "position": {
+        "x": 3,
+        "y": 6
+      },
+      "neighbors": [
+        "wilderness",
+        "penglai_island"
+      ],
+      "entry_requirement": null
+    }
+  ],
+  "sects": [
+    {
+      "id": "qingyun_sect",
+      "name": "青云宗",
+      "location": "qingyun_peak",
+      "type": "",
+      "rules": [
+        "不得以大欺小",
+        "叛门者必诛",
+        "同门相残者逐出门墙"
+      ]
+    },
+    {
+      "id": "tianji_sect",
+      "name": "天机阁",
+      "location": "tianji_mountain",
+      "type": "",
+      "rules": [
+        "知识即力量，秘法不外传",
+        "以丹养道，精益求精"
+      ]
+    },
+    {
+      "id": "wanyao_sect",
+      "name": "万妖宫",
+      "location": "wanyao_cave",
+      "type": "",
+      "rules": [
+        "强者为尊",
+        "妖修之道，以杀立威"
+      ]
+    }
+  ],
+  "cultivators": [
+    {
+      "id": "yun_yin_zi",
+      "name": "云隐子",
+      "llm_model": "local-proxy",
+      "origin": "散修",
+      "initial_realm": "筑基后期",
+      "personality": {
+        "valor": 45,
+        "ambition": 70,
+        "loyalty": 55,
+        "cunning": 60,
+        "sociability": 65,
+        "traits": [
+          "贪财",
+          "话痨"
+        ]
+      },
+      "initial_location": "zhongzhou_city",
+      "color": "#BD10E0",
+      "life_goal": "在百岁之前突破元婴期"
+    },
+    {
+      "id": "chi_mang",
+      "name": "赤蟒",
+      "llm_model": "local-proxy",
+      "origin": "散修",
+      "initial_realm": "金丹初期",
+      "personality": {
+        "valor": 85,
+        "ambition": 80,
+        "loyalty": 25,
+        "cunning": 70,
+        "sociability": 30,
+        "traits": [
+          "记仇到死",
+          "争强好胜",
+          "冷血无情"
+        ]
+      },
+      "initial_location": "east_sea",
+      "color": "#B8E986",
+      "life_goal": "成为东海一带无人能敌的强者"
+    },
+    {
+      "id": "yue_hua",
+      "name": "月华",
+      "llm_model": "local-proxy",
+      "origin": "散修",
+      "initial_realm": "筑基中期",
+      "personality": {
+        "valor": 55,
+        "ambition": 50,
+        "loyalty": 80,
+        "cunning": 35,
+        "sociability": 75,
+        "traits": [
+          "热心助人",
+          "感性易哭",
+          "义薄云天"
+        ]
+      },
+      "initial_location": "south_frontier",
+      "color": "#FF6B6B",
+      "life_goal": "保护所有在乎的人，守护这片土地"
+    }
+  ]
+}

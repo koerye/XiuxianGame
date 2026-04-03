@@ -1,0 +1,71 @@
+{
+  "turn": 2,
+  "game_month": "第1年·二月",
+  "timestamp": "2026-04-03T15:04:27",
+  "world_events_triggered": [
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "location": "zhongzhou_city",
+      "duration": 1
+    }
+  ],
+  "actions": {
+    "yun_yin_zi": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +7%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
+        "success": true,
+        "result": "获得92灵石"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +7%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [],
+  "movement": [],
+  "economy": {
+    "yun_yin_zi": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 320
+    },
+    "chi_mang": {
+      "income": 92,
+      "expense": 0,
+      "current_stones": 672
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    }
+  }
+}

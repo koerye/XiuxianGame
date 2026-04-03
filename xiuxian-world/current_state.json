@@ -1,0 +1,115 @@
+{
+  "turn": 2,
+  "game_month": "第1年·二月",
+  "timestamp": "2026-04-03T15:04:27",
+  "phase": "running",
+  "cultivators": {
+    "yun_yin_zi": {
+      "name": "云隐子",
+      "alive": true,
+      "realm": "筑基后期",
+      "realm_progress": 0.1444,
+      "combat_power": 563,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 320,
+      "location": "zhongzhou_city",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "在百岁之前突破元婴期",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    },
+    "chi_mang": {
+      "name": "赤蟒",
+      "alive": true,
+      "realm": "金丹初期",
+      "realm_progress": 0.0,
+      "combat_power": 1150,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 672,
+      "location": "east_sea",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "成为东海一带无人能敌的强者",
+      "current_plan": "",
+      "inventory_summary": [
+        "冰心诀"
+      ],
+      "status_tags": []
+    },
+    "yue_hua": {
+      "name": "月华",
+      "alive": true,
+      "realm": "筑基中期",
+      "realm_progress": 0.1346,
+      "combat_power": 395,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 210,
+      "location": "south_frontier",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "保护所有在乎的人，守护这片土地",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    }
+  },
+  "location_occupants": {
+    "qingyun_peak": [],
+    "tianji_mountain": [],
+    "wanyao_cave": [],
+    "zhongzhou_city": [
+      "yun_yin_zi"
+    ],
+    "market_street": [],
+    "medicine_valley": [],
+    "wilderness": [],
+    "east_sea": [
+      "chi_mang"
+    ],
+    "penglai_island": [],
+    "ancient_ruins": [],
+    "sword_tomb": [],
+    "south_frontier": [
+      "yue_hua"
+    ],
+    "nine_abyssal": [],
+    "unnamed_cave": []
+  },
+  "relationships": [],
+  "active_world_events": [
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
+    }
+  ]
+}
