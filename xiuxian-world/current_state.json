@@ -1,7 +1,7 @@
 {
-  "turn": 255,
-  "game_month": "第22年·三月",
-  "timestamp": "2026-04-03T16:28:25",
+  "turn": 256,
+  "game_month": "第22年·四月",
+  "timestamp": "2026-04-03T16:28:28",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.5475,
-      "combat_power": 20956,
+      "realm_progress": 0.61,
+      "combat_power": 21293,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 210,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1046,
+      "combat_power": 1069,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 4200,
@@ -640,22 +640,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "east_sea"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "wilderness"
     }
   ]
 }
