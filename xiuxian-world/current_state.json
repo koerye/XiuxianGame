@@ -1,7 +1,7 @@
 {
-  "turn": 715,
-  "game_month": "第60年·七月",
-  "timestamp": "2026-04-03T17:01:17",
+  "turn": 716,
+  "game_month": "第60年·八月",
+  "timestamp": "2026-04-03T17:01:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 18894,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 10061,
+      "spirit_stones": 10077,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 2250,
+      "combat_power": 2261,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 9718,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 49608,
-      "hp": 41,
+      "combat_power": 44574,
+      "hp": 25,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1360,14 +1360,6 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
     },
     {
       "id": "demon_tide",
