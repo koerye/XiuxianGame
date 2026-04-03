@@ -1,7 +1,7 @@
 {
-  "turn": 550,
-  "game_month": "第46年·十月",
-  "timestamp": "2026-04-03T16:48:14",
+  "turn": 551,
+  "game_month": "第46年·冬月",
+  "timestamp": "2026-04-03T16:48:18",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 12583,
-      "hp": 30,
+      "combat_power": 12069,
+      "hp": 24,
       "hp_max": 100,
       "spirit_stones": 7723,
       "location": "east_sea",
@@ -143,7 +143,7 @@
       "combat_power": 54567,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 9618,
+      "spirit_stones": 9762,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 1810,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 7387,
+      "spirit_stones": 7451,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 39654,
+      "combat_power": 40295,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1166,8 +1166,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }
