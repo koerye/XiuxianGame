@@ -1,7 +1,7 @@
 {
-  "turn": 989,
-  "game_month": "第83年·五月",
-  "timestamp": "2026-04-03T17:21:58",
+  "turn": 990,
+  "game_month": "第83年·六月",
+  "timestamp": "2026-04-03T17:22:03",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 25401,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 13847,
+      "spirit_stones": 13872,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 92581,
+      "combat_power": 93194,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 14810,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 3168,
+      "combat_power": 3205,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 13379,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 65527,
-      "hp": 43,
+      "combat_power": 57729,
+      "hp": 24,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1882,22 +1882,6 @@
       "location": "wilderness"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "market_street"
-    },
-    {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
@@ -1912,6 +1896,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "east_sea"
     }
   ]
 }
