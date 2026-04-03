@@ -1,7 +1,7 @@
 {
-  "turn": 967,
-  "game_month": "第81年·七月",
-  "timestamp": "2026-04-03T17:20:15",
+  "turn": 968,
+  "game_month": "第81年·八月",
+  "timestamp": "2026-04-03T17:20:19",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1872,14 +1872,6 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
     }
   ]
 }
