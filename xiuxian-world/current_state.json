@@ -1,7 +1,7 @@
 {
-  "turn": 703,
-  "game_month": "第59年·七月",
-  "timestamp": "2026-04-03T17:00:24",
+  "turn": 704,
+  "game_month": "第59年·八月",
+  "timestamp": "2026-04-03T17:00:29",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1350,7 +1350,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
     }
   ]
