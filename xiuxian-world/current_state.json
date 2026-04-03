@@ -1,7 +1,7 @@
 {
-  "turn": 781,
-  "game_month": "第66年·正月",
-  "timestamp": "2026-04-03T17:06:05",
+  "turn": 782,
+  "game_month": "第66年·二月",
+  "timestamp": "2026-04-03T17:06:10",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 20087,
+      "combat_power": 20277,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 10848,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 50189,
+      "combat_power": 50802,
       "hp": 37,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1446,8 +1446,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "medicine_valley"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "wilderness"
     }
   ]
 }
