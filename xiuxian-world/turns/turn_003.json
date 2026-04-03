@@ -1,15 +1,15 @@
 {
   "turn": 3,
   "game_month": "第1年·三月",
-  "timestamp": "2026-04-03T15:08:20",
+  "timestamp": "2026-04-03T15:51:06",
   "world_events_triggered": [
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
       "location": "east_sea",
-      "duration": 3
+      "duration": 1
     }
   ],
   "actions": {
@@ -18,10 +18,11 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +9%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "云隐子"
     },
     "chi_mang": {
       "main_action": {
@@ -31,29 +32,21 @@
         "result": "获得冰心草"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +10%"
-      },
-      "free_actions": [],
-      "plan_update": null
-    },
-    "cang_qiong": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
@@ -61,27 +54,52 @@
         "result": "修炼进度 +9%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +8%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
         "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得冰心草"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "detail": "破军在九幽渊探索：险地中发现极品宝物",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+        "result": "获得灵玉剑"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
+    },
+    "ling_bo": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +9%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "凌波"
     }
   },
   "social_interactions": [],
@@ -111,6 +129,17 @@
       "weight": 3,
       "data": {},
       "narrative_tags": []
+    },
+    {
+      "turn": 3,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
     }
   ],
   "movement": [],
@@ -135,10 +164,10 @@
       "expense": 0,
       "current_stones": 180
     },
-    "cang_qiong": {
+    "zi_die": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1200
+      "current_stones": 950
     },
     "xue_ying": {
       "income": 0,
@@ -149,6 +178,11 @@
       "income": 0,
       "expense": 0,
       "current_stones": 400
+    },
+    "ling_bo": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 290
     }
   }
 }

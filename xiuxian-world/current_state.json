@@ -1,15 +1,15 @@
 {
-  "turn": 2,
-  "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T15:51:03",
+  "turn": 3,
+  "game_month": "第1年·三月",
+  "timestamp": "2026-04-03T15:51:06",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.1618,
-      "combat_power": 566,
+      "realm_progress": 0.2485,
+      "combat_power": 580,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -49,15 +49,17 @@
       "reputation": 0,
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "冰心草"
+      ],
       "status_tags": []
     },
     "yue_hua": {
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.1511,
-      "combat_power": 397,
+      "realm_progress": 0.2252,
+      "combat_power": 405,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -80,8 +82,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.2204,
-      "combat_power": 405,
+      "realm_progress": 0.3185,
+      "combat_power": 416,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -104,8 +106,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.1524,
-      "combat_power": 188,
+      "realm_progress": 0.2331,
+      "combat_power": 192,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -133,7 +135,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
-      "location": "penglai_island",
+      "location": "market_street",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -170,7 +172,8 @@
       "life_goal": "超越一切，成为这个世界最强的人",
       "current_plan": "",
       "inventory_summary": [
-        "寒铁矿"
+        "寒铁矿",
+        "千年灵芝"
       ],
       "status_tags": []
     },
@@ -179,7 +182,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1683,
+      "combat_power": 2272,
       "hp": 31,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -195,15 +198,17 @@
       "reputation": 0,
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "灵玉剑"
+      ],
       "status_tags": []
     },
     "ling_bo": {
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.1734,
-      "combat_power": 273,
+      "realm_progress": 0.2697,
+      "combat_power": 281,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -235,7 +240,8 @@
       "yun_yin_zi"
     ],
     "market_street": [
-      "zi_die"
+      "zi_die",
+      "cang_qiong"
     ],
     "medicine_valley": [],
     "wilderness": [
@@ -244,9 +250,7 @@
     "east_sea": [
       "chi_mang"
     ],
-    "penglai_island": [
-      "cang_qiong"
-    ],
+    "penglai_island": [],
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
@@ -264,7 +268,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {
@@ -272,8 +276,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "east_sea"
     }
   ]
 }
