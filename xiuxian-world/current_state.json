@@ -1,7 +1,7 @@
 {
-  "turn": 68,
-  "game_month": "第6年·八月",
-  "timestamp": "2026-04-03T16:16:24",
+  "turn": 69,
+  "game_month": "第6年·九月",
+  "timestamp": "2026-04-03T16:16:27",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1848,
       "hp": 30,
       "hp_max": 100,
-      "spirit_stones": 1150,
+      "spirit_stones": 1177,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.0583,
-      "combat_power": 1424,
+      "realm_progress": 0.1313,
+      "combat_power": 1455,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.7701,
-      "combat_power": 2338,
+      "realm_progress": 0.8482,
+      "combat_power": 2383,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 10969,
-      "hp": 21,
+      "combat_power": 12164,
+      "hp": 36,
       "hp_max": 100,
       "spirit_stones": 2031,
       "location": "east_sea",
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 265,
+      "combat_power": 287,
       "hp": 34,
       "hp_max": 100,
       "spirit_stones": 1099,
@@ -357,8 +357,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "sword_tomb"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
