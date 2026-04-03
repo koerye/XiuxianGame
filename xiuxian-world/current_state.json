@@ -1,7 +1,7 @@
 {
-  "turn": 987,
-  "game_month": "第83年·三月",
-  "timestamp": "2026-04-03T17:21:49",
+  "turn": 988,
+  "game_month": "第83年·四月",
+  "timestamp": "2026-04-03T17:21:54",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 23029,
-      "hp": 29,
+      "combat_power": 25401,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 13847,
       "location": "east_sea",
@@ -143,7 +143,7 @@
       "combat_power": 92581,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 14776,
+      "spirit_stones": 14810,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 3337,
+      "combat_power": 3360,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 13379,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 58793,
-      "hp": 28,
+      "combat_power": 64890,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1886,15 +1886,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
     },
     {
@@ -1902,8 +1894,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "market_street"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }
