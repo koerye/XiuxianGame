@@ -1,15 +1,15 @@
 {
-  "turn": 3,
-  "game_month": "第1年·三月",
-  "timestamp": "2026-04-03T15:58:09",
+  "turn": 4,
+  "game_month": "第1年·四月",
+  "timestamp": "2026-04-03T15:58:13",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.2342,
-      "combat_power": 577,
+      "realm_progress": 0.3227,
+      "combat_power": 592,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -36,7 +36,7 @@
       "combat_power": 1000,
       "hp": 61,
       "hp_max": 100,
-      "spirit_stones": 580,
+      "spirit_stones": 617,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -56,8 +56,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.2134,
-      "combat_power": 404,
+      "realm_progress": 0.2895,
+      "combat_power": 413,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -80,8 +80,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.2571,
-      "combat_power": 409,
+      "realm_progress": 0.3573,
+      "combat_power": 420,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -109,7 +109,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -170,7 +170,8 @@
       "life_goal": "超越一切，成为这个世界最强的人",
       "current_plan": "",
       "inventory_summary": [
-        "冰心诀"
+        "冰心诀",
+        "冰心草"
       ],
       "status_tags": []
     },
@@ -179,8 +180,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1900,
-      "hp": 100,
+      "combat_power": 1694,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -207,7 +208,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
-      "location": "east_sea",
+      "location": "tianji_mountain",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -227,22 +228,22 @@
     "qingyun_peak": [
       "bai_he"
     ],
-    "tianji_mountain": [],
+    "tianji_mountain": [
+      "ling_bo"
+    ],
     "wanyao_cave": [],
     "zhongzhou_city": [
-      "yun_yin_zi"
-    ],
-    "market_street": [
+      "yun_yin_zi",
       "zi_die"
     ],
+    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
     ],
     "east_sea": [
       "chi_mang",
-      "cang_qiong",
-      "ling_bo"
+      "cang_qiong"
     ],
     "penglai_island": [],
     "ancient_ruins": [],
