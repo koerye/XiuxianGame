@@ -1,7 +1,7 @@
 {
-  "turn": 297,
-  "game_month": "第25年·九月",
-  "timestamp": "2026-04-03T16:31:11",
+  "turn": 298,
+  "game_month": "第25年·十月",
+  "timestamp": "2026-04-03T16:31:15",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 18782,
-      "hp": 41,
+      "combat_power": 15685,
+      "hp": 15,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -720,6 +720,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "ancient_ruins"
     }
   ]
 }
