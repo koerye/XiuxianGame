@@ -1,5 +1,5 @@
 {
-  "turn": 56,
+  "turn": 61,
   "cultivators": {
     "yun_yin_zi": {
       "id": "yun_yin_zi",
@@ -64,7 +64,7 @@
       "realm": "金丹初期",
       "realm_progress": 0.0,
       "combat_power": 2576,
-      "spirit_stones": 942,
+      "spirit_stones": 1026,
       "inventory": [
         {
           "id": "fire_spirit_root",
@@ -573,8 +573,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "金丹初期",
-      "realm_progress": 0.4092,
-      "combat_power": 1122,
+      "realm_progress": 0.7991,
+      "combat_power": 1239,
       "spirit_stones": 210,
       "inventory": [],
       "hp": 172,
@@ -643,8 +643,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "金丹中期",
-      "realm_progress": 0.1041,
-      "combat_power": 1443,
+      "realm_progress": 0.532,
+      "combat_power": 1623,
       "spirit_stones": 180,
       "inventory": [],
       "hp": 206,
@@ -844,8 +844,8 @@
       "llm_model": "local-proxy",
       "realm": "元婴初期",
       "realm_progress": 0.4917,
-      "combat_power": 8298,
-      "spirit_stones": 2015,
+      "combat_power": 8739,
+      "spirit_stones": 2040,
       "inventory": [
         {
           "id": "ice_heart_grass",
@@ -983,9 +983,25 @@
           "effect": {
             "combat_bonus": 0.2
           }
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "millennium_ganoderma",
+          "name": "千年灵芝",
+          "type": "material",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {}
         }
       ],
-      "hp": 34,
+      "hp": 42,
       "hp_max": 100,
       "location": "east_sea",
       "status": "idle",
@@ -1202,6 +1218,30 @@
           "summary": "在东海获得了寒铁剑",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 56,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 57,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了千年灵芝",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 59,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在东海探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
         }
       ],
       "grudges": [],
@@ -1221,7 +1261,7 @@
       "realm": "炼气后期",
       "realm_progress": 0.0,
       "combat_power": 316,
-      "spirit_stones": 1101,
+      "spirit_stones": 1252,
       "inventory": [
         {
           "id": "cold_iron_ore",
@@ -1431,6 +1471,22 @@
           "effect": {
             "combat_bonus": 0.35
           }
+        },
+        {
+          "id": "fire_spirit_root",
+          "name": "火灵根",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
         }
       ],
       "hp": 35,
@@ -1675,6 +1731,22 @@
           "summary": "在荒野获得了灵玉剑",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 56,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了火灵根",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 57,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -1693,7 +1765,7 @@
       "llm_model": "local-proxy",
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 5465,
+      "combat_power": 6004,
       "spirit_stones": 400,
       "inventory": [
         {
@@ -1755,9 +1827,19 @@
           "effect": {
             "combat_bonus": 0.35
           }
+        },
+        {
+          "id": "spirit_jade_sword",
+          "name": "灵玉剑",
+          "type": "weapon",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.35
+          }
         }
       ],
-      "hp": 38,
+      "hp": 36,
       "hp_max": 100,
       "location": "nine_abyssal",
       "status": "idle",
@@ -1937,6 +2019,22 @@
         },
         {
           "turn": 54,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 57,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在九幽渊获得了灵玉剑",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 58,
           "type": "combat",
           "importance": 2,
           "summary": "在九幽渊探索时遭遇危险，受伤",
@@ -2913,6 +3011,61 @@
         "xue_ying"
       ],
       "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 56,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 56,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 57,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 57,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 57,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
       "weight": 3,
       "data": {},
       "narrative_tags": []
