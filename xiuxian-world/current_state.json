@@ -1,7 +1,7 @@
 {
-  "turn": 785,
-  "game_month": "第66年·五月",
-  "timestamp": "2026-04-03T17:06:23",
+  "turn": 786,
+  "game_month": "第66年·六月",
+  "timestamp": "2026-04-03T17:06:27",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 20420,
-      "hp": 42,
+      "combat_power": 18747,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 11033,
       "location": "east_sea",
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 72254,
-      "hp": 36,
+      "combat_power": 68941,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 12024,
       "location": "east_sea",
@@ -174,7 +174,7 @@
       "combat_power": 2501,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 10457,
+      "spirit_stones": 10539,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 51415,
-      "hp": 37,
+      "combat_power": 44388,
+      "hp": 16,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1454,8 +1454,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "east_sea"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
