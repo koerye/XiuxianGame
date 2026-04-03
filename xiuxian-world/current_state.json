@@ -1,7 +1,7 @@
 {
-  "turn": 427,
-  "game_month": "第36年·七月",
-  "timestamp": "2026-04-03T16:39:49",
+  "turn": 428,
+  "game_month": "第36年·八月",
+  "timestamp": "2026-04-03T16:39:53",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 10311,
+      "combat_power": 10405,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 6095,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 26988,
-      "hp": 19,
+      "combat_power": 29972,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -910,8 +910,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
+      "turns_remaining": 4,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "east_sea"
     }
   ]
 }
