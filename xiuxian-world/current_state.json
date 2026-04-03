@@ -1,7 +1,7 @@
 {
-  "turn": 414,
-  "game_month": "第35年·六月",
-  "timestamp": "2026-04-03T16:38:57",
+  "turn": 415,
+  "game_month": "第35年·七月",
+  "timestamp": "2026-04-03T16:39:01",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 9948,
-      "hp": 42,
+      "combat_power": 9446,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 5881,
       "location": "east_sea",
@@ -888,6 +888,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "east_sea"
     }
   ]
 }
