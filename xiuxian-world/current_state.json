@@ -1,23 +1,23 @@
 {
-  "turn": 9,
-  "game_month": "第1年·九月",
-  "timestamp": "2026-04-03T15:51:32",
+  "turn": 10,
+  "game_month": "第1年·十月",
+  "timestamp": "2026-04-03T15:51:35",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7129,
-      "combat_power": 655,
+      "realm_progress": 0.8,
+      "combat_power": 669,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 320,
+      "spirit_stones": 220,
       "location": "zhongzhou_city",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -26,14 +26,16 @@
       "life_goal": "在百岁之前突破元婴期",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     },
     "chi_mang": {
       "name": "赤蟒",
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1000,
+      "combat_power": 1350,
       "hp": 72,
       "hp_max": 100,
       "spirit_stones": 636,
@@ -52,7 +54,8 @@
       "inventory_summary": [
         "冰心草",
         "寒铁矿",
-        "冰心草"
+        "冰心草",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -60,8 +63,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.6525,
-      "combat_power": 454,
+      "realm_progress": 0.7241,
+      "combat_power": 462,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -84,8 +87,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.888,
-      "combat_power": 481,
+      "realm_progress": 0.994,
+      "combat_power": 493,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -108,8 +111,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.4318,
-      "combat_power": 203,
+      "realm_progress": 0.5041,
+      "combat_power": 207,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -137,7 +140,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -160,7 +163,7 @@
       "combat_power": 120,
       "hp": 67,
       "hp_max": 100,
-      "spirit_stones": 197,
+      "spirit_stones": 223,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -211,8 +214,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.632,
-      "combat_power": 309,
+      "realm_progress": 0.7345,
+      "combat_power": 317,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -241,11 +244,11 @@
     ],
     "wanyao_cave": [],
     "zhongzhou_city": [
-      "yun_yin_zi"
+      "yun_yin_zi",
+      "cang_qiong"
     ],
     "market_street": [
-      "zi_die",
-      "cang_qiong"
+      "zi_die"
     ],
     "medicine_valley": [],
     "wilderness": [
@@ -276,12 +279,12 @@
       "location": "east_sea"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "east_sea"
     },
     {
       "id": "demon_tide",
@@ -289,7 +292,7 @@
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
-      "location": "east_sea"
+      "location": "medicine_valley"
     }
   ]
 }
