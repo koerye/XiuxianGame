@@ -1120,3 +1120,5 @@
 {"turn": 801, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 802, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 804, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 805, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 805, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
