@@ -1,15 +1,15 @@
 {
   "turn": 2,
   "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T15:08:17",
+  "timestamp": "2026-04-03T15:51:03",
   "world_events_triggered": [
     {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "location": "market_street",
-      "duration": 1
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "location": "zhongzhou_city",
+      "duration": 3
     }
   ],
   "actions": {
@@ -18,10 +18,11 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +7%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "云隐子"
     },
     "chi_mang": {
       "main_action": {
@@ -31,7 +32,8 @@
         "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
@@ -41,27 +43,30 @@
         "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +11%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "zi_die": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +7%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
     },
     "cang_qiong": {
       "main_action": {
@@ -71,7 +76,8 @@
         "result": "修炼进度 +9%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
@@ -81,7 +87,8 @@
         "result": "获得寒铁矿"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
@@ -91,17 +98,19 @@
         "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     },
     "ling_bo": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "凌波"
     }
   },
   "social_interactions": [],
