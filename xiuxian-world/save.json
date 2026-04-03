@@ -1,5 +1,5 @@
 {
-  "turn": 31,
+  "turn": 36,
   "cultivators": {
     "yun_yin_zi": {
       "id": "yun_yin_zi",
@@ -54,8 +54,8 @@
       "llm_model": "local-proxy",
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2142,
-      "spirit_stones": 1384,
+      "combat_power": 2522,
+      "spirit_stones": 1457,
       "inventory": [
         {
           "id": "ice_heart_grass",
@@ -144,6 +144,34 @@
           "grade": 2,
           "quantity": 1,
           "effect": {}
+        },
+        {
+          "id": "fire_cloud_art",
+          "name": "火云诀",
+          "type": "manual",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.2
+          }
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "fire_cloud_art",
+          "name": "火云诀",
+          "type": "manual",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.2
+          }
         }
       ],
       "hp": 42,
@@ -283,6 +311,30 @@
           "summary": "在东海获得了火灵根",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 32,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了火云诀",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 33,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 34,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了火云诀",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -300,8 +352,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "筑基后期",
-      "realm_progress": 0.9922,
-      "combat_power": 700,
+      "realm_progress": 0.8591,
+      "combat_power": 679,
       "spirit_stones": 210,
       "inventory": [],
       "hp": 120,
@@ -353,13 +405,13 @@
       "age": 25,
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
-      "realm": "筑基后期",
-      "realm_progress": 0.8,
-      "combat_power": 669,
+      "realm": "筑基巅峰",
+      "realm_progress": 0.2934,
+      "combat_power": 826,
       "spirit_stones": 180,
       "inventory": [],
-      "hp": 120,
-      "hp_max": 120,
+      "hp": 144,
+      "hp_max": 144,
       "location": "qingyun_peak",
       "status": "idle",
       "travel_destination": "",
@@ -388,6 +440,14 @@
           "type": "growth",
           "importance": 4,
           "summary": "突破至筑基后期",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 32,
+          "type": "growth",
+          "importance": 4,
+          "summary": "突破至筑基巅峰",
           "involves": [],
           "emotional_tag": "joy"
         }
@@ -454,7 +514,7 @@
       "realm": "元婴初期",
       "realm_progress": 0.5473,
       "combat_power": 7264,
-      "spirit_stones": 1556,
+      "spirit_stones": 1622,
       "inventory": [
         {
           "id": "millennium_ganoderma",
@@ -535,6 +595,22 @@
         {
           "id": "ice_heart_grass",
           "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "millennium_ganoderma",
+          "name": "千年灵芝",
+          "type": "material",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "fire_spirit_root",
+          "name": "火灵根",
           "type": "material",
           "grade": 2,
           "quantity": 1,
@@ -646,6 +722,22 @@
           "summary": "在荒野获得了冰心草",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 31,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了千年灵芝",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 34,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了火灵根",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -665,7 +757,7 @@
       "realm": "炼气后期",
       "realm_progress": 0.0,
       "combat_power": 186,
-      "spirit_stones": 354,
+      "spirit_stones": 480,
       "inventory": [
         {
           "id": "cold_iron_ore",
@@ -814,6 +906,14 @@
           "effect": {
             "escape_bonus": 0.3
           }
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
         }
       ],
       "hp": 45,
@@ -993,6 +1093,14 @@
           "summary": "在荒野获得了虚步诀",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 33,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -1011,7 +1119,7 @@
       "llm_model": "local-proxy",
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 3958,
+      "combat_power": 4723,
       "spirit_stones": 400,
       "inventory": [
         {
@@ -1053,9 +1161,19 @@
           "effect": {
             "combat_bonus": 0.35
           }
+        },
+        {
+          "id": "spirit_jade_sword",
+          "name": "灵玉剑",
+          "type": "weapon",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.35
+          }
         }
       ],
-      "hp": 28,
+      "hp": 34,
       "hp_max": 100,
       "location": "nine_abyssal",
       "status": "idle",
@@ -1155,6 +1273,22 @@
         },
         {
           "turn": 29,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 33,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在九幽渊获得了灵玉剑",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 34,
           "type": "combat",
           "importance": 2,
           "summary": "在九幽渊探索时遭遇危险，受伤",
@@ -1669,6 +1803,94 @@
     },
     {
       "turn": 30,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 31,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 32,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 32,
+      "type": "growth.breakthrough",
+      "actors": [
+        "bai_he"
+      ],
+      "location": "qingyun_peak",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 33,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 33,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 33,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 34,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 34,
       "type": "adventure.treasure_found",
       "actors": [
         "cang_qiong"
