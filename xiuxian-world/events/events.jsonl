@@ -222,3 +222,5 @@
 {"turn": 47, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 47, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 47, "type": "adventure.treasure_found", "actors": ["po_jun"], "location": "nine_abyssal", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 48, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 48, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
