@@ -1,6 +1,6 @@
 {
-  "game_id": "sim_20260403_150810",
-  "ended_at": "2026-04-03T15:14:14",
+  "game_id": "sim_20260403_155056",
+  "ended_at": "2026-04-03T15:57:09",
   "total_turns": 100,
   "reason": "达到最大回合数",
   "final_rankings": [
@@ -8,16 +8,16 @@
       "id": "cang_qiong",
       "name": "苍穹子",
       "realm": "元婴初期",
-      "combat_power": 12530,
+      "combat_power": 13202,
       "reputation": 0,
       "alive": true,
-      "spirit_stones": 2383
+      "spirit_stones": 2431
     },
     {
       "id": "po_jun",
       "name": "破军",
       "realm": "金丹后期",
-      "combat_power": 9785,
+      "combat_power": 6805,
       "reputation": 0,
       "alive": true,
       "spirit_stones": 400
@@ -26,16 +26,16 @@
       "id": "chi_mang",
       "name": "赤蟒",
       "realm": "金丹初期",
-      "combat_power": 3878,
+      "combat_power": 5012,
       "reputation": 0,
       "alive": true,
-      "spirit_stones": 1654
+      "spirit_stones": 2696
     },
     {
       "id": "bai_he",
       "name": "白鹤",
-      "realm": "元婴初期",
-      "combat_power": 3386,
+      "realm": "金丹巅峰",
+      "combat_power": 3034,
       "reputation": 0,
       "alive": true,
       "spirit_stones": 180
@@ -43,8 +43,8 @@
     {
       "id": "yue_hua",
       "name": "月华",
-      "realm": "金丹后期",
-      "combat_power": 2397,
+      "realm": "金丹中期",
+      "combat_power": 1544,
       "reputation": 0,
       "alive": true,
       "spirit_stones": 210
@@ -62,10 +62,10 @@
       "id": "xue_ying",
       "name": "雪影",
       "realm": "炼气后期",
-      "combat_power": 413,
+      "combat_power": 329,
       "reputation": 0,
       "alive": true,
-      "spirit_stones": 1689
+      "spirit_stones": 922
     },
     {
       "id": "ling_bo",
@@ -89,7 +89,7 @@
   "statistics": {
     "total_combats": 0,
     "total_deaths": 0,
-    "total_breakthroughs": 12,
-    "total_social_interactions": 6
+    "total_breakthroughs": 10,
+    "total_social_interactions": 0
   }
 }
