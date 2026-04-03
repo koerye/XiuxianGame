@@ -1,7 +1,7 @@
 {
-  "turn": 94,
-  "game_month": "第8年·十月",
-  "timestamp": "2026-04-03T16:18:01",
+  "turn": 95,
+  "game_month": "第8年·冬月",
+  "timestamp": "2026-04-03T16:18:05",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.9512,
-      "combat_power": 2442,
+      "realm_progress": 0.8,
+      "combat_power": 2356,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.1694,
-      "combat_power": 3362,
+      "realm_progress": 0.2567,
+      "combat_power": 3446,
       "hp": 355,
       "hp_max": 355,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 15941,
+      "combat_power": 16400,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 2155,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 5607,
+      "combat_power": 6240,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -392,6 +392,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
