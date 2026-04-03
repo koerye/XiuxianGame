@@ -1,7 +1,7 @@
 {
-  "turn": 343,
-  "game_month": "第29年·七月",
-  "timestamp": "2026-04-03T16:34:13",
+  "turn": 344,
+  "game_month": "第29年·八月",
+  "timestamp": "2026-04-03T16:34:16",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 7648,
       "hp": 36,
       "hp_max": 100,
-      "spirit_stones": 5058,
+      "spirit_stones": 5084,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -143,7 +143,7 @@
       "combat_power": 36857,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 6023,
+      "spirit_stones": 6047,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 1259,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 5241,
+      "spirit_stones": 5260,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 19123,
-      "hp": 17,
+      "combat_power": 21269,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -782,7 +782,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "medicine_valley"
     },
     {
