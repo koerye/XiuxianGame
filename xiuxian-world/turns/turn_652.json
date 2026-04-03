@@ -1,0 +1,113 @@
+{
+  "turn": 652,
+  "game_month": "第55年·四月",
+  "timestamp": "2026-04-03T16:56:45",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
+        "success": true,
+        "result": "获得68灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：找到一处藏宝洞穴",
+        "success": true,
+        "result": "获得62灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "雪影"
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：险地深处，勉强存活",
+        "success": true,
+        "result": "破军在九幽渊探索：险地深处，勉强存活"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "破军"
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 9224
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 68,
+      "expense": 0,
+      "current_stones": 10665
+    },
+    "xue_ying": {
+      "income": 62,
+      "expense": 0,
+      "current_stones": 8442
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
