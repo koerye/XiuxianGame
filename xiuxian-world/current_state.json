@@ -1,7 +1,7 @@
 {
-  "turn": 239,
-  "game_month": "第20年·冬月",
-  "timestamp": "2026-04-03T16:27:23",
+  "turn": 240,
+  "game_month": "第20年·腊月",
+  "timestamp": "2026-04-03T16:27:27",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 5708,
-      "hp": 32,
+      "combat_power": 5401,
+      "hp": 24,
       "hp_max": 100,
       "spirit_stones": 2987,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神后期",
-      "realm_progress": 0.6568,
-      "combat_power": 16758,
+      "realm_progress": 0.7406,
+      "combat_power": 17110,
       "hp": 1058,
       "hp_max": 1058,
       "spirit_stones": 210,
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 29239,
-      "hp": 27,
+      "combat_power": 32291,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 4088,
       "location": "east_sea",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 12441,
-      "hp": 26,
+      "combat_power": 13750,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -634,19 +634,11 @@
       "location": "wilderness"
     },
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "east_sea"
-    },
-    {
       "id": "secret_realm_open",
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     }
   ]
