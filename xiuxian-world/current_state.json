@@ -1,7 +1,7 @@
 {
-  "turn": 316,
-  "game_month": "第27年·四月",
-  "timestamp": "2026-04-03T16:32:26",
+  "turn": 317,
+  "game_month": "第27年·五月",
+  "timestamp": "2026-04-03T16:32:30",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1258,
-      "hp": 43,
+      "combat_power": 1187,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 4627,
       "location": "wilderness",
