@@ -1,24 +1,15 @@
 {
   "turn": 79,
   "game_month": "第7年·七月",
-  "timestamp": "2026-04-03T15:55:48",
-  "world_events_triggered": [
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "location": "east_sea",
-      "duration": 3
-    }
-  ],
+  "timestamp": "2026-04-03T16:02:55",
+  "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
         "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得22灵石"
+        "result": "获得33灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -29,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +1%；突破至金丹中期"
       },
       "free_actions": [],
       "plan_update": null,
@@ -49,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在东海探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得29灵石"
+        "result": "苍穹子在东海探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
       "plan_update": null,
@@ -70,10 +61,10 @@
     },
     "po_jun": {
       "main_action": {
-        "action": "heal",
-        "detail": "破军静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇险地BOSS",
         "success": true,
-        "result": "恢复15HP"
+        "result": "破军在九幽渊探索：遭遇险地BOSS"
       },
       "free_actions": [],
       "plan_update": null,
@@ -82,16 +73,35 @@
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [],
+  "breakthroughs": [
+    {
+      "cultivator": "yue_hua",
+      "name": "",
+      "new_realm": "金丹中期",
+      "old_realm": "金丹初期"
+    }
+  ],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 79,
+      "type": "growth.breakthrough",
+      "actors": [
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 22,
+      "income": 33,
       "expense": 0,
-      "current_stones": 2449
+      "current_stones": 1841
     },
     "yue_hua": {
       "income": 0,
@@ -104,14 +114,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 29,
+      "income": 0,
       "expense": 0,
-      "current_stones": 2396
+      "current_stones": 2256
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 844
+      "current_stones": 927
     },
     "po_jun": {
       "income": 0,
