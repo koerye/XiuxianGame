@@ -1,7 +1,7 @@
 {
-  "turn": 838,
-  "game_month": "第70年·十月",
-  "timestamp": "2026-04-03T17:10:21",
+  "turn": 839,
+  "game_month": "第70年·冬月",
+  "timestamp": "2026-04-03T17:10:25",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 22461,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 11880,
+      "spirit_stones": 11914,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -1630,7 +1630,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     },
     {
@@ -1638,8 +1638,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 5,
+      "location": "sword_tomb"
     }
   ]
 }
