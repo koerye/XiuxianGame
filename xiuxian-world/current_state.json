@@ -1,7 +1,7 @@
 {
-  "turn": 803,
-  "game_month": "第67年·冬月",
-  "timestamp": "2026-04-03T17:07:43",
+  "turn": 804,
+  "game_month": "第67年·腊月",
+  "timestamp": "2026-04-03T17:07:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 21111,
+      "combat_power": 21256,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 11260,
@@ -174,7 +174,7 @@
       "combat_power": 2576,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 10672,
+      "spirit_stones": 10737,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -1480,6 +1480,22 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "market_street"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "medicine_valley"
     }
   ]
 }
