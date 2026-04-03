@@ -1,7 +1,7 @@
 {
-  "turn": 205,
-  "game_month": "第18年·正月",
-  "timestamp": "2026-04-03T16:25:11",
+  "turn": 206,
+  "game_month": "第18年·二月",
+  "timestamp": "2026-04-03T16:25:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 5084,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 2733,
+      "spirit_stones": 2761,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神初期",
-      "realm_progress": 0.3176,
-      "combat_power": 9857,
+      "realm_progress": 0.386,
+      "combat_power": 10042,
       "hp": 735,
       "hp_max": 735,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.8948,
-      "combat_power": 22832,
+      "realm_progress": 0.9909,
+      "combat_power": 23350,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 27915,
+      "combat_power": 28349,
       "hp": 34,
       "hp_max": 100,
       "spirit_stones": 3933,
@@ -174,7 +174,7 @@
       "combat_power": 811,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 3245,
+      "spirit_stones": 3267,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 10809,
-      "hp": 27,
+      "combat_power": 11938,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -568,6 +568,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 5,
+      "location": "ancient_ruins"
     }
   ]
 }
