@@ -1,7 +1,7 @@
 {
-  "turn": 410,
-  "game_month": "第35年·二月",
-  "timestamp": "2026-04-03T16:38:41",
+  "turn": 411,
+  "game_month": "第35年·三月",
+  "timestamp": "2026-04-03T16:38:45",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 9007,
-      "hp": 27,
+      "combat_power": 9948,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 5857,
       "location": "east_sea",
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 42369,
+      "combat_power": 43388,
       "hp": 35,
       "hp_max": 100,
       "spirit_stones": 7208,
@@ -864,6 +864,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     }
   ]
 }
