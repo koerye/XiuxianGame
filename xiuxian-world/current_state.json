@@ -1,7 +1,7 @@
 {
-  "turn": 57,
-  "game_month": "第5年·九月",
-  "timestamp": "2026-04-03T16:01:33",
+  "turn": 58,
+  "game_month": "第5年·十月",
+  "timestamp": "2026-04-03T16:01:36",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.4849,
-      "combat_power": 870,
+      "realm_progress": 0.5454,
+      "combat_power": 884,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.4876,
-      "combat_power": 1604,
+      "realm_progress": 0.6016,
+      "combat_power": 1652,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 6422,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 2125,
+      "spirit_stones": 2179,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 400,
+      "combat_power": 439,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 713,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7459,
-      "hp": 41,
+      "combat_power": 6560,
+      "hp": 22,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -468,22 +468,22 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "wilderness"
     },
     {
       "id": "spirit_vein_exposed",
       "type": "spirit_vein_exposed",
       "name": "灵脉外露",
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "turns_remaining": 0,
+      "location": "south_frontier"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
     }
