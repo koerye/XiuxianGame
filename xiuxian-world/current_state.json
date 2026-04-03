@@ -1,7 +1,7 @@
 {
-  "turn": 636,
-  "game_month": "第53年·腊月",
-  "timestamp": "2026-04-03T16:55:37",
+  "turn": 637,
+  "game_month": "第54年·正月",
+  "timestamp": "2026-04-03T16:55:42",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 58729,
+      "combat_power": 59028,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 10492,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 34836,
-      "hp": 12,
+      "combat_power": 38897,
+      "hp": 27,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1258,19 +1258,11 @@
       "location": "medicine_valley"
     },
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "east_sea"
-    },
-    {
       "id": "secret_realm_open",
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
+      "turns_remaining": 4,
       "location": "ancient_ruins"
     }
   ]
