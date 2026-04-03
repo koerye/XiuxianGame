@@ -1,14 +1,14 @@
 {
   "turn": 14,
   "game_month": "第2年·二月",
-  "timestamp": "2026-04-03T15:09:01",
+  "timestamp": "2026-04-03T15:51:50",
   "world_events_triggered": [
     {
       "id": "secret_realm_open",
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "location": "ancient_ruins",
+      "location": "sword_tomb",
       "duration": 1
     }
   ],
@@ -16,72 +16,79 @@
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
+        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得普通飞剑"
+        "result": "获得132灵石"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +4%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +2%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "zi_die": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
+        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得97灵石"
+        "result": "获得26灵石"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
+        "result": "获得火云诀"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
-        "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+        "result": "恢复15HP"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
@@ -94,9 +101,9 @@
       "turn": 14,
       "type": "adventure.treasure_found",
       "actors": [
-        "chi_mang"
+        "xue_ying"
       ],
-      "location": "east_sea",
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -105,9 +112,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 132,
       "expense": 0,
-      "current_stones": 645
+      "current_stones": 920
     },
     "yue_hua": {
       "income": 0,
@@ -125,14 +132,14 @@
       "current_stones": 950
     },
     "cang_qiong": {
-      "income": 97,
+      "income": 26,
       "expense": 0,
-      "current_stones": 1369
+      "current_stones": 1226
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 494
+      "current_stones": 223
     },
     "po_jun": {
       "income": 0,

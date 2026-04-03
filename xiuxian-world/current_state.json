@@ -1,7 +1,7 @@
 {
-  "turn": 13,
-  "game_month": "第2年·正月",
-  "timestamp": "2026-04-03T15:51:46",
+  "turn": 14,
+  "game_month": "第2年·二月",
+  "timestamp": "2026-04-03T15:51:50",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1350,
       "hp": 72,
       "hp_max": 100,
-      "spirit_stones": 788,
+      "spirit_stones": 920,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -64,8 +64,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.9538,
-      "combat_power": 488,
+      "realm_progress": 0.8,
+      "combat_power": 471,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -88,8 +88,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.9787,
-      "combat_power": 491,
+      "realm_progress": 0.8,
+      "combat_power": 471,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -112,8 +112,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.5744,
-      "combat_power": 211,
+      "realm_progress": 0.6473,
+      "combat_power": 214,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -140,7 +140,7 @@
       "combat_power": 3725,
       "hp": 70,
       "hp_max": 100,
-      "spirit_stones": 1200,
+      "spirit_stones": 1226,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -163,7 +163,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 132,
+      "combat_power": 156,
       "hp": 67,
       "hp_max": 100,
       "spirit_stones": 223,
@@ -184,7 +184,8 @@
         "千年灵芝",
         "千年灵芝",
         "火灵根",
-        "普通飞剑"
+        "普通飞剑",
+        "火云诀"
       ],
       "status_tags": []
     },
@@ -193,8 +194,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2103,
-      "hp": 20,
+      "combat_power": 2334,
+      "hp": 35,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -305,8 +306,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 3,
+      "location": "sword_tomb"
     }
   ]
 }
