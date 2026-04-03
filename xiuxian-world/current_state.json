@@ -1,7 +1,7 @@
 {
-  "turn": 70,
-  "game_month": "第6年·十月",
-  "timestamp": "2026-04-03T16:02:21",
+  "turn": 71,
+  "game_month": "第6年·冬月",
+  "timestamp": "2026-04-03T16:02:25",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3003,
+      "combat_power": 3139,
       "hp": 35,
       "hp_max": 100,
       "spirit_stones": 1739,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.3965,
-      "combat_power": 1118,
+      "realm_progress": 0.458,
+      "combat_power": 1137,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.3863,
-      "combat_power": 2120,
+      "realm_progress": 0.4963,
+      "combat_power": 2182,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -518,14 +518,6 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "zhongzhou_city"
     },
     {
       "id": "demon_tide",
