@@ -1,7 +1,7 @@
 {
-  "turn": 280,
-  "game_month": "第24年·四月",
-  "timestamp": "2026-04-03T16:30:02",
+  "turn": 281,
+  "game_month": "第24年·五月",
+  "timestamp": "2026-04-03T16:30:06",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.8,
-      "combat_power": 20974,
+      "realm_progress": 0.8594,
+      "combat_power": 21275,
       "hp": 507,
       "hp_max": 1269,
       "spirit_stones": 210,
@@ -174,7 +174,7 @@
       "combat_power": 1109,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 4425,
+      "spirit_stones": 4565,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 14538,
-      "hp": 19,
+      "combat_power": 16145,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -688,6 +688,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 3,
+      "location": "sword_tomb"
     }
   ]
 }
