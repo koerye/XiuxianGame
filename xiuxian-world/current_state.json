@@ -1,7 +1,7 @@
 {
-  "turn": 151,
-  "game_month": "第13年·七月",
-  "timestamp": "2026-04-03T16:21:38",
+  "turn": 152,
+  "game_month": "第13年·八月",
+  "timestamp": "2026-04-03T16:21:42",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 4358,
+      "combat_power": 4550,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 2076,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.2903,
-      "combat_power": 5978,
+      "realm_progress": 0.3589,
+      "combat_power": 6092,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴巅峰",
-      "realm_progress": 0.9388,
-      "combat_power": 8971,
+      "realm_progress": 0.8,
+      "combat_power": 8680,
       "hp": 613,
       "hp_max": 613,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 20867,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 2973,
+      "spirit_stones": 3010,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 553,
-      "hp": 34,
+      "combat_power": 527,
+      "hp": 27,
       "hp_max": 100,
       "spirit_stones": 2451,
       "location": "wilderness",
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 8164,
+      "combat_power": 8753,
       "hp": 31,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -480,14 +480,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
     }
   ]
 }
