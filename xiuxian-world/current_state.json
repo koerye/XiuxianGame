@@ -1,7 +1,7 @@
 {
-  "turn": 65,
-  "game_month": "第6年·五月",
-  "timestamp": "2026-04-03T15:54:57",
+  "turn": 66,
+  "game_month": "第6年·六月",
+  "timestamp": "2026-04-03T15:55:01",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3143,
+      "combat_power": 3322,
       "hp": 33,
       "hp_max": 100,
       "spirit_stones": 1756,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.617,
-      "combat_power": 900,
+      "realm_progress": 0.7028,
+      "combat_power": 920,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.7756,
-      "combat_power": 1725,
+      "realm_progress": 0.8703,
+      "combat_power": 1765,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 11629,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 1970,
+      "spirit_stones": 2039,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -377,14 +377,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "south_frontier"
     }
   ]
 }
