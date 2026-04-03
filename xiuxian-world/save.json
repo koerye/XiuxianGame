@@ -1,0 +1,557 @@
+{
+  "turn": 6,
+  "cultivators": {
+    "yun_yin_zi": {
+      "id": "yun_yin_zi",
+      "name": "云隐子",
+      "gender": "male",
+      "age": 35,
+      "origin": "散修",
+      "llm_model": "local-proxy",
+      "realm": "筑基后期",
+      "realm_progress": 0.4128,
+      "combat_power": 606,
+      "spirit_stones": 320,
+      "inventory": [],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "zhongzhou_city",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 45,
+        "ambition": 70,
+        "loyalty": 55,
+        "cunning": 60,
+        "sociability": 65,
+        "traits": [
+          "贪财",
+          "话痨"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "在百岁之前突破元婴期",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "chi_mang": {
+      "id": "chi_mang",
+      "name": "赤蟒",
+      "gender": "male",
+      "age": 42,
+      "origin": "万妖宫妖修后裔",
+      "llm_model": "local-proxy",
+      "realm": "金丹初期",
+      "realm_progress": 0.0,
+      "combat_power": 1000,
+      "spirit_stones": 743,
+      "inventory": [],
+      "hp": 61,
+      "hp_max": 100,
+      "location": "east_sea",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 85,
+        "ambition": 80,
+        "loyalty": 25,
+        "cunning": 70,
+        "sociability": 30,
+        "traits": [
+          "记仇到死",
+          "争强好胜",
+          "冷血无情"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [
+        {
+          "turn": 1,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在东海探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        }
+      ],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "成为东海一带无人能敌的强者",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "yue_hua": {
+      "id": "yue_hua",
+      "name": "月华",
+      "gender": "female",
+      "age": 28,
+      "origin": "青云宗外门弟子",
+      "llm_model": "local-proxy",
+      "realm": "筑基中期",
+      "realm_progress": 0.362,
+      "combat_power": 421,
+      "spirit_stones": 210,
+      "inventory": [],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "south_frontier",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 55,
+        "ambition": 50,
+        "loyalty": 80,
+        "cunning": 35,
+        "sociability": 75,
+        "traits": [
+          "热心助人",
+          "感性易哭",
+          "义薄云天"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "保护所有在乎的人，守护这片土地",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "bai_he": {
+      "id": "bai_he",
+      "name": "白鹤",
+      "gender": "male",
+      "age": 25,
+      "origin": "青云宗外门弟子",
+      "llm_model": "local-proxy",
+      "realm": "筑基中期",
+      "realm_progress": 0.4441,
+      "combat_power": 430,
+      "spirit_stones": 180,
+      "inventory": [],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "qingyun_peak",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 60,
+        "ambition": 65,
+        "loyalty": 70,
+        "cunning": 40,
+        "sociability": 60,
+        "traits": [
+          "剑痴",
+          "好为人师"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "成为天下第一剑修",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "zi_die": {
+      "id": "zi_die",
+      "name": "紫蝶",
+      "gender": "female",
+      "age": 31,
+      "origin": "商贾之子",
+      "llm_model": "local-proxy",
+      "realm": "炼气巅峰",
+      "realm_progress": 0.3084,
+      "combat_power": 196,
+      "spirit_stones": 950,
+      "inventory": [],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "zhongzhou_city",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 30,
+        "ambition": 90,
+        "loyalty": 45,
+        "cunning": 85,
+        "sociability": 80,
+        "traits": [
+          "贪财",
+          "疑心病重",
+          "恋爱脑"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "积累足够的财富和人脉，成为修仙界最大的商人",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "cang_qiong": {
+      "id": "cang_qiong",
+      "name": "苍穹子",
+      "gender": "male",
+      "age": 85,
+      "origin": "书香门第",
+      "llm_model": "local-proxy",
+      "realm": "元婴初期",
+      "realm_progress": 0.0,
+      "combat_power": 3679,
+      "spirit_stones": 1200,
+      "inventory": [
+        {
+          "id": "ice_heart_art",
+          "name": "冰心诀",
+          "type": "manual",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.15,
+            "cultivation_bonus": 0.1
+          }
+        }
+      ],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "east_sea",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 65,
+        "ambition": 40,
+        "loyalty": 85,
+        "cunning": 70,
+        "sociability": 50,
+        "traits": [
+          "好为人师",
+          "护短",
+          "沉默寡言"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [
+        {
+          "turn": 5,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了冰心诀",
+          "involves": [],
+          "emotional_tag": "joy"
+        }
+      ],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "收几个好徒弟，将毕生所学传承下去",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "xue_ying": {
+      "id": "xue_ying",
+      "name": "雪影",
+      "gender": "female",
+      "age": 19,
+      "origin": "孤儿院出身",
+      "llm_model": "local-proxy",
+      "realm": "炼气后期",
+      "realm_progress": 0.0,
+      "combat_power": 138,
+      "spirit_stones": 198,
+      "inventory": [
+        {
+          "id": "ice_heart_art",
+          "name": "冰心诀",
+          "type": "manual",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.15,
+            "cultivation_bonus": 0.1
+          }
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        }
+      ],
+      "hp": 61,
+      "hp_max": 100,
+      "location": "wilderness",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 75,
+        "ambition": 85,
+        "loyalty": 50,
+        "cunning": 60,
+        "sociability": 20,
+        "traits": [
+          "修炼狂",
+          "冷血无情",
+          "争强好胜"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [
+        {
+          "turn": 1,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在荒野探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 2,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了冰心诀",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 4,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        }
+      ],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "超越一切，成为这个世界最强的人",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "po_jun": {
+      "id": "po_jun",
+      "name": "破军",
+      "gender": "male",
+      "age": 55,
+      "origin": "落魄贵族",
+      "llm_model": "local-proxy",
+      "realm": "金丹后期",
+      "realm_progress": 0.0,
+      "combat_power": 2287,
+      "spirit_stones": 400,
+      "inventory": [
+        {
+          "id": "spirit_jade_sword",
+          "name": "灵玉剑",
+          "type": "weapon",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.35
+          }
+        }
+      ],
+      "hp": 32,
+      "hp_max": 100,
+      "location": "nine_abyssal",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 95,
+        "ambition": 60,
+        "loyalty": 55,
+        "cunning": 40,
+        "sociability": 40,
+        "traits": [
+          "酒鬼",
+          "争强好胜",
+          "义薄云天"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [
+        {
+          "turn": 4,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 5,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在九幽渊获得了灵玉剑",
+          "involves": [],
+          "emotional_tag": "joy"
+        }
+      ],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "在死之前，与天下所有强者战上一场",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    },
+    "ling_bo": {
+      "id": "ling_bo",
+      "name": "凌波",
+      "gender": "female",
+      "age": 22,
+      "origin": "天机阁学徒",
+      "llm_model": "local-proxy",
+      "realm": "筑基初期",
+      "realm_progress": 0.2792,
+      "combat_power": 281,
+      "spirit_stones": 290,
+      "inventory": [],
+      "hp": 100,
+      "hp_max": 100,
+      "location": "tianji_mountain",
+      "status": "idle",
+      "travel_destination": "",
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": "",
+      "sect_rank": "",
+      "master": "",
+      "disciples": [],
+      "personality": {
+        "valor": 35,
+        "ambition": 75,
+        "loyalty": 60,
+        "cunning": 80,
+        "sociability": 65,
+        "traits": [
+          "痴迷炼丹",
+          "话痨",
+          "恋爱脑"
+        ]
+      },
+      "relationships": {},
+      "reputation": 0,
+      "memory": [],
+      "grudges": [],
+      "debts": [],
+      "life_goal": "炼出一炉能让人飞升的仙丹",
+      "current_plan": "",
+      "last_action": "",
+      "turn_created": 1
+    }
+  },
+  "event_fragments": [
+    {
+      "turn": 2,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 4,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 5,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 5,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ]
+}

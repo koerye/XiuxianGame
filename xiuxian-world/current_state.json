@@ -1,15 +1,15 @@
 {
-  "turn": 5,
-  "game_month": "第1年·五月",
-  "timestamp": "2026-04-03T15:58:17",
+  "turn": 6,
+  "game_month": "第1年·六月",
+  "timestamp": "2026-04-03T15:58:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.4128,
-      "combat_power": 606,
+      "realm_progress": 0.4889,
+      "combat_power": 619,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -33,7 +33,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1000,
+      "combat_power": 1050,
       "hp": 61,
       "hp_max": 100,
       "spirit_stones": 743,
@@ -49,15 +49,17 @@
       "reputation": 0,
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "基础剑诀"
+      ],
       "status_tags": []
     },
     "yue_hua": {
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.362,
-      "combat_power": 421,
+      "realm_progress": 0.4398,
+      "combat_power": 430,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -80,8 +82,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.4441,
-      "combat_power": 430,
+      "realm_progress": 0.5404,
+      "combat_power": 441,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -155,7 +157,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 138,
+      "combat_power": 144,
       "hp": 61,
       "hp_max": 100,
       "spirit_stones": 198,
@@ -173,7 +175,8 @@
       "current_plan": "",
       "inventory_summary": [
         "冰心诀",
-        "冰心草"
+        "冰心草",
+        "基础剑诀"
       ],
       "status_tags": []
     },
@@ -207,8 +210,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.2792,
-      "combat_power": 281,
+      "realm_progress": 0.3838,
+      "combat_power": 289,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -260,7 +263,28 @@
     ],
     "unnamed_cave": []
   },
-  "relationships": [],
+  "relationships": [
+    {
+      "from": "yun_yin_zi",
+      "to": "zi_die",
+      "favor": 2,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    },
+    {
+      "from": "zi_die",
+      "to": "yun_yin_zi",
+      "favor": 0,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    }
+  ],
   "active_world_events": [
     {
       "id": "spirit_vein_exposed",
