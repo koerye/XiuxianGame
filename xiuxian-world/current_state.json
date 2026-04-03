@@ -1,7 +1,7 @@
 {
-  "turn": 144,
-  "game_month": "第12年·腊月",
-  "timestamp": "2026-04-03T16:21:12",
+  "turn": 145,
+  "game_month": "第13年·正月",
+  "timestamp": "2026-04-03T16:21:15",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴中期",
-      "realm_progress": 0.7816,
-      "combat_power": 5184,
+      "realm_progress": 0.8531,
+      "combat_power": 5274,
       "hp": 426,
       "hp_max": 426,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴巅峰",
-      "realm_progress": 0.2727,
-      "combat_power": 7572,
+      "realm_progress": 0.3827,
+      "combat_power": 7803,
       "hp": 613,
       "hp_max": 613,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 20410,
+      "combat_power": 20867,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 2714,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7335,
-      "hp": 16,
+      "combat_power": 8164,
+      "hp": 31,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -472,6 +472,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "sword_tomb"
     }
   ]
 }
