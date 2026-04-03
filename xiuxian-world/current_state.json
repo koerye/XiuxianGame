@@ -1,7 +1,7 @@
 {
-  "turn": 18,
-  "game_month": "第2年·六月",
-  "timestamp": "2026-04-03T15:52:05",
+  "turn": 19,
+  "game_month": "第2年·七月",
+  "timestamp": "2026-04-03T15:52:08",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.07,
-      "combat_power": 551,
+      "realm_progress": 0.1549,
+      "combat_power": 565,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.0927,
-      "combat_power": 555,
+      "realm_progress": 0.1811,
+      "combat_power": 569,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -158,7 +158,8 @@
       "current_plan": "",
       "inventory_summary": [
         "千年灵芝",
-        "冰心诀"
+        "冰心诀",
+        "火灵根"
       ],
       "status_tags": []
     },
@@ -307,14 +308,6 @@
       "location": "medicine_valley"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
-    },
-    {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
@@ -327,7 +320,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     }
   ]
