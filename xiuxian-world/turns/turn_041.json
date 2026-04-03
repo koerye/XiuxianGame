@@ -1,0 +1,130 @@
+{
+  "turn": 41,
+  "game_month": "第4年·五月",
+  "timestamp": "2026-04-03T16:14:43",
+  "world_events_triggered": [
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "location": "south_frontier",
+      "duration": 1
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "location": "zhongzhou_city",
+      "duration": 1
+    }
+  ],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
+        "success": true,
+        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +8%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "heal",
+        "detail": "苍穹子静心调息，恢复15点生命",
+        "success": true,
+        "result": "恢复15HP"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
+        "success": true,
+        "result": "获得28灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "雪影"
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "success": true,
+        "result": "破军在九幽渊探索：遭遇险地BOSS"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "破军"
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 852
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1702
+    },
+    "xue_ying": {
+      "income": 28,
+      "expense": 0,
+      "current_stones": 474
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
