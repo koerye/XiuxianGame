@@ -1,15 +1,15 @@
 {
   "turn": 87,
   "game_month": "第8年·三月",
-  "timestamp": "2026-04-03T15:56:18",
+  "timestamp": "2026-04-03T16:03:25",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
+        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
         "success": true,
-        "result": "获得26灵石"
+        "result": "获得寒铁剑"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +0%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：在荒野中探索，无甚收获",
+        "detail": "苍穹子在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "苍穹子在荒野探索：在荒野中探索，无甚收获"
+        "result": "苍穹子在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +51,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
+        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
+        "result": "获得18灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -76,13 +76,25 @@
   "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 87,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 26,
+      "income": 0,
       "expense": 0,
-      "current_stones": 2495
+      "current_stones": 2022
     },
     "yue_hua": {
       "income": 0,
@@ -97,12 +109,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 2396
+      "current_stones": 2334
     },
     "xue_ying": {
-      "income": 0,
+      "income": 18,
       "expense": 0,
-      "current_stones": 844
+      "current_stones": 945
     },
     "po_jun": {
       "income": 0,
