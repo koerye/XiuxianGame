@@ -1,7 +1,7 @@
 {
-  "turn": 55,
-  "game_month": "第5年·七月",
-  "timestamp": "2026-04-03T16:01:25",
+  "turn": 56,
+  "game_month": "第5年·八月",
+  "timestamp": "2026-04-03T16:01:29",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.3621,
-      "combat_power": 842,
+      "realm_progress": 0.4261,
+      "combat_power": 857,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.2956,
-      "combat_power": 1524,
+      "realm_progress": 0.3814,
+      "combat_power": 1560,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.7067,
-      "combat_power": 315,
+      "realm_progress": 0.803,
+      "combat_power": 322,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
@@ -458,22 +458,38 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
-      "location": "ancient_ruins"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
       "turns_remaining": 1,
-      "location": "sword_tomb"
+      "location": "ancient_ruins"
     },
     {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "south_frontier"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 4,
+      "location": "ancient_ruins"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "wilderness"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "south_frontier"
     }
