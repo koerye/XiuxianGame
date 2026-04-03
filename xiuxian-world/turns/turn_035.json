@@ -1,7 +1,7 @@
 {
   "turn": 35,
   "game_month": "第3年·冬月",
-  "timestamp": "2026-04-03T15:53:07",
+  "timestamp": "2026-04-03T16:00:11",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
@@ -9,7 +9,7 @@
         "action": "explore",
         "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得37灵石"
+        "result": "获得11灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +5%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得26灵石"
+        "result": "获得71灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -53,7 +53,7 @@
         "action": "explore",
         "detail": "雪影在荒野探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得85灵石"
+        "result": "获得115灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -61,28 +61,66 @@
     },
     "po_jun": {
       "main_action": {
-        "action": "heal",
-        "detail": "破军静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "破军在九幽渊探索：险地中发现极品宝物",
         "success": true,
-        "result": "恢复15HP"
+        "result": "获得灵玉剑"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_035_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yue_hua",
+      "target_name": "月华",
+      "location": "南疆",
+      "type": "greet",
+      "initiator_message": "（紫蝶向月华打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "紫蝶向月华主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 35,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 35,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 37,
+      "income": 11,
       "expense": 0,
-      "current_stones": 1457
+      "current_stones": 1378
     },
     "yue_hua": {
       "income": 0,
@@ -95,14 +133,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 26,
+      "income": 71,
       "expense": 0,
-      "current_stones": 1622
+      "current_stones": 1727
     },
     "xue_ying": {
-      "income": 85,
+      "income": 115,
       "expense": 0,
-      "current_stones": 480
+      "current_stones": 474
     },
     "po_jun": {
       "income": 0,
