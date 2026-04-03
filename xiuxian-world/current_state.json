@@ -1,7 +1,7 @@
 {
-  "turn": 906,
-  "game_month": "第76年·六月",
-  "timestamp": "2026-04-03T17:15:30",
+  "turn": 907,
+  "game_month": "第76年·七月",
+  "timestamp": "2026-04-03T17:15:34",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 2964,
+      "combat_power": 2986,
       "hp": 35,
       "hp_max": 100,
       "spirit_stones": 12329,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 57243,
+      "combat_power": 57840,
       "hp": 33,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1782,7 +1782,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "market_street"
     }
   ]
