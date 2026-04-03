@@ -1,15 +1,15 @@
 {
-  "turn": 7,
-  "game_month": "第1年·七月",
-  "timestamp": "2026-04-03T15:51:22",
+  "turn": 8,
+  "game_month": "第1年·八月",
+  "timestamp": "2026-04-03T15:51:27",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.5575,
-      "combat_power": 630,
+      "realm_progress": 0.6241,
+      "combat_power": 641,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -36,7 +36,7 @@
       "combat_power": 1000,
       "hp": 72,
       "hp_max": 100,
-      "spirit_stones": 610,
+      "spirit_stones": 636,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -60,8 +60,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.4963,
-      "combat_power": 436,
+      "realm_progress": 0.5792,
+      "combat_power": 446,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -84,8 +84,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.6985,
-      "combat_power": 459,
+      "realm_progress": 0.7754,
+      "combat_power": 468,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -113,7 +113,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "penglai_island",
+      "location": "market_street",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -132,8 +132,8 @@
       "name": "苍穹子",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.4234,
-      "combat_power": 3606,
+      "realm_progress": 0.5473,
+      "combat_power": 3725,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
@@ -211,8 +211,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.5322,
-      "combat_power": 301,
+      "realm_progress": 0.632,
+      "combat_power": 309,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -241,7 +241,9 @@
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
-    "market_street": [],
+    "market_street": [
+      "zi_die"
+    ],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
@@ -251,7 +253,6 @@
       "ling_bo"
     ],
     "penglai_island": [
-      "zi_die",
       "cang_qiong"
     ],
     "ancient_ruins": [],
@@ -279,7 +280,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     },
     {
