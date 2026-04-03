@@ -1,7 +1,7 @@
 {
-  "turn": 32,
-  "game_month": "第3年·八月",
-  "timestamp": "2026-04-03T15:59:58",
+  "turn": 33,
+  "game_month": "第3年·九月",
+  "timestamp": "2026-04-03T16:00:02",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 2648,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 1266,
+      "spirit_stones": 1367,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.6164,
-      "combat_power": 900,
+      "realm_progress": 0.7096,
+      "combat_power": 921,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -172,7 +172,7 @@
       "combat_power": 289,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 305,
+      "spirit_stones": 359,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4582,
-      "hp": 13,
+      "combat_power": 5112,
+      "hp": 28,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -303,7 +303,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 30,
+      "familiarity": 35,
       "tags": []
     },
     {
@@ -319,11 +319,11 @@
     {
       "from": "zi_die",
       "to": "yue_hua",
-      "favor": 6,
+      "favor": 8,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 30,
+      "familiarity": 35,
       "tags": []
     }
   ],
@@ -405,7 +405,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     }
   ]
