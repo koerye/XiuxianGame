@@ -1,15 +1,15 @@
 {
-  "turn": 2,
-  "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T16:12:14",
+  "turn": 3,
+  "game_month": "第1年·三月",
+  "timestamp": "2026-04-03T16:12:18",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.1567,
-      "combat_power": 565,
+      "realm_progress": 0.2418,
+      "combat_power": 579,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -56,8 +56,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.1305,
-      "combat_power": 394,
+      "realm_progress": 0.1887,
+      "combat_power": 401,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -80,8 +80,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.2201,
-      "combat_power": 405,
+      "realm_progress": 0.3099,
+      "combat_power": 415,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -104,8 +104,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.0712,
-      "combat_power": 183,
+      "realm_progress": 0.1731,
+      "combat_power": 189,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -145,7 +145,9 @@
       "reputation": 0,
       "life_goal": "收几个好徒弟，将毕生所学传承下去",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "虚步诀"
+      ],
       "status_tags": []
     },
     "xue_ying": {
@@ -153,7 +155,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 120,
+      "combat_power": 144,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 142,
@@ -169,7 +171,9 @@
       "reputation": 0,
       "life_goal": "超越一切，成为这个世界最强的人",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "火云诀"
+      ],
       "status_tags": []
     },
     "po_jun": {
@@ -200,8 +204,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.1047,
-      "combat_power": 268,
+      "realm_progress": 0.1968,
+      "combat_power": 275,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -260,7 +264,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "east_sea"
     },
     {
@@ -268,7 +272,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 6,
+      "turns_remaining": 5,
       "location": "ancient_ruins"
     }
   ]
