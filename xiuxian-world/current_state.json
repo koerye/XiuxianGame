@@ -1,7 +1,7 @@
 {
-  "turn": 14,
-  "game_month": "第2年·二月",
-  "timestamp": "2026-04-03T15:09:01",
+  "turn": 15,
+  "game_month": "第2年·三月",
+  "timestamp": "2026-04-03T15:09:05",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8,
-      "combat_power": 471,
+      "realm_progress": 0.873,
+      "combat_power": 479,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.2979,
-      "combat_power": 588,
+      "realm_progress": 0.3773,
+      "combat_power": 601,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.6099,
-      "combat_power": 212,
+      "realm_progress": 0.6996,
+      "combat_power": 217,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -195,8 +195,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2087,
-      "hp": 19,
+      "combat_power": 2318,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -318,7 +318,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     }
   ]
