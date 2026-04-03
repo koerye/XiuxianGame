@@ -1,7 +1,7 @@
 {
-  "turn": 51,
-  "game_month": "第5年·三月",
-  "timestamp": "2026-04-03T16:01:10",
+  "turn": 52,
+  "game_month": "第5年·四月",
+  "timestamp": "2026-04-03T16:01:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2648,
-      "hp": 41,
+      "combat_power": 2430,
+      "hp": 28,
       "hp_max": 100,
       "spirit_stones": 1521,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.0682,
-      "combat_power": 775,
+      "realm_progress": 0.1287,
+      "combat_power": 789,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "金丹初期",
-      "realm_progress": 0.9083,
-      "combat_power": 1272,
-      "hp": 172,
-      "hp_max": 172,
+      "realm": "金丹中期",
+      "realm_progress": 0.0,
+      "combat_power": 1400,
+      "hp": 206,
+      "hp_max": 206,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -172,7 +172,7 @@
       "combat_power": 389,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 692,
+      "spirit_stones": 713,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -325,6 +325,26 @@
       "hatred": 0,
       "familiarity": 62,
       "tags": []
+    },
+    {
+      "from": "zi_die",
+      "to": "po_jun",
+      "favor": 0,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    },
+    {
+      "from": "po_jun",
+      "to": "zi_die",
+      "favor": 2,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
     }
   ],
   "active_world_events": [
@@ -437,7 +457,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 6,
+      "turns_remaining": 5,
       "location": "ancient_ruins"
     }
   ]
