@@ -1,7 +1,7 @@
 {
-  "turn": 23,
-  "game_month": "第2年·冬月",
-  "timestamp": "2026-04-03T15:52:23",
+  "turn": 24,
+  "game_month": "第2年·腊月",
+  "timestamp": "2026-04-03T15:52:27",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1900,
-      "hp": 57,
+      "combat_power": 1728,
+      "hp": 35,
       "hp_max": 100,
       "spirit_stones": 1351,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.4636,
-      "combat_power": 615,
+      "realm_progress": 0.5343,
+      "combat_power": 626,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.6045,
-      "combat_power": 637,
+      "realm_progress": 0.7099,
+      "combat_power": 655,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -160,7 +160,8 @@
         "千年灵芝",
         "冰心诀",
         "火灵根",
-        "灵玉剑"
+        "灵玉剑",
+        "千年灵芝"
       ],
       "status_tags": []
     },
