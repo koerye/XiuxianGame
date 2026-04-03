@@ -1,23 +1,23 @@
 {
-  "turn": 9,
-  "game_month": "第1年·九月",
-  "timestamp": "2026-04-03T15:58:34",
+  "turn": 10,
+  "game_month": "第1年·十月",
+  "timestamp": "2026-04-03T15:58:37",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7185,
-      "combat_power": 656,
+      "realm_progress": 0.8,
+      "combat_power": 669,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 320,
+      "spirit_stones": 220,
       "location": "zhongzhou_city",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -26,7 +26,9 @@
       "life_goal": "在百岁之前突破元婴期",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     },
     "chi_mang": {
       "name": "赤蟒",
@@ -51,7 +53,8 @@
       "current_plan": "",
       "inventory_summary": [
         "基础剑诀",
-        "灵玉剑"
+        "灵玉剑",
+        "火灵根"
       ],
       "status_tags": []
     },
@@ -59,8 +62,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.6872,
-      "combat_power": 458,
+      "realm_progress": 0.7582,
+      "combat_power": 466,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -83,8 +86,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.837,
-      "combat_power": 475,
+      "realm_progress": 0.9258,
+      "combat_power": 485,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -107,8 +110,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.3084,
-      "combat_power": 196,
+      "realm_progress": 0.3799,
+      "combat_power": 200,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -135,7 +138,7 @@
       "combat_power": 3679,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 1235,
+      "spirit_stones": 1270,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -181,7 +184,8 @@
         "冰心草",
         "基础剑诀",
         "冰心诀",
-        "火灵根"
+        "火灵根",
+        "冰心草"
       ],
       "status_tags": []
     },
@@ -217,8 +221,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.6796,
-      "combat_power": 313,
+      "realm_progress": 0.7898,
+      "combat_power": 321,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -308,6 +312,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }

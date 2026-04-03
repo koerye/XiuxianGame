@@ -1,14 +1,14 @@
 {
   "turn": 10,
   "game_month": "第1年·十月",
-  "timestamp": "2026-04-03T15:51:35",
+  "timestamp": "2026-04-03T15:58:37",
   "world_events_triggered": [
     {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "location": "medicine_valley",
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "location": "zhongzhou_city",
       "duration": 1
     }
   ],
@@ -27,9 +27,9 @@
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得灵玉剑"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,7 +51,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -68,12 +68,23 @@
       "plan_update": null,
       "cultivator_name": "紫蝶"
     },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
+        "success": true,
+        "result": "获得35灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得26灵石"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -82,9 +93,9 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：获得上古秘法",
+        "detail": "破军在九幽渊探索：遭遇险地BOSS",
         "success": true,
-        "result": "破军在九幽渊探索：获得上古秘法"
+        "result": "破军在九幽渊探索：遭遇险地BOSS"
       },
       "free_actions": [],
       "plan_update": null,
@@ -95,7 +106,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +11%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -118,6 +129,17 @@
       "weight": 3,
       "data": {},
       "narrative_tags": []
+    },
+    {
+      "turn": 10,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
     }
   ],
   "movement": [],
@@ -130,7 +152,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 636
+      "current_stones": 743
     },
     "yue_hua": {
       "income": 0,
@@ -147,10 +169,15 @@
       "expense": 0,
       "current_stones": 950
     },
-    "xue_ying": {
-      "income": 26,
+    "cang_qiong": {
+      "income": 35,
       "expense": 0,
-      "current_stones": 223
+      "current_stones": 1270
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 198
     },
     "po_jun": {
       "income": 0,
