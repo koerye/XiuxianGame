@@ -1,15 +1,15 @@
 {
   "turn": 28,
   "game_month": "第3年·四月",
-  "timestamp": "2026-04-03T15:52:41",
+  "timestamp": "2026-04-03T15:59:44",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
-        "action": "heal",
-        "detail": "赤蟒静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "恢复15HP"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +5%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,18 +31,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
+    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一件遗落的法器",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得普通飞剑"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +62,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得36灵石"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -62,9 +73,9 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：获得上古秘法",
+        "detail": "破军在九幽渊探索：险地深处，勉强存活",
         "success": true,
-        "result": "破军在九幽渊探索：获得上古秘法"
+        "result": "破军在九幽渊探索：险地深处，勉强存活"
       },
       "free_actions": [],
       "plan_update": null,
@@ -81,7 +92,29 @@
       "turn": 28,
       "type": "adventure.treasure_found",
       "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 28,
+      "type": "adventure.treasure_found",
+      "actors": [
         "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 28,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
       ],
       "location": "wilderness",
       "weight": 3,
@@ -94,7 +127,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1364
+      "current_stones": 1266
     },
     "yue_hua": {
       "income": 0,
@@ -106,15 +139,20 @@
       "expense": 0,
       "current_stones": 180
     },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 950
+    },
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1556
+      "current_stones": 1515
     },
     "xue_ying": {
-      "income": 36,
+      "income": 0,
       "expense": 0,
-      "current_stones": 287
+      "current_stones": 305
     },
     "po_jun": {
       "income": 0,
