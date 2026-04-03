@@ -1,7 +1,7 @@
 {
-  "turn": 347,
-  "game_month": "第29年·冬月",
-  "timestamp": "2026-04-03T16:34:28",
+  "turn": 348,
+  "game_month": "第29年·腊月",
+  "timestamp": "2026-04-03T16:34:32",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 7786,
       "hp": 36,
       "hp_max": 100,
-      "spirit_stones": 5107,
+      "spirit_stones": 5126,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -143,7 +143,7 @@
       "combat_power": 37424,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 6163,
+      "spirit_stones": 6187,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -792,14 +792,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "east_sea"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "market_street"
     }
   ]
 }
