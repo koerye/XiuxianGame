@@ -1,7 +1,7 @@
 {
-  "turn": 867,
-  "game_month": "第73年·三月",
-  "timestamp": "2026-04-03T17:12:32",
+  "turn": 868,
+  "game_month": "第73年·四月",
+  "timestamp": "2026-04-03T17:12:36",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1702,8 +1702,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     }
   ]
 }
