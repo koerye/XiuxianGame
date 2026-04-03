@@ -1,7 +1,7 @@
 {
-  "turn": 92,
-  "game_month": "第8年·八月",
-  "timestamp": "2026-04-03T15:56:36",
+  "turn": 93,
+  "game_month": "第8年·九月",
+  "timestamp": "2026-04-03T15:56:40",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 4540,
-      "hp": 41,
+      "combat_power": 4195,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 2568,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.8,
-      "combat_power": 1240,
+      "realm_progress": 0.8702,
+      "combat_power": 1261,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹巅峰",
-      "realm_progress": 0.0,
-      "combat_power": 2500,
+      "realm_progress": 0.0904,
+      "combat_power": 2567,
       "hp": 296,
       "hp_max": 296,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.5473,
-      "combat_power": 12526,
+      "combat_power": 12700,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 2396,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7729,
-      "hp": 34,
+      "combat_power": 6908,
+      "hp": 18,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -392,6 +392,14 @@
       "name": "灵脉外露",
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
+      "location": "medicine_valley"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
       "location": "medicine_valley"
     }
   ]

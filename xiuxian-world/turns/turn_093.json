@@ -1,68 +1,83 @@
 {
   "turn": 93,
   "game_month": "第8年·九月",
-  "timestamp": "2026-04-03T15:13:46",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T15:56:40",
+  "world_events_triggered": [
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "location": "medicine_valley",
+      "duration": 3
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "获得115灵石"
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：在石壁上发现了残破功法刻文",
+        "detail": "苍穹子在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
         "result": "获得基础剑诀"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：击败妖兽，缴获战利品",
+        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得14灵石"
+        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇险地BOSS"
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
@@ -77,7 +92,7 @@
       "actors": [
         "cang_qiong"
       ],
-      "location": "east_sea",
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -86,9 +101,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 115,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1621
+      "current_stones": 2568
     },
     "yue_hua": {
       "income": 0,
@@ -103,12 +118,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 2330
+      "current_stones": 2396
     },
     "xue_ying": {
-      "income": 14,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1675
+      "current_stones": 922
     },
     "po_jun": {
       "income": 0,
