@@ -1,7 +1,7 @@
 {
-  "turn": 50,
-  "game_month": "第5年·二月",
-  "timestamp": "2026-04-03T16:01:07",
+  "turn": 51,
+  "game_month": "第5年·三月",
+  "timestamp": "2026-04-03T16:01:10",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.8,
-      "combat_power": 1240,
+      "realm_progress": 0.9083,
+      "combat_power": 1272,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "south_frontier",
+      "location": "nine_abyssal",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -141,7 +141,7 @@
       "combat_power": 5708,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 1945,
+      "spirit_stones": 1979,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -169,7 +169,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 373,
+      "combat_power": 389,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 692,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6310,
-      "hp": 29,
+      "combat_power": 6960,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -277,11 +277,11 @@
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
-      "yue_hua",
-      "zi_die"
+      "yue_hua"
     ],
     "nine_abyssal": [
-      "po_jun"
+      "po_jun",
+      "zi_die"
     ],
     "unnamed_cave": []
   },
@@ -431,6 +431,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "ancient_ruins"
     }
   ]
 }

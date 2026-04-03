@@ -1,8 +1,17 @@
 {
   "turn": 51,
   "game_month": "第5年·三月",
-  "timestamp": "2026-04-03T15:54:05",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T16:01:10",
+  "world_events_triggered": [
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "location": "ancient_ruins",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
@@ -15,23 +24,12 @@
       "plan_update": null,
       "cultivator_name": "赤蟒"
     },
-    "yue_hua": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +7%"
-      },
-      "free_actions": [],
-      "plan_update": null,
-      "cultivator_name": "月华"
-    },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +10%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +38,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得28灵石"
+        "result": "获得34灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +49,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一株灵药",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得火灵根"
+        "result": "获得冰心诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -105,12 +103,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1628
-    },
-    "yue_hua": {
-      "income": 0,
-      "expense": 0,
-      "current_stones": 210
+      "current_stones": 1521
     },
     "bai_he": {
       "income": 0,
@@ -118,14 +111,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 28,
+      "income": 34,
       "expense": 0,
-      "current_stones": 1733
+      "current_stones": 1979
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 692
     },
     "po_jun": {
       "income": 0,
