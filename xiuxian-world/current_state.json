@@ -1,7 +1,7 @@
 {
-  "turn": 161,
-  "game_month": "第14年·五月",
-  "timestamp": "2026-04-03T16:22:16",
+  "turn": 162,
+  "game_month": "第14年·六月",
+  "timestamp": "2026-04-03T16:22:20",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.97,
-      "combat_power": 7100,
+      "realm_progress": 0.8,
+      "combat_power": 6820,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神初期",
-      "realm_progress": 0.6738,
-      "combat_power": 10819,
+      "realm_progress": 0.7867,
+      "combat_power": 11124,
       "hp": 735,
       "hp_max": 735,
       "spirit_stones": 180,
@@ -174,7 +174,7 @@
       "combat_power": 656,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 2592,
+      "spirit_stones": 2661,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 8694,
+      "combat_power": 9279,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -496,14 +496,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "east_sea"
     },
     {
       "id": "bounty_posted",
