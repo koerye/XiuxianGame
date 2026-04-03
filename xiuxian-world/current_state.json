@@ -1,7 +1,7 @@
 {
-  "turn": 10,
-  "game_month": "第1年·十月",
-  "timestamp": "2026-04-03T15:58:37",
+  "turn": 11,
+  "game_month": "第1年·冬月",
+  "timestamp": "2026-04-03T15:58:41",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -62,8 +62,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7582,
-      "combat_power": 466,
+      "realm_progress": 0.825,
+      "combat_power": 474,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -85,11 +85,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "筑基中期",
-      "realm_progress": 0.9258,
-      "combat_power": 485,
-      "hp": 100,
-      "hp_max": 100,
+      "realm": "筑基后期",
+      "realm_progress": 0.0,
+      "combat_power": 540,
+      "hp": 120,
+      "hp_max": 120,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -115,7 +115,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "zhongzhou_city",
+      "location": "market_street",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -138,7 +138,7 @@
       "combat_power": 3679,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 1270,
+      "spirit_stones": 1292,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -194,7 +194,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 3474,
+      "combat_power": 4067,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -213,6 +213,7 @@
       "inventory_summary": [
         "灵玉剑",
         "灵玉剑",
+        "灵玉剑",
         "灵玉剑"
       ],
       "status_tags": []
@@ -220,17 +221,17 @@
     "ling_bo": {
       "name": "凌波",
       "alive": true,
-      "realm": "筑基初期",
-      "realm_progress": 0.7898,
-      "combat_power": 321,
-      "hp": 100,
-      "hp_max": 100,
-      "spirit_stones": 290,
+      "realm": "筑基中期",
+      "realm_progress": 0.0,
+      "combat_power": 380,
+      "hp": 120,
+      "hp_max": 120,
+      "spirit_stones": 190,
       "location": "tianji_mountain",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -239,7 +240,9 @@
       "life_goal": "炼出一炉能让人飞升的仙丹",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     }
   },
   "location_occupants": {
@@ -251,10 +254,11 @@
     ],
     "wanyao_cave": [],
     "zhongzhou_city": [
-      "yun_yin_zi",
+      "yun_yin_zi"
+    ],
+    "market_street": [
       "zi_die"
     ],
-    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
