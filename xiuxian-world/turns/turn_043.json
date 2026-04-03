@@ -1,30 +1,21 @@
 {
   "turn": 43,
   "game_month": "第4年·七月",
-  "timestamp": "2026-04-03T15:10:46",
+  "timestamp": "2026-04-03T15:53:36",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
-        "action": "explore",
-        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
+        "action": "heal",
+        "detail": "赤蟒静心调息，恢复15点生命",
         "success": true,
-        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
+        "result": "恢复15HP"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +6%"
-      },
-      "free_actions": [],
-      "plan_update": null
-    },
-    "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
@@ -32,37 +23,52 @@
         "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +4%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
+        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得126灵石"
+        "result": "获得13灵石"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一株灵药",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得千年灵芝"
+        "result": "获得基础剑诀"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
-        "action": "explore",
-        "detail": "破军在九幽渊探索：险地中发现极品宝物",
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
         "success": true,
-        "result": "获得灵玉剑"
+        "result": "恢复15HP"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
@@ -81,17 +87,6 @@
       "weight": 3,
       "data": {},
       "narrative_tags": []
-    },
-    {
-      "turn": 43,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "po_jun"
-      ],
-      "location": "nine_abyssal",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
     }
   ],
   "movement": [],
@@ -99,7 +94,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 942
+      "current_stones": 1485
     },
     "yue_hua": {
       "income": 0,
@@ -112,14 +107,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 126,
+      "income": 13,
       "expense": 0,
-      "current_stones": 1737
+      "current_stones": 1665
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 746
+      "current_stones": 518
     },
     "po_jun": {
       "income": 0,
