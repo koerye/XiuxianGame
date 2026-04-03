@@ -1,7 +1,7 @@
 {
-  "turn": 843,
-  "game_month": "第71年·三月",
-  "timestamp": "2026-04-03T17:10:43",
+  "turn": 844,
+  "game_month": "第71年·四月",
+  "timestamp": "2026-04-03T17:10:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 21243,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 11968,
+      "spirit_stones": 11992,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 77155,
+      "combat_power": 78208,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 12574,
@@ -1624,14 +1624,6 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "east_sea"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
     },
     {
       "id": "bounty_posted",
