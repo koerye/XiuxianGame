@@ -1,7 +1,7 @@
 {
-  "turn": 10,
-  "game_month": "第1年·十月",
-  "timestamp": "2026-04-03T15:51:35",
+  "turn": 11,
+  "game_month": "第1年·冬月",
+  "timestamp": "2026-04-03T15:51:39",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1350,
       "hp": 72,
       "hp_max": 100,
-      "spirit_stones": 636,
+      "spirit_stones": 750,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -63,8 +63,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7241,
-      "combat_power": 462,
+      "realm_progress": 0.7966,
+      "combat_power": 470,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -87,8 +87,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.994,
-      "combat_power": 493,
+      "realm_progress": 0.8,
+      "combat_power": 471,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -116,7 +116,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -140,7 +140,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
-      "location": "zhongzhou_city",
+      "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -160,7 +160,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 120,
+      "combat_power": 132,
       "hp": 67,
       "hp_max": 100,
       "spirit_stones": 223,
@@ -180,7 +180,8 @@
         "寒铁矿",
         "千年灵芝",
         "千年灵芝",
-        "火灵根"
+        "火灵根",
+        "普通飞剑"
       ],
       "status_tags": []
     },
@@ -189,8 +190,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2457,
-      "hp": 43,
+      "combat_power": 2134,
+      "hp": 22,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -214,16 +215,16 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.7345,
-      "combat_power": 317,
+      "realm_progress": 0.8,
+      "combat_power": 322,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 290,
+      "spirit_stones": 190,
       "location": "tianji_mountain",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -232,7 +233,9 @@
       "life_goal": "炼出一炉能让人飞升的仙丹",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     }
   },
   "location_occupants": {
@@ -245,14 +248,13 @@
     "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi",
-      "cang_qiong"
-    ],
-    "market_street": [
       "zi_die"
     ],
+    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
-      "xue_ying"
+      "xue_ying",
+      "cang_qiong"
     ],
     "east_sea": [
       "chi_mang"
@@ -293,6 +295,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "medicine_valley"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "ancient_ruins"
     }
   ]
 }

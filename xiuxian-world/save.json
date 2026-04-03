@@ -1,5 +1,5 @@
 {
-  "turn": 6,
+  "turn": 11,
   "cultivators": {
     "yun_yin_zi": {
       "id": "yun_yin_zi",
@@ -9,17 +9,17 @@
       "origin": "散修",
       "llm_model": "local-proxy",
       "realm": "筑基后期",
-      "realm_progress": 0.4092,
-      "combat_power": 606,
-      "spirit_stones": 320,
+      "realm_progress": 0.8,
+      "combat_power": 669,
+      "spirit_stones": 220,
       "inventory": [],
       "hp": 100,
       "hp_max": 100,
       "location": "zhongzhou_city",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": "",
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": "",
       "sect_rank": "",
       "master": "",
@@ -54,8 +54,8 @@
       "llm_model": "local-proxy",
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1000,
-      "spirit_stones": 610,
+      "combat_power": 1350,
+      "spirit_stones": 636,
       "inventory": [
         {
           "id": "ice_heart_grass",
@@ -72,6 +72,24 @@
           "grade": 2,
           "quantity": 1,
           "effect": {}
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "spirit_jade_sword",
+          "name": "灵玉剑",
+          "type": "weapon",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.35
+          }
         }
       ],
       "hp": 72,
@@ -123,6 +141,22 @@
           "summary": "在东海获得了寒铁矿",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 6,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 10,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了灵玉剑",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -140,8 +174,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "筑基中期",
-      "realm_progress": 0.3623,
-      "combat_power": 421,
+      "realm_progress": 0.7241,
+      "combat_power": 462,
       "spirit_stones": 210,
       "inventory": [],
       "hp": 100,
@@ -185,8 +219,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "筑基中期",
-      "realm_progress": 0.501,
-      "combat_power": 437,
+      "realm_progress": 0.994,
+      "combat_power": 493,
       "spirit_stones": 180,
       "inventory": [],
       "hp": 100,
@@ -229,13 +263,13 @@
       "origin": "商贾之子",
       "llm_model": "local-proxy",
       "realm": "炼气巅峰",
-      "realm_progress": 0.356,
-      "combat_power": 199,
+      "realm_progress": 0.5041,
+      "combat_power": 207,
       "spirit_stones": 950,
       "inventory": [],
       "hp": 100,
       "hp_max": 100,
-      "location": "penglai_island",
+      "location": "market_street",
       "status": "idle",
       "travel_destination": "",
       "travel_turns_left": 0,
@@ -274,13 +308,13 @@
       "origin": "书香门第",
       "llm_model": "local-proxy",
       "realm": "元婴初期",
-      "realm_progress": 0.3427,
-      "combat_power": 3529,
+      "realm_progress": 0.5473,
+      "combat_power": 3725,
       "spirit_stones": 1200,
       "inventory": [],
       "hp": 100,
       "hp_max": 100,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": "",
       "travel_turns_left": 0,
@@ -321,7 +355,7 @@
       "realm": "炼气后期",
       "realm_progress": 0.0,
       "combat_power": 120,
-      "spirit_stones": 60,
+      "spirit_stones": 223,
       "inventory": [
         {
           "id": "cold_iron_ore",
@@ -356,7 +390,7 @@
           "effect": {}
         }
       ],
-      "hp": 100,
+      "hp": 67,
       "hp_max": 100,
       "location": "wilderness",
       "status": "idle",
@@ -413,6 +447,14 @@
           "summary": "在荒野获得了火灵根",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 6,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在荒野探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
         }
       ],
       "grudges": [],
@@ -431,7 +473,7 @@
       "llm_model": "local-proxy",
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2226,
+      "combat_power": 2457,
       "spirit_stones": 400,
       "inventory": [
         {
@@ -445,7 +487,7 @@
           }
         }
       ],
-      "hp": 28,
+      "hp": 43,
       "hp_max": 100,
       "location": "nine_abyssal",
       "status": "idle",
@@ -511,13 +553,13 @@
       "origin": "天机阁学徒",
       "llm_model": "local-proxy",
       "realm": "筑基初期",
-      "realm_progress": 0.3504,
-      "combat_power": 287,
+      "realm_progress": 0.7345,
+      "combat_power": 317,
       "spirit_stones": 290,
       "inventory": [],
       "hp": 100,
       "hp_max": 100,
-      "location": "east_sea",
+      "location": "tianji_mountain",
       "status": "idle",
       "travel_destination": "",
       "travel_turns_left": 0,
@@ -623,6 +665,28 @@
         "xue_ying"
       ],
       "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 6,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 10,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
