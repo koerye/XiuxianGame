@@ -1,7 +1,7 @@
 {
-  "turn": 26,
-  "game_month": "第3年·二月",
-  "timestamp": "2026-04-03T16:13:47",
+  "turn": 27,
+  "game_month": "第3年·三月",
+  "timestamp": "2026-04-03T16:13:50",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.827,
-      "combat_power": 673,
+      "realm_progress": 0.8987,
+      "combat_power": 685,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.4123,
-      "combat_power": 854,
+      "realm_progress": 0.5122,
+      "combat_power": 876,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -282,14 +282,6 @@
   },
   "relationships": [],
   "active_world_events": [
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
-    },
     {
       "id": "legendary_treasure",
       "type": "legendary_treasure",
