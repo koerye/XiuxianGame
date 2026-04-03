@@ -1,7 +1,7 @@
 {
-  "turn": 26,
-  "game_month": "第3年·二月",
-  "timestamp": "2026-04-03T15:09:44",
+  "turn": 27,
+  "game_month": "第3年·三月",
+  "timestamp": "2026-04-03T15:09:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1550,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 743,
+      "spirit_stones": 783,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7021,
-      "combat_power": 653,
+      "realm_progress": 0.7613,
+      "combat_power": 663,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.1945,
-      "combat_power": 804,
+      "realm_progress": 0.2863,
+      "combat_power": 825,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 5281,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 1392,
+      "spirit_stones": 1412,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 207,
       "hp": 35,
       "hp_max": 100,
-      "spirit_stones": 574,
+      "spirit_stones": 609,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2364,
-      "hp": 37,
+      "combat_power": 1995,
+      "hp": 13,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -363,6 +363,22 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }
