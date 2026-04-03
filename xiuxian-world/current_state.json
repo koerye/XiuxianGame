@@ -1,7 +1,7 @@
 {
-  "turn": 264,
-  "game_month": "第22年·腊月",
-  "timestamp": "2026-04-03T16:28:59",
+  "turn": 265,
+  "game_month": "第23年·正月",
+  "timestamp": "2026-04-03T16:29:03",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.9526,
-      "combat_power": 23144,
+      "realm_progress": 0.8,
+      "combat_power": 22320,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 210,
@@ -650,14 +650,6 @@
       "location": "east_sea"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "spirit_vein_exposed",
       "type": "spirit_vein_exposed",
       "name": "灵脉外露",
@@ -670,7 +662,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {
@@ -678,7 +670,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "wilderness"
     }
   ]
