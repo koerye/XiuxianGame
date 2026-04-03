@@ -1,7 +1,7 @@
 {
-  "turn": 332,
-  "game_month": "第28年·八月",
-  "timestamp": "2026-04-03T16:33:29",
+  "turn": 333,
+  "game_month": "第28年·九月",
+  "timestamp": "2026-04-03T16:33:33",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 38473,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 5796,
+      "spirit_stones": 5903,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1266,
+      "combat_power": 1288,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 5207,
@@ -760,6 +760,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "south_frontier"
     }
   ]
 }
