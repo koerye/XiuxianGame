@@ -1,20 +1,32 @@
 {
   "turn": 95,
   "game_month": "第8年·冬月",
-  "timestamp": "2026-04-03T15:13:53",
+  "timestamp": "2026-04-03T15:56:47",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
+        "result": "获得冰心草"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +5%；突破至金丹中期"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
@@ -22,27 +34,19 @@
         "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
-    },
-    "bai_he": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +11%"
-      },
-      "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
-        "action": "explore",
-        "detail": "苍穹子在东海探索：发现了一株灵药",
+        "action": "heal",
+        "detail": "苍穹子静心调息，恢复15点生命",
         "success": true,
-        "result": "获得火灵根"
+        "result": "恢复15HP"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
@@ -52,22 +56,31 @@
         "result": "雪影在荒野探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇险地BOSS"
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [],
+  "breakthroughs": [
+    {
+      "cultivator": "yue_hua",
+      "name": "",
+      "new_realm": "金丹中期",
+      "old_realm": "金丹初期"
+    }
+  ],
   "deaths": [],
   "messages_sent": [],
   "events": [
@@ -75,10 +88,21 @@
       "turn": 95,
       "type": "adventure.treasure_found",
       "actors": [
-        "cang_qiong"
+        "chi_mang"
       ],
       "location": "east_sea",
       "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 95,
+      "type": "growth.breakthrough",
+      "actors": [
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 4,
       "data": {},
       "narrative_tags": []
     }
@@ -88,7 +112,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1621
+      "current_stones": 2568
     },
     "yue_hua": {
       "income": 0,
@@ -103,12 +127,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 2330
+      "current_stones": 2396
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1675
+      "current_stones": 922
     },
     "po_jun": {
       "income": 0,
