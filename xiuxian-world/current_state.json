@@ -1,7 +1,7 @@
 {
-  "turn": 895,
-  "game_month": "第75年·七月",
-  "timestamp": "2026-04-03T17:14:39",
+  "turn": 896,
+  "game_month": "第75年·八月",
+  "timestamp": "2026-04-03T17:14:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 77580,
       "hp": 30,
       "hp_max": 100,
-      "spirit_stones": 13492,
+      "spirit_stones": 13598,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 3094,
-      "hp": 44,
+      "combat_power": 2921,
+      "hp": 35,
       "hp_max": 100,
       "spirit_stones": 12076,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 54565,
-      "hp": 26,
+      "combat_power": 60302,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1760,6 +1760,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
