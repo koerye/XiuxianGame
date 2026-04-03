@@ -1,7 +1,7 @@
 {
-  "turn": 52,
-  "game_month": "第5年·四月",
-  "timestamp": "2026-04-03T16:01:14",
+  "turn": 53,
+  "game_month": "第5年·五月",
+  "timestamp": "2026-04-03T16:01:18",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2430,
-      "hp": 28,
+      "combat_power": 2682,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 1521,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.1287,
-      "combat_power": 789,
+      "realm_progress": 0.2143,
+      "combat_power": 808,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.0,
-      "combat_power": 1400,
+      "realm_progress": 0.1095,
+      "combat_power": 1445,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -138,7 +138,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 5708,
+      "combat_power": 6279,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 1979,
@@ -169,7 +169,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 389,
+      "combat_power": 400,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 713,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6960,
-      "hp": 44,
+      "combat_power": 6180,
+      "hp": 26,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -333,17 +333,17 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 5,
+      "familiarity": 10,
       "tags": []
     },
     {
       "from": "po_jun",
       "to": "zi_die",
-      "favor": 2,
+      "favor": 4,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 5,
+      "familiarity": 10,
       "tags": []
     }
   ],
@@ -457,8 +457,24 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
+      "turns_remaining": 4,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 3,
+      "location": "sword_tomb"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     }
   ]
 }
