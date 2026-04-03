@@ -1,7 +1,7 @@
 {
-  "turn": 498,
-  "game_month": "第42年·六月",
-  "timestamp": "2026-04-03T16:44:39",
+  "turn": 499,
+  "game_month": "第42年·七月",
+  "timestamp": "2026-04-03T16:44:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1042,12 +1042,12 @@
       "location": "wilderness"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
