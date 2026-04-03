@@ -1,7 +1,7 @@
 {
-  "turn": 22,
-  "game_month": "第2年·十月",
-  "timestamp": "2026-04-03T15:09:30",
+  "turn": 23,
+  "game_month": "第2年·冬月",
+  "timestamp": "2026-04-03T15:09:33",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.3941,
-      "combat_power": 603,
+      "realm_progress": 0.4731,
+      "combat_power": 616,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.8,
-      "combat_power": 669,
+      "realm_progress": 0.8973,
+      "combat_power": 685,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.7612,
-      "combat_power": 221,
+      "realm_progress": 0.8177,
+      "combat_power": 224,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -138,7 +138,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.4917,
-      "combat_power": 3231,
+      "combat_power": 4362,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 1392,
@@ -158,7 +158,8 @@
         "冰心草",
         "千年灵芝",
         "寒铁矿",
-        "虚步诀"
+        "虚步诀",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -170,7 +171,7 @@
       "combat_power": 185,
       "hp": 52,
       "hp_max": 100,
-      "spirit_stones": 551,
+      "spirit_stones": 574,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -359,14 +360,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "zhongzhou_city"
     }
   ]
 }
