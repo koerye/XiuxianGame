@@ -1,7 +1,7 @@
 {
-  "turn": 14,
-  "game_month": "第2年·二月",
-  "timestamp": "2026-04-03T15:58:52",
+  "turn": 15,
+  "game_month": "第2年·三月",
+  "timestamp": "2026-04-03T15:58:56",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -55,7 +55,8 @@
         "基础剑诀",
         "灵玉剑",
         "火灵根",
-        "冰心诀"
+        "冰心诀",
+        "千年灵芝"
       ],
       "status_tags": []
     },
@@ -63,8 +64,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7,
-      "combat_power": 432,
+      "realm_progress": 0.7816,
+      "combat_power": 440,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -87,8 +88,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.305,
-      "combat_power": 589,
+      "realm_progress": 0.4085,
+      "combat_power": 606,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -157,7 +158,8 @@
         "冰心草",
         "冰心草",
         "千年灵芝",
-        "冰心诀"
+        "冰心诀",
+        "冰心草"
       ],
       "status_tags": []
     },
@@ -197,8 +199,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4341,
-      "hp": 42,
+      "combat_power": 3684,
+      "hp": 18,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -284,11 +286,11 @@
     {
       "from": "yun_yin_zi",
       "to": "zi_die",
-      "favor": 4,
+      "favor": 6,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 14,
+      "familiarity": 19,
       "tags": []
     },
     {
@@ -298,7 +300,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 14,
+      "familiarity": 19,
       "tags": []
     }
   ],

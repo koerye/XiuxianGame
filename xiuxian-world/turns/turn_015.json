@@ -1,24 +1,15 @@
 {
   "turn": 15,
   "game_month": "第2年·三月",
-  "timestamp": "2026-04-03T15:51:54",
-  "world_events_triggered": [
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "location": "sword_tomb",
-      "duration": 1
-    }
-  ],
+  "timestamp": "2026-04-03T15:58:56",
+  "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：在石壁上发现了残破功法刻文",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得火云诀"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
       "plan_update": null,
@@ -29,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +7%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,29 +31,18 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +10%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
-    "zi_die": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +6%"
-      },
-      "free_actions": [],
-      "plan_update": null,
-      "cultivator_name": "紫蝶"
-    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：找到一处藏宝洞穴",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得115灵石"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -71,9 +51,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一株灵药",
+        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得寒铁矿"
+        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
       "plan_update": null,
@@ -91,12 +71,38 @@
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_015_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yun_yin_zi",
+      "target_name": "云隐子",
+      "location": "中州城",
+      "type": "greet",
+      "initiator_message": "（紫蝶向云隐子打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "紫蝶向云隐子主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
   "events": [
+    {
+      "turn": 15,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
     {
       "turn": 15,
       "type": "adventure.treasure_found",
@@ -112,9 +118,9 @@
       "turn": 15,
       "type": "adventure.treasure_found",
       "actors": [
-        "xue_ying"
+        "cang_qiong"
       ],
-      "location": "wilderness",
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -125,7 +131,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 920
+      "current_stones": 837
     },
     "yue_hua": {
       "income": 0,
@@ -137,15 +143,10 @@
       "expense": 0,
       "current_stones": 180
     },
-    "zi_die": {
+    "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 950
-    },
-    "cang_qiong": {
-      "income": 115,
-      "expense": 0,
-      "current_stones": 1341
+      "current_stones": 1415
     },
     "xue_ying": {
       "income": 0,
