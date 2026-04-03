@@ -1,7 +1,7 @@
 {
-  "turn": 847,
-  "game_month": "第71年·七月",
-  "timestamp": "2026-04-03T17:11:01",
+  "turn": 848,
+  "game_month": "第71年·八月",
+  "timestamp": "2026-04-03T17:11:06",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 19974,
-      "hp": 25,
+      "combat_power": 22089,
+      "hp": 40,
       "hp_max": 100,
       "spirit_stones": 11992,
       "location": "east_sea",
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 73216,
-      "hp": 30,
+      "combat_power": 70220,
+      "hp": 24,
       "hp_max": 100,
       "spirit_stones": 12603,
       "location": "east_sea",
@@ -1632,6 +1632,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     },
     {
       "id": "bounty_posted",
