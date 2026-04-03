@@ -68,3 +68,4 @@
 {"turn": 48, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 49, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 49, "type": "growth.breakthrough", "actors": ["bai_he"], "location": "qingyun_peak", "weight": 4, "data": {}, "narrative_tags": []}
+{"turn": 50, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
