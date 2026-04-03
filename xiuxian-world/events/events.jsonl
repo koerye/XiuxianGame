@@ -202,3 +202,7 @@
 {"turn": 34, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 34, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 36, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 37, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 37, "type": "growth.madness", "actors": ["yue_hua"], "location": "south_frontier", "weight": 4, "data": {}, "narrative_tags": []}
+{"turn": 37, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 37, "type": "adventure.treasure_found", "actors": ["po_jun"], "location": "nine_abyssal", "weight": 3, "data": {}, "narrative_tags": []}
