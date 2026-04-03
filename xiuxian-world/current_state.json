@@ -1,15 +1,15 @@
 {
-  "turn": 3,
-  "game_month": "第1年·三月",
-  "timestamp": "2026-04-03T15:51:06",
+  "turn": 4,
+  "game_month": "第1年·四月",
+  "timestamp": "2026-04-03T15:51:10",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.2485,
-      "combat_power": 580,
+      "realm_progress": 0.3312,
+      "combat_power": 593,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -50,7 +50,8 @@
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
       "inventory_summary": [
-        "冰心草"
+        "冰心草",
+        "寒铁矿"
       ],
       "status_tags": []
     },
@@ -58,8 +59,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.2252,
-      "combat_power": 405,
+      "realm_progress": 0.2866,
+      "combat_power": 412,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -82,8 +83,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.3185,
-      "combat_power": 416,
+      "realm_progress": 0.3965,
+      "combat_power": 425,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -111,7 +112,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "penglai_island",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -130,8 +131,8 @@
       "name": "苍穹子",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.2057,
-      "combat_power": 3397,
+      "realm_progress": 0.2809,
+      "combat_power": 3469,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
@@ -173,6 +174,7 @@
       "current_plan": "",
       "inventory_summary": [
         "寒铁矿",
+        "千年灵芝",
         "千年灵芝"
       ],
       "status_tags": []
@@ -182,8 +184,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2272,
-      "hp": 31,
+      "combat_power": 1995,
+      "hp": 13,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -212,7 +214,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
-      "location": "tianji_mountain",
+      "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -232,15 +234,12 @@
     "qingyun_peak": [
       "bai_he"
     ],
-    "tianji_mountain": [
-      "ling_bo"
-    ],
+    "tianji_mountain": [],
     "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
     "market_street": [
-      "zi_die",
       "cang_qiong"
     ],
     "medicine_valley": [],
@@ -248,9 +247,12 @@
       "xue_ying"
     ],
     "east_sea": [
-      "chi_mang"
+      "chi_mang",
+      "ling_bo"
     ],
-    "penglai_island": [],
+    "penglai_island": [
+      "zi_die"
+    ],
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
@@ -264,19 +266,11 @@
   "relationships": [],
   "active_world_events": [
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "spirit_rain",
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "zhongzhou_city"
     },
     {
@@ -286,6 +280,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "sword_tomb"
     }
   ]
 }
