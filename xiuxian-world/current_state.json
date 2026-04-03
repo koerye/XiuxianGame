@@ -1,15 +1,15 @@
 {
-  "turn": 6,
-  "game_month": "第1年·六月",
-  "timestamp": "2026-04-03T16:12:30",
+  "turn": 7,
+  "game_month": "第1年·七月",
+  "timestamp": "2026-04-03T16:12:35",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.4662,
-      "combat_power": 615,
+      "realm_progress": 0.5611,
+      "combat_power": 630,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -50,7 +50,8 @@
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
       "inventory_summary": [
-        "冰心草"
+        "冰心草",
+        "寒铁矿"
       ],
       "status_tags": []
     },
@@ -58,8 +59,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.421,
-      "combat_power": 427,
+      "realm_progress": 0.5011,
+      "combat_power": 437,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -82,8 +83,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.5817,
-      "combat_power": 446,
+      "realm_progress": 0.6624,
+      "combat_power": 455,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -106,8 +107,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.3552,
-      "combat_power": 199,
+      "realm_progress": 0.4304,
+      "combat_power": 203,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -159,7 +160,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 168,
+      "combat_power": 210,
       "hp": 69,
       "hp_max": 100,
       "spirit_stones": 142,
@@ -177,7 +178,8 @@
       "current_plan": "",
       "inventory_summary": [
         "火云诀",
-        "寒铁剑"
+        "寒铁剑",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -186,8 +188,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1637,
-      "hp": 27,
+      "combat_power": 1808,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -209,8 +211,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.36,
-      "combat_power": 288,
+      "realm_progress": 0.4735,
+      "combat_power": 296,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -268,7 +270,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     }
   ]
