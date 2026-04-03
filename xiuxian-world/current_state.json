@@ -1,7 +1,7 @@
 {
-  "turn": 597,
-  "game_month": "第50年·九月",
-  "timestamp": "2026-04-03T16:52:19",
+  "turn": 598,
+  "game_month": "第50年·十月",
+  "timestamp": "2026-04-03T16:52:23",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1246,7 +1246,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "east_sea"
     }
   ]
