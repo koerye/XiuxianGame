@@ -1,7 +1,7 @@
 {
-  "turn": 810,
-  "game_month": "第68年·六月",
-  "timestamp": "2026-04-03T17:08:15",
+  "turn": 811,
+  "game_month": "第68年·七月",
+  "timestamp": "2026-04-03T17:08:19",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 21786,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 11391,
+      "spirit_stones": 11415,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 70681,
+      "combat_power": 71244,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 12428,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 2706,
+      "combat_power": 2747,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 10787,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 51868,
-      "hp": 33,
+      "combat_power": 44244,
+      "hp": 11,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1488,14 +1488,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "market_street"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
     },
     {
       "id": "legendary_treasure",
