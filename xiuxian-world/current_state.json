@@ -1,7 +1,7 @@
 {
-  "turn": 69,
-  "game_month": "第6年·九月",
-  "timestamp": "2026-04-03T15:12:20",
+  "turn": 70,
+  "game_month": "第6年·十月",
+  "timestamp": "2026-04-03T15:12:23",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.1542,
-      "combat_power": 1464,
+      "realm_progress": 0.2142,
+      "combat_power": 1489,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.2637,
-      "combat_power": 2050,
+      "realm_progress": 0.3714,
+      "combat_power": 2111,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 350,
+      "combat_power": 390,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 1347,
@@ -400,14 +400,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "medicine_valley"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
     },
     {
       "id": "spirit_vein_exposed",
