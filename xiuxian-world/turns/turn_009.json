@@ -1,7 +1,7 @@
 {
   "turn": 9,
   "game_month": "第1年·九月",
-  "timestamp": "2026-04-03T15:51:32",
+  "timestamp": "2026-04-03T15:58:34",
   "world_events_triggered": [],
   "actions": {
     "yun_yin_zi": {
@@ -9,7 +9,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -18,9 +18,9 @@
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +7%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -42,29 +42,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +11%"
+        "result": "修炼进度 +10%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
-    "zi_die": {
+    "cang_qiong": {
       "main_action": {
-        "action": "cultivate",
-        "detail": "",
+        "action": "explore",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "修炼进度 +7%"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
-      "cultivator_name": "紫蝶"
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：找到一处藏宝洞穴",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得123灵石"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -73,21 +73,92 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：获得上古秘法",
+        "detail": "破军在九幽渊探索：险地中发现极品宝物",
         "success": true,
-        "result": "破军在九幽渊探索：获得上古秘法"
+        "result": "获得灵玉剑"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "破军"
+    },
+    "ling_bo": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +10%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "凌波"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_009_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yun_yin_zi",
+      "target_name": "云隐子",
+      "location": "中州城",
+      "type": "scheme",
+      "initiator_message": "（紫蝶向云隐子打招呼）",
+      "target_response": "幸会幸会。",
+      "outcome": "紫蝶向云隐子挑拨离间",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 9,
+      "type": "social.scheme",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 9,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 9,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 9,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "yun_yin_zi": {
@@ -98,7 +169,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 636
+      "current_stones": 743
     },
     "yue_hua": {
       "income": 0,
@@ -110,20 +181,25 @@
       "expense": 0,
       "current_stones": 180
     },
-    "zi_die": {
+    "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 950
+      "current_stones": 1235
     },
     "xue_ying": {
-      "income": 123,
+      "income": 0,
       "expense": 0,
-      "current_stones": 197
+      "current_stones": 198
     },
     "po_jun": {
       "income": 0,
       "expense": 0,
       "current_stones": 400
+    },
+    "ling_bo": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 290
     }
   }
 }

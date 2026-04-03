@@ -1,15 +1,15 @@
 {
-  "turn": 8,
-  "game_month": "第1年·八月",
-  "timestamp": "2026-04-03T15:58:29",
+  "turn": 9,
+  "game_month": "第1年·九月",
+  "timestamp": "2026-04-03T15:58:34",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.6452,
-      "combat_power": 644,
+      "realm_progress": 0.7185,
+      "combat_power": 656,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -33,8 +33,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1400,
-      "hp": 61,
+      "combat_power": 1324,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 743,
       "location": "east_sea",
@@ -59,8 +59,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.6017,
-      "combat_power": 448,
+      "realm_progress": 0.6872,
+      "combat_power": 458,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -83,8 +83,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7356,
-      "combat_power": 463,
+      "realm_progress": 0.837,
+      "combat_power": 475,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -150,6 +150,7 @@
       "current_plan": "",
       "inventory_summary": [
         "冰心诀",
+        "冰心草",
         "冰心草"
       ],
       "status_tags": []
@@ -179,7 +180,8 @@
         "冰心诀",
         "冰心草",
         "基础剑诀",
-        "冰心诀"
+        "冰心诀",
+        "火灵根"
       ],
       "status_tags": []
     },
@@ -188,7 +190,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2881,
+      "combat_power": 3474,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -206,6 +208,7 @@
       "current_plan": "",
       "inventory_summary": [
         "灵玉剑",
+        "灵玉剑",
         "灵玉剑"
       ],
       "status_tags": []
@@ -214,8 +217,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.5711,
-      "combat_power": 304,
+      "realm_progress": 0.6796,
+      "combat_power": 313,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -275,7 +278,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 12,
+      "familiarity": 14,
       "tags": []
     },
     {
@@ -285,7 +288,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 12,
+      "familiarity": 14,
       "tags": []
     }
   ],
