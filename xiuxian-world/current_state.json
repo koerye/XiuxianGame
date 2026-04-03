@@ -1,7 +1,7 @@
 {
-  "turn": 15,
-  "game_month": "第2年·三月",
-  "timestamp": "2026-04-03T15:51:54",
+  "turn": 16,
+  "game_month": "第2年·四月",
+  "timestamp": "2026-04-03T15:51:57",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1550,
       "hp": 72,
       "hp_max": 100,
-      "spirit_stones": 920,
+      "spirit_stones": 1064,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8783,
-      "combat_power": 480,
+      "realm_progress": 0.9497,
+      "combat_power": 488,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8828,
-      "combat_power": 480,
+      "realm_progress": 0.9857,
+      "combat_power": 492,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.7092,
-      "combat_power": 218,
+      "realm_progress": 0.7915,
+      "combat_power": 222,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -195,8 +195,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1964,
-      "hp": 11,
+      "combat_power": 2195,
+      "hp": 26,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -307,7 +307,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {
@@ -315,7 +315,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "sword_tomb"
     },
     {
@@ -323,8 +323,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "sword_tomb"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
