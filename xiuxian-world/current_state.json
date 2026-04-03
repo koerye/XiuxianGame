@@ -1,7 +1,7 @@
 {
-  "turn": 21,
-  "game_month": "第2年·九月",
-  "timestamp": "2026-04-03T15:09:26",
+  "turn": 22,
+  "game_month": "第2年·十月",
+  "timestamp": "2026-04-03T15:09:30",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.317,
-      "combat_power": 591,
+      "realm_progress": 0.3941,
+      "combat_power": 603,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.9428,
-      "combat_power": 692,
+      "realm_progress": 0.8,
+      "combat_power": 669,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -157,7 +157,8 @@
       "inventory_summary": [
         "冰心草",
         "千年灵芝",
-        "寒铁矿"
+        "寒铁矿",
+        "虚步诀"
       ],
       "status_tags": []
     },
@@ -296,6 +297,26 @@
       "hatred": 0,
       "familiarity": 19,
       "tags": []
+    },
+    {
+      "from": "zi_die",
+      "to": "xue_ying",
+      "favor": 0,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    },
+    {
+      "from": "xue_ying",
+      "to": "zi_die",
+      "favor": 2,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
     }
   ],
   "active_world_events": [
@@ -344,7 +365,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "zhongzhou_city"
     }
   ]
