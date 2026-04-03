@@ -1,5 +1,5 @@
 {
-  "turn": 521,
+  "turn": 526,
   "cultivators": {
     "yun_yin_zi": {
       "id": "yun_yin_zi",
@@ -55,7 +55,7 @@
       "realm": "金丹初期",
       "realm_progress": 0.0,
       "combat_power": 13220,
-      "spirit_stones": 7316,
+      "spirit_stones": 7347,
       "inventory": [
         {
           "id": "ice_heart_grass",
@@ -1908,6 +1908,14 @@
           "grade": 2,
           "quantity": 1,
           "effect": {}
+        },
+        {
+          "id": "fire_spirit_root",
+          "name": "火灵根",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
         }
       ],
       "hp": 43,
@@ -1936,14 +1944,6 @@
       "relationships": {},
       "reputation": 0,
       "memory": [
-        {
-          "turn": 470,
-          "type": "discovery",
-          "importance": 2,
-          "summary": "在东海获得了虚步诀",
-          "involves": [],
-          "emotional_tag": "joy"
-        },
         {
           "turn": 471,
           "type": "discovery",
@@ -2173,6 +2173,14 @@
           "type": "discovery",
           "importance": 2,
           "summary": "在东海获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 524,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了火灵根",
           "involves": [],
           "emotional_tag": "joy"
         }
@@ -2601,8 +2609,8 @@
       "llm_model": "local-proxy",
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 49048,
-      "spirit_stones": 8936,
+      "combat_power": 49474,
+      "spirit_stones": 8990,
       "inventory": [
         {
           "id": "void_step_art",
@@ -4649,6 +4657,17 @@
           "grade": 2,
           "quantity": 1,
           "effect": {}
+        },
+        {
+          "id": "ice_heart_art",
+          "name": "冰心诀",
+          "type": "manual",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.15,
+            "cultivation_bonus": 0.1
+          }
         }
       ],
       "hp": 31,
@@ -4677,14 +4696,6 @@
       "relationships": {},
       "reputation": 0,
       "memory": [
-        {
-          "turn": 447,
-          "type": "combat",
-          "importance": 2,
-          "summary": "在东海探索时遭遇危险，受伤",
-          "involves": [],
-          "emotional_tag": "fear"
-        },
         {
           "turn": 451,
           "type": "discovery",
@@ -4916,6 +4927,14 @@
           "summary": "在东海获得了火灵根",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 522,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了冰心诀",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -4934,7 +4953,7 @@
       "llm_model": "local-proxy",
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1674,
+      "combat_power": 1589,
       "spirit_stones": 7338,
       "inventory": [
         {
@@ -6704,9 +6723,25 @@
           "effect": {
             "combat_bonus": 0.1
           }
+        },
+        {
+          "id": "ice_heart_grass",
+          "name": "冰心草",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "fire_spirit_root",
+          "name": "火灵根",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
         }
       ],
-      "hp": 41,
+      "hp": 33,
       "hp_max": 100,
       "location": "wilderness",
       "status": "idle",
@@ -6732,30 +6767,6 @@
       "relationships": {},
       "reputation": 0,
       "memory": [
-        {
-          "turn": 451,
-          "type": "discovery",
-          "importance": 2,
-          "summary": "在荒野获得了基础剑诀",
-          "involves": [],
-          "emotional_tag": "joy"
-        },
-        {
-          "turn": 452,
-          "type": "discovery",
-          "importance": 2,
-          "summary": "在荒野获得了寒铁矿",
-          "involves": [],
-          "emotional_tag": "joy"
-        },
-        {
-          "turn": 453,
-          "type": "discovery",
-          "importance": 2,
-          "summary": "在荒野获得了灵玉剑",
-          "involves": [],
-          "emotional_tag": "joy"
-        },
         {
           "turn": 454,
           "type": "discovery",
@@ -6971,6 +6982,30 @@
           "summary": "在荒野获得了普通飞剑",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 522,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在荒野探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 523,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了冰心草",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 525,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在荒野获得了火灵根",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -6989,7 +7024,7 @@
       "llm_model": "local-proxy",
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 35314,
+      "combat_power": 29189,
       "spirit_stones": 400,
       "inventory": [
         {
@@ -7533,7 +7568,7 @@
           }
         }
       ],
-      "hp": 39,
+      "hp": 12,
       "hp_max": 100,
       "location": "nine_abyssal",
       "status": "idle",
@@ -7559,30 +7594,6 @@
       "relationships": {},
       "reputation": 0,
       "memory": [
-        {
-          "turn": 421,
-          "type": "combat",
-          "importance": 2,
-          "summary": "在九幽渊探索时遭遇危险，受伤",
-          "involves": [],
-          "emotional_tag": "fear"
-        },
-        {
-          "turn": 424,
-          "type": "discovery",
-          "importance": 2,
-          "summary": "在九幽渊获得了灵玉剑",
-          "involves": [],
-          "emotional_tag": "joy"
-        },
-        {
-          "turn": 425,
-          "type": "combat",
-          "importance": 2,
-          "summary": "在九幽渊探索时遭遇危险，受伤",
-          "involves": [],
-          "emotional_tag": "fear"
-        },
         {
           "turn": 427,
           "type": "combat",
@@ -7798,6 +7809,30 @@
           "summary": "在九幽渊探索时遭遇危险，受伤",
           "involves": [],
           "emotional_tag": "fear"
+        },
+        {
+          "turn": 521,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 523,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 525,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
         }
       ],
       "grudges": [],
@@ -7854,50 +7889,6 @@
     }
   },
   "event_fragments": [
-    {
-      "turn": 444,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "cang_qiong"
-      ],
-      "location": "east_sea",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 445,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "chi_mang"
-      ],
-      "location": "east_sea",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 447,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "chi_mang"
-      ],
-      "location": "east_sea",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 447,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "xue_ying"
-      ],
-      "location": "wilderness",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
     {
       "turn": 450,
       "type": "adventure.treasure_found",
@@ -8950,6 +8941,50 @@
         "cang_qiong"
       ],
       "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 522,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 523,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 524,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 525,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
