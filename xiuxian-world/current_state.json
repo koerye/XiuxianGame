@@ -1,7 +1,7 @@
 {
-  "turn": 360,
-  "game_month": "第30年·腊月",
-  "timestamp": "2026-04-03T16:35:20",
+  "turn": 361,
+  "game_month": "第31年·正月",
+  "timestamp": "2026-04-03T16:35:24",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 40307,
+      "combat_power": 40908,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 6413,
@@ -174,7 +174,7 @@
       "combat_power": 1353,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 5536,
+      "spirit_stones": 5572,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 24754,
-      "hp": 43,
+      "combat_power": 20723,
+      "hp": 17,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -810,14 +810,6 @@
       "location": "south_frontier"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "legendary_treasure",
       "type": "legendary_treasure",
       "name": "传说宝物现世",
@@ -832,6 +824,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
