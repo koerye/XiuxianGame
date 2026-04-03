@@ -1,7 +1,7 @@
 {
-  "turn": 218,
-  "game_month": "第19年·二月",
-  "timestamp": "2026-04-03T16:26:00",
+  "turn": 219,
+  "game_month": "第19年·三月",
+  "timestamp": "2026-04-03T16:26:04",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神中期",
-      "realm_progress": 0.2142,
-      "combat_power": 11706,
+      "realm_progress": 0.2766,
+      "combat_power": 11912,
       "hp": 882,
       "hp_max": 882,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.909,
-      "combat_power": 22908,
+      "realm_progress": 0.993,
+      "combat_power": 23362,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 180,
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 29969,
-      "hp": 41,
+      "combat_power": 27878,
+      "hp": 30,
       "hp_max": 100,
       "spirit_stones": 4070,
       "location": "east_sea",
@@ -174,7 +174,7 @@
       "combat_power": 873,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 3431,
+      "spirit_stones": 3496,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -576,6 +576,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     },
     {
       "id": "bounty_posted",
