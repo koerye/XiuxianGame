@@ -1,15 +1,15 @@
 {
   "turn": 63,
   "game_month": "第6年·三月",
-  "timestamp": "2026-04-03T15:54:50",
+  "timestamp": "2026-04-03T16:01:55",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
+        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得灵玉剑"
+        "result": "获得132灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +11%"
+        "result": "修炼进度 +0%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：在石壁上发现了残破功法刻文",
+        "detail": "苍穹子在东海探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得火云诀"
+        "result": "获得基础剑诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -53,7 +53,7 @@
         "action": "explore",
         "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得火灵根"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
       "plan_update": null,
@@ -81,20 +81,9 @@
       "turn": 63,
       "type": "adventure.treasure_found",
       "actors": [
-        "chi_mang"
-      ],
-      "location": "east_sea",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 63,
-      "type": "adventure.treasure_found",
-      "actors": [
         "cang_qiong"
       ],
-      "location": "wilderness",
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -125,9 +114,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 132,
       "expense": 0,
-      "current_stones": 1756
+      "current_stones": 1676
     },
     "yue_hua": {
       "income": 0,
@@ -142,12 +131,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1970
+      "current_stones": 2179
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 843
     },
     "po_jun": {
       "income": 0,
