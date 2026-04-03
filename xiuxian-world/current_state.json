@@ -1,7 +1,7 @@
 {
-  "turn": 478,
-  "game_month": "第40年·十月",
-  "timestamp": "2026-04-03T16:43:16",
+  "turn": 479,
+  "game_month": "第40年·冬月",
+  "timestamp": "2026-04-03T16:43:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 49481,
       "hp": 40,
       "hp_max": 100,
-      "spirit_stones": 8122,
+      "spirit_stones": 8154,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -1016,6 +1016,14 @@
       "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     },
     {
       "id": "demon_tide",
