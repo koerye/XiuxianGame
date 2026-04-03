@@ -1,15 +1,15 @@
 {
-  "turn": 8,
-  "game_month": "第1年·八月",
-  "timestamp": "2026-04-03T16:12:38",
+  "turn": 9,
+  "game_month": "第1年·九月",
+  "timestamp": "2026-04-03T16:12:42",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.6308,
-      "combat_power": 642,
+      "realm_progress": 0.7011,
+      "combat_power": 653,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -52,7 +52,8 @@
       "inventory_summary": [
         "冰心草",
         "寒铁矿",
-        "冰心草"
+        "冰心草",
+        "千年灵芝"
       ],
       "status_tags": []
     },
@@ -60,8 +61,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.5614,
-      "combat_power": 443,
+      "realm_progress": 0.6214,
+      "combat_power": 450,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -84,8 +85,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7717,
-      "combat_power": 467,
+      "realm_progress": 0.8704,
+      "combat_power": 479,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -113,7 +114,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "east_sea",
+      "location": "penglai_island",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -133,7 +134,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 4160,
+      "combat_power": 5280,
       "hp": 53,
       "hp_max": 100,
       "spirit_stones": 1200,
@@ -153,7 +154,8 @@
         "虚步诀",
         "火云诀",
         "寒铁矿",
-        "普通飞剑"
+        "普通飞剑",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -165,7 +167,7 @@
       "combat_power": 210,
       "hp": 69,
       "hp_max": 100,
-      "spirit_stones": 244,
+      "spirit_stones": 284,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -213,8 +215,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.4735,
-      "combat_power": 296,
+      "realm_progress": 0.5661,
+      "combat_power": 304,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -252,10 +254,11 @@
     ],
     "east_sea": [
       "chi_mang",
-      "cang_qiong",
+      "cang_qiong"
+    ],
+    "penglai_island": [
       "zi_die"
     ],
-    "penglai_island": [],
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
