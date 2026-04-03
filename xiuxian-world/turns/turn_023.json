@@ -1,32 +1,24 @@
 {
   "turn": 23,
   "game_month": "第2年·冬月",
-  "timestamp": "2026-04-03T15:52:23",
+  "timestamp": "2026-04-03T15:59:25",
   "world_events_triggered": [
     {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "location": "south_frontier",
-      "duration": 1
-    },
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "location": "east_sea",
+      "location": "medicine_valley",
       "duration": 1
     }
   ],
   "actions": {
     "chi_mang": {
       "main_action": {
-        "action": "explore",
-        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
+        "action": "heal",
+        "detail": "赤蟒静心调息，恢复15点生命",
         "success": true,
-        "result": "获得145灵石"
+        "result": "恢复15HP"
       },
       "free_actions": [],
       "plan_update": null,
@@ -48,18 +40,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +7%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
+    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：在荒野中探索，无甚收获",
+        "detail": "苍穹子在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "苍穹子在荒野探索：在荒野中探索，无甚收获"
+        "result": "苍穹子在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null,
@@ -68,9 +71,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得火云诀"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -79,9 +82,9 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：险地深处，勉强存活",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
         "success": true,
-        "result": "破军在九幽渊探索：险地深处，勉强存活"
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
       "plan_update": null,
@@ -109,9 +112,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 145,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1351
+      "current_stones": 1133
     },
     "yue_hua": {
       "income": 0,
@@ -123,15 +126,20 @@
       "expense": 0,
       "current_stones": 180
     },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 950
+    },
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1486
+      "current_stones": 1502
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 235
+      "current_stones": 246
     },
     "po_jun": {
       "income": 0,
