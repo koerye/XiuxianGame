@@ -1,15 +1,15 @@
 {
-  "turn": 2,
-  "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T15:04:27",
+  "turn": 1,
+  "game_month": "第1年·正月",
+  "timestamp": "2026-04-03T15:08:13",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.1444,
-      "combat_power": 563,
+      "realm_progress": 0.0942,
+      "combat_power": 555,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -33,10 +33,10 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1150,
+      "combat_power": 1000,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 672,
+      "spirit_stones": 580,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -50,7 +50,7 @@
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
       "inventory_summary": [
-        "冰心诀"
+        "火灵根"
       ],
       "status_tags": []
     },
@@ -58,8 +58,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.1346,
-      "combat_power": 395,
+      "realm_progress": 0.0697,
+      "combat_power": 387,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -77,39 +77,188 @@
       "current_plan": "",
       "inventory_summary": [],
       "status_tags": []
+    },
+    "bai_he": {
+      "name": "白鹤",
+      "alive": true,
+      "realm": "筑基中期",
+      "realm_progress": 0.0808,
+      "combat_power": 389,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 180,
+      "location": "qingyun_peak",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "成为天下第一剑修",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    },
+    "zi_die": {
+      "name": "紫蝶",
+      "alive": true,
+      "realm": "炼气巅峰",
+      "realm_progress": 0.0702,
+      "combat_power": 183,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 950,
+      "location": "market_street",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "积累足够的财富和人脉，成为修仙界最大的商人",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    },
+    "cang_qiong": {
+      "name": "苍穹子",
+      "alive": true,
+      "realm": "元婴初期",
+      "realm_progress": 0.0909,
+      "combat_power": 3287,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 1200,
+      "location": "penglai_island",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "收几个好徒弟，将毕生所学传承下去",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    },
+    "xue_ying": {
+      "name": "雪影",
+      "alive": true,
+      "realm": "炼气后期",
+      "realm_progress": 0.0,
+      "combat_power": 120,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 60,
+      "location": "wilderness",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "超越一切，成为这个世界最强的人",
+      "current_plan": "",
+      "inventory_summary": [
+        "寒铁矿"
+      ],
+      "status_tags": []
+    },
+    "po_jun": {
+      "name": "破军",
+      "alive": true,
+      "realm": "金丹后期",
+      "realm_progress": 0.0,
+      "combat_power": 1900,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 400,
+      "location": "nine_abyssal",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "在死之前，与天下所有强者战上一场",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
+    },
+    "ling_bo": {
+      "name": "凌波",
+      "alive": true,
+      "realm": "筑基初期",
+      "realm_progress": 0.093,
+      "combat_power": 267,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 290,
+      "location": "tianji_mountain",
+      "status": "idle",
+      "travel_destination": null,
+      "travel_turns_left": 0,
+      "seclusion_turns_left": 0,
+      "sect": null,
+      "sect_rank": null,
+      "master": null,
+      "disciples": [],
+      "reputation": 0,
+      "life_goal": "炼出一炉能让人飞升的仙丹",
+      "current_plan": "",
+      "inventory_summary": [],
+      "status_tags": []
     }
   },
   "location_occupants": {
-    "qingyun_peak": [],
-    "tianji_mountain": [],
+    "qingyun_peak": [
+      "bai_he"
+    ],
+    "tianji_mountain": [
+      "ling_bo"
+    ],
     "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
-    "market_street": [],
+    "market_street": [
+      "zi_die"
+    ],
     "medicine_valley": [],
-    "wilderness": [],
+    "wilderness": [
+      "xue_ying"
+    ],
     "east_sea": [
       "chi_mang"
     ],
-    "penglai_island": [],
+    "penglai_island": [
+      "cang_qiong"
+    ],
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
       "yue_hua"
     ],
-    "nine_abyssal": [],
+    "nine_abyssal": [
+      "po_jun"
+    ],
     "unnamed_cave": []
   },
   "relationships": [],
-  "active_world_events": [
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "zhongzhou_city"
-    }
-  ]
+  "active_world_events": []
 }
