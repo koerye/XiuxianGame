@@ -1,7 +1,7 @@
 {
-  "turn": 49,
-  "game_month": "第5年·正月",
-  "timestamp": "2026-04-03T16:01:03",
+  "turn": 50,
+  "game_month": "第5年·二月",
+  "timestamp": "2026-04-03T16:01:07",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.0,
-      "combat_power": 760,
+      "realm_progress": 0.0682,
+      "combat_power": 775,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.9895,
-      "combat_power": 1296,
+      "realm_progress": 0.8,
+      "combat_power": 1240,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "wanyao_cave",
+      "location": "south_frontier",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -141,7 +141,7 @@
       "combat_power": 5708,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 1922,
+      "spirit_stones": 1945,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -172,7 +172,7 @@
       "combat_power": 373,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 655,
+      "spirit_stones": 692,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 5660,
-      "hp": 14,
+      "combat_power": 6310,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -260,9 +260,7 @@
     "tianji_mountain": [
       "ling_bo"
     ],
-    "wanyao_cave": [
-      "zi_die"
-    ],
+    "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
@@ -279,7 +277,8 @@
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
-      "yue_hua"
+      "yue_hua",
+      "zi_die"
     ],
     "nine_abyssal": [
       "po_jun"
