@@ -1,7 +1,7 @@
 {
-  "turn": 12,
-  "game_month": "第1年·腊月",
-  "timestamp": "2026-04-03T16:12:54",
+  "turn": 13,
+  "game_month": "第2年·正月",
+  "timestamp": "2026-04-03T16:12:58",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8146,
-      "combat_power": 472,
+      "realm_progress": 0.8987,
+      "combat_power": 482,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.0946,
-      "combat_power": 555,
+      "realm_progress": 0.1822,
+      "combat_power": 569,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "east_sea",
+      "location": "penglai_island",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -219,17 +219,17 @@
     "ling_bo": {
       "name": "凌波",
       "alive": true,
-      "realm": "筑基初期",
-      "realm_progress": 0.7717,
-      "combat_power": 320,
-      "hp": 100,
-      "hp_max": 100,
-      "spirit_stones": 290,
+      "realm": "筑基中期",
+      "realm_progress": 0.0,
+      "combat_power": 380,
+      "hp": 120,
+      "hp_max": 120,
+      "spirit_stones": 190,
       "location": "qingyun_peak",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -238,7 +238,9 @@
       "life_goal": "炼出一炉能让人飞升的仙丹",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     }
   },
   "location_occupants": {
@@ -258,10 +260,11 @@
     ],
     "east_sea": [
       "chi_mang",
-      "cang_qiong",
+      "cang_qiong"
+    ],
+    "penglai_island": [
       "zi_die"
     ],
-    "penglai_island": [],
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
@@ -279,7 +282,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "market_street"
     }
   ]
