@@ -354,3 +354,5 @@
 {"turn": 29, "type": "growth.breakthrough", "actors": ["zi_die"], "location": "south_frontier", "weight": 4, "data": {}, "narrative_tags": []}
 {"turn": 29, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 29, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 30, "type": "social.greet", "actors": ["zi_die", "yue_hua"], "location": "south_frontier", "weight": 2, "data": {}, "narrative_tags": []}
+{"turn": 30, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}

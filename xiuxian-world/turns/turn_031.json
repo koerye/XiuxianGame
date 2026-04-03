@@ -1,15 +1,15 @@
 {
   "turn": 31,
   "game_month": "第3年·七月",
-  "timestamp": "2026-04-03T15:52:52",
+  "timestamp": "2026-04-03T15:59:55",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得36灵石"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +0%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +9%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得千年灵芝"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +51,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
+        "result": "获得虚步诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -71,7 +71,21 @@
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_031_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yue_hua",
+      "target_name": "月华",
+      "location": "南疆",
+      "type": "greet",
+      "initiator_message": "（紫蝶向月华打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "紫蝶向月华主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
@@ -79,9 +93,43 @@
   "events": [
     {
       "turn": 31,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 31,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 31,
       "type": "adventure.treasure_found",
       "actors": [
         "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 31,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
       ],
       "location": "wilderness",
       "weight": 3,
@@ -92,9 +140,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 36,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1420
+      "current_stones": 1266
     },
     "yue_hua": {
       "income": 0,
@@ -109,12 +157,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1556
+      "current_stones": 1515
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 354
+      "current_stones": 305
     },
     "po_jun": {
       "income": 0,
