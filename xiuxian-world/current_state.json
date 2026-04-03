@@ -1,7 +1,7 @@
 {
-  "turn": 125,
-  "game_month": "第11年·五月",
-  "timestamp": "2026-04-03T16:19:58",
+  "turn": 126,
+  "game_month": "第11年·六月",
+  "timestamp": "2026-04-03T16:20:02",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3255,
-      "hp": 28,
+      "combat_power": 3592,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 1805,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.4984,
-      "combat_power": 3678,
+      "realm_progress": 0.5648,
+      "combat_power": 3742,
       "hp": 355,
       "hp_max": 355,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.0,
-      "combat_power": 5500,
+      "realm_progress": 0.1033,
+      "combat_power": 5670,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 180,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6844,
-      "hp": 28,
+      "combat_power": 7553,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -454,6 +454,22 @@
       "type": "bounty_posted",
       "name": "高额悬赏发布",
       "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "ancient_ruins"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
     }
