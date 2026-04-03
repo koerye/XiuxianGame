@@ -1,7 +1,7 @@
 {
-  "turn": 537,
-  "game_month": "第45年·九月",
-  "timestamp": "2026-04-03T16:47:20",
+  "turn": 538,
+  "game_month": "第45年·十月",
+  "timestamp": "2026-04-03T16:47:24",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 13507,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 7654,
+      "spirit_stones": 7689,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1707,
-      "hp": 42,
+      "combat_power": 1567,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 7355,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 35935,
-      "hp": 39,
+      "combat_power": 30626,
+      "hp": 16,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1142,6 +1142,14 @@
       "type": "bounty_posted",
       "name": "高额悬赏发布",
       "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "south_frontier"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
     }
