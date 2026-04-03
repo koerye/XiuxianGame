@@ -1,7 +1,7 @@
 {
-  "turn": 20,
-  "game_month": "第2年·八月",
-  "timestamp": "2026-04-03T15:09:23",
+  "turn": 21,
+  "game_month": "第2年·九月",
+  "timestamp": "2026-04-03T15:09:26",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1299,
+      "combat_power": 1624,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 743,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.2348,
-      "combat_power": 578,
+      "realm_progress": 0.317,
+      "combat_power": 591,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.8541,
-      "combat_power": 678,
+      "realm_progress": 0.9428,
+      "combat_power": 692,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.6996,
-      "combat_power": 217,
+      "realm_progress": 0.7612,
+      "combat_power": 221,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -156,7 +156,8 @@
       "current_plan": "",
       "inventory_summary": [
         "冰心草",
-        "千年灵芝"
+        "千年灵芝",
+        "寒铁矿"
       ],
       "status_tags": []
     },
@@ -186,7 +187,8 @@
         "寒铁矿",
         "冰心草",
         "寒铁剑",
-        "灵玉剑"
+        "灵玉剑",
+        "火灵根"
       ],
       "status_tags": []
     },
@@ -195,8 +197,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2226,
-      "hp": 28,
+      "combat_power": 2457,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -342,7 +344,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "zhongzhou_city"
     }
   ]

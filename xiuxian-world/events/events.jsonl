@@ -26,3 +26,4 @@
 {"turn": 17, "type": "growth.breakthrough", "actors": ["yue_hua"], "location": "south_frontier", "weight": 4, "data": {}, "narrative_tags": []}
 {"turn": 18, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 19, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 20, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}

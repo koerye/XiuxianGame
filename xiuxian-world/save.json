@@ -1,5 +1,5 @@
 {
-  "turn": 16,
+  "turn": 21,
   "cultivators": {
     "yun_yin_zi": {
       "id": "yun_yin_zi",
@@ -37,11 +37,11 @@
       },
       "relationships": {
         "zi_die": {
-          "favor": 4,
+          "favor": 6,
           "trust": 0,
           "fear": 0,
           "hatred": 0,
-          "familiarity": 12,
+          "familiarity": 19,
           "tags": []
         }
       },
@@ -63,8 +63,8 @@
       "llm_model": "local-proxy",
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1206,
-      "spirit_stones": 645,
+      "combat_power": 1299,
+      "spirit_stones": 743,
       "inventory": [
         {
           "id": "fire_spirit_root",
@@ -141,6 +141,40 @@
           "grade": 3,
           "quantity": 1,
           "effect": {}
+        },
+        {
+          "id": "cold_iron_ore",
+          "name": "寒铁矿",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "cold_iron_ore",
+          "name": "寒铁矿",
+          "type": "material",
+          "grade": 2,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "millennium_ganoderma",
+          "name": "千年灵芝",
+          "type": "material",
+          "grade": 3,
+          "quantity": 1,
+          "effect": {}
+        },
+        {
+          "id": "low_sword",
+          "name": "普通飞剑",
+          "type": "weapon",
+          "grade": 1,
+          "quantity": 1,
+          "effect": {
+            "combat_bonus": 0.1
+          }
         }
       ],
       "hp": 38,
@@ -264,6 +298,38 @@
           "summary": "在东海获得了千年灵芝",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 17,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了寒铁矿",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 18,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了寒铁矿",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 19,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了千年灵芝",
+          "involves": [],
+          "emotional_tag": "joy"
+        },
+        {
+          "turn": 20,
+          "type": "discovery",
+          "importance": 2,
+          "summary": "在东海获得了普通飞剑",
+          "involves": [],
+          "emotional_tag": "joy"
         }
       ],
       "grudges": [],
@@ -280,13 +346,13 @@
       "age": 28,
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
-      "realm": "筑基中期",
-      "realm_progress": 0.873,
-      "combat_power": 479,
+      "realm": "筑基后期",
+      "realm_progress": 0.2348,
+      "combat_power": 578,
       "spirit_stones": 210,
       "inventory": [],
-      "hp": 100,
-      "hp_max": 100,
+      "hp": 120,
+      "hp_max": 120,
       "location": "south_frontier",
       "status": "idle",
       "travel_destination": "",
@@ -310,7 +376,16 @@
       },
       "relationships": {},
       "reputation": 0,
-      "memory": [],
+      "memory": [
+        {
+          "turn": 17,
+          "type": "growth",
+          "importance": 4,
+          "summary": "突破至筑基后期",
+          "involves": [],
+          "emotional_tag": "joy"
+        }
+      ],
       "grudges": [],
       "debts": [],
       "life_goal": "保护所有在乎的人，守护这片土地",
@@ -326,8 +401,8 @@
       "origin": "青云宗外门弟子",
       "llm_model": "local-proxy",
       "realm": "筑基后期",
-      "realm_progress": 0.3773,
-      "combat_power": 601,
+      "realm_progress": 0.8541,
+      "combat_power": 678,
       "spirit_stones": 180,
       "inventory": [],
       "hp": 120,
@@ -385,7 +460,7 @@
       "inventory": [],
       "hp": 100,
       "hp_max": 100,
-      "location": "zhongzhou_city",
+      "location": "wilderness",
       "status": "idle",
       "travel_destination": "",
       "travel_turns_left": 0,
@@ -412,7 +487,7 @@
           "trust": 0,
           "fear": 0,
           "hatred": 0,
-          "familiarity": 12,
+          "familiarity": 19,
           "tags": []
         }
       },
@@ -447,6 +522,26 @@
             "yun_yin_zi"
           ],
           "emotional_tag": "neutral"
+        },
+        {
+          "turn": 16,
+          "type": "social",
+          "importance": 2,
+          "summary": "与云隐子在中州城相遇并交流",
+          "involves": [
+            "yun_yin_zi"
+          ],
+          "emotional_tag": "neutral"
+        },
+        {
+          "turn": 17,
+          "type": "social",
+          "importance": 2,
+          "summary": "与云隐子在中州城相遇并交流",
+          "involves": [
+            "yun_yin_zi"
+          ],
+          "emotional_tag": "neutral"
         }
       ],
       "grudges": [],
@@ -465,8 +560,8 @@
       "llm_model": "local-proxy",
       "realm": "元婴初期",
       "realm_progress": 0.4917,
-      "combat_power": 3672,
-      "spirit_stones": 1369,
+      "combat_power": 3231,
+      "spirit_stones": 1392,
       "inventory": [
         {
           "id": "ice_heart_grass",
@@ -485,7 +580,7 @@
           "effect": {}
         }
       ],
-      "hp": 54,
+      "hp": 30,
       "hp_max": 100,
       "location": "east_sea",
       "status": "idle",
@@ -542,6 +637,30 @@
           "summary": "在东海探索时遭遇危险，受伤",
           "involves": [],
           "emotional_tag": "fear"
+        },
+        {
+          "turn": 16,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在东海探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 17,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在东海探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 20,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在东海探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
         }
       ],
       "grudges": [],
@@ -561,7 +680,7 @@
       "realm": "炼气后期",
       "realm_progress": 0.0,
       "combat_power": 185,
-      "spirit_stones": 494,
+      "spirit_stones": 551,
       "inventory": [
         {
           "id": "cold_iron_ore",
@@ -608,7 +727,7 @@
           }
         }
       ],
-      "hp": 100,
+      "hp": 52,
       "hp_max": 100,
       "location": "wilderness",
       "status": "idle",
@@ -673,6 +792,22 @@
           "summary": "在荒野获得了灵玉剑",
           "involves": [],
           "emotional_tag": "joy"
+        },
+        {
+          "turn": 16,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在荒野探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 17,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在荒野探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
         }
       ],
       "grudges": [],
@@ -691,7 +826,7 @@
       "llm_model": "local-proxy",
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 2318,
+      "combat_power": 2226,
       "spirit_stones": 400,
       "inventory": [
         {
@@ -705,7 +840,7 @@
           }
         }
       ],
-      "hp": 34,
+      "hp": 28,
       "hp_max": 100,
       "location": "nine_abyssal",
       "status": "idle",
@@ -773,6 +908,14 @@
         },
         {
           "turn": 14,
+          "type": "combat",
+          "importance": 2,
+          "summary": "在九幽渊探索时遭遇危险，受伤",
+          "involves": [],
+          "emotional_tag": "fear"
+        },
+        {
+          "turn": 19,
           "type": "combat",
           "importance": 2,
           "summary": "在九幽渊探索时遭遇危险，受伤",
@@ -1059,6 +1202,85 @@
     },
     {
       "turn": 15,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 16,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 17,
+      "type": "social.scheme",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 17,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 17,
+      "type": "growth.breakthrough",
+      "actors": [
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 18,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 19,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 20,
       "type": "adventure.treasure_found",
       "actors": [
         "chi_mang"
