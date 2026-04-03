@@ -1,7 +1,7 @@
 {
-  "turn": 178,
-  "game_month": "第15年·十月",
-  "timestamp": "2026-04-03T16:23:28",
+  "turn": 179,
+  "game_month": "第15年·冬月",
+  "timestamp": "2026-04-03T16:23:31",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.928,
-      "combat_power": 7031,
+      "realm_progress": 0.9878,
+      "combat_power": 7129,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神后期",
-      "realm_progress": 0.1941,
-      "combat_power": 14815,
+      "realm_progress": 0.3013,
+      "combat_power": 15265,
       "hp": 1058,
       "hp_max": 1058,
       "spirit_stones": 180,
