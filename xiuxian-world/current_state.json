@@ -1,7 +1,7 @@
 {
-  "turn": 67,
-  "game_month": "第6年·七月",
-  "timestamp": "2026-04-03T16:02:10",
+  "turn": 68,
+  "game_month": "第6年·八月",
+  "timestamp": "2026-04-03T16:02:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 3003,
       "hp": 35,
       "hp_max": 100,
-      "spirit_stones": 1676,
+      "spirit_stones": 1739,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.1582,
-      "combat_power": 1047,
+      "realm_progress": 0.2268,
+      "combat_power": 1068,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.086,
-      "combat_power": 1949,
+      "realm_progress": 0.1652,
+      "combat_power": 1994,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7216,
-      "hp": 24,
+      "combat_power": 7985,
+      "hp": 39,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -518,6 +518,22 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "zhongzhou_city"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }
