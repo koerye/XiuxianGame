@@ -1,93 +1,77 @@
 {
   "turn": 13,
   "game_month": "第2年·正月",
-  "timestamp": "2026-04-03T15:08:58",
+  "timestamp": "2026-04-03T15:51:46",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
+        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
+        "result": "获得38灵石"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得19灵石"
+        "result": "获得千年灵芝"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：找到一处藏宝洞穴",
+        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得73灵石"
+        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
-        "action": "heal",
-        "detail": "破军静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
         "success": true,
-        "result": "恢复15HP"
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
       },
       "free_actions": [],
-      "plan_update": null
-    },
-    "ling_bo": {
-      "main_action": {
-        "action": "seclusion",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +27%"
-      },
-      "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
-  "social_interactions": [
-    {
-      "id": "si_013_01",
-      "initiator": "zi_die",
-      "target": "yun_yin_zi",
-      "location": "中州城",
-      "type": "scheme",
-      "initiator_message": "（紫蝶向云隐子打招呼）",
-      "target_response": "幸会幸会。",
-      "outcome": "紫蝶向云隐子挑拨离间",
-      "relation_changes": {}
-    }
-  ],
+  "social_interactions": [],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
@@ -95,13 +79,12 @@
   "events": [
     {
       "turn": 13,
-      "type": "social.scheme",
+      "type": "adventure.treasure_found",
       "actors": [
-        "zi_die",
-        "yun_yin_zi"
+        "cang_qiong"
       ],
-      "location": "zhongzhou_city",
-      "weight": 2,
+      "location": "wilderness",
+      "weight": 3,
       "data": {},
       "narrative_tags": []
     }
@@ -109,9 +92,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 38,
       "expense": 0,
-      "current_stones": 645
+      "current_stones": 788
     },
     "yue_hua": {
       "income": 0,
@@ -124,24 +107,19 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 19,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1272
+      "current_stones": 1200
     },
     "xue_ying": {
-      "income": 73,
+      "income": 0,
       "expense": 0,
-      "current_stones": 494
+      "current_stones": 223
     },
     "po_jun": {
       "income": 0,
       "expense": 0,
       "current_stones": 400
-    },
-    "ling_bo": {
-      "income": 0,
-      "expense": 0,
-      "current_stones": 190
     }
   }
 }
