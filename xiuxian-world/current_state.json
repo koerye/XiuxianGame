@@ -1,7 +1,7 @@
 {
-  "turn": 70,
-  "game_month": "第6年·十月",
-  "timestamp": "2026-04-03T15:55:16",
+  "turn": 71,
+  "game_month": "第6年·冬月",
+  "timestamp": "2026-04-03T15:55:19",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3522,
-      "hp": 42,
+      "combat_power": 3300,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 1917,
       "location": "east_sea",
@@ -64,11 +64,11 @@
     "yue_hua": {
       "name": "月华",
       "alive": true,
-      "realm": "筑基巅峰",
-      "realm_progress": 0.9687,
-      "combat_power": 980,
-      "hp": 144,
-      "hp_max": 144,
+      "realm": "金丹初期",
+      "realm_progress": 0.0,
+      "combat_power": 1000,
+      "hp": 172,
+      "hp_max": 172,
       "spirit_stones": 210,
       "location": "south_frontier",
       "status": "idle",
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "金丹中期",
-      "realm_progress": 0.9741,
-      "combat_power": 1809,
-      "hp": 206,
-      "hp_max": 206,
+      "realm": "金丹后期",
+      "realm_progress": 0.0,
+      "combat_power": 1900,
+      "hp": 247,
+      "hp_max": 247,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -174,7 +174,7 @@
       "combat_power": 262,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 761,
+      "spirit_stones": 844,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -376,6 +376,14 @@
       "name": "高额悬赏发布",
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
+      "location": "medicine_valley"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
       "location": "medicine_valley"
     }
   ]
