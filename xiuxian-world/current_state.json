@@ -1,7 +1,7 @@
 {
-  "turn": 19,
-  "game_month": "第2年·七月",
-  "timestamp": "2026-04-03T15:59:10",
+  "turn": 20,
+  "game_month": "第2年·八月",
+  "timestamp": "2026-04-03T15:59:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1986,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 997,
+      "spirit_stones": 1133,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8,
-      "combat_power": 442,
+      "realm_progress": 0.8757,
+      "combat_power": 451,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.811,
-      "combat_power": 671,
+      "realm_progress": 0.9003,
+      "combat_power": 685,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.5206,
-      "combat_power": 208,
+      "realm_progress": 0.6158,
+      "combat_power": 213,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -141,7 +141,7 @@
       "combat_power": 4159,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 1438,
+      "spirit_stones": 1502,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4190,
-      "hp": 17,
+      "combat_power": 4660,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -336,7 +336,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {
@@ -346,6 +346,22 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "south_frontier"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
