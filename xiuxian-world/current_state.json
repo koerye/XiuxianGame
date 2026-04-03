@@ -1,7 +1,7 @@
 {
-  "turn": 435,
-  "game_month": "第37年·三月",
-  "timestamp": "2026-04-03T16:40:21",
+  "turn": 436,
+  "game_month": "第37年·四月",
+  "timestamp": "2026-04-03T16:40:25",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 45580,
+      "combat_power": 45726,
       "hp": 36,
       "hp_max": 100,
       "spirit_stones": 7637,
@@ -914,14 +914,6 @@
       "location": "east_sea"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "legendary_treasure",
       "type": "legendary_treasure",
       "name": "传说宝物现世",
@@ -936,6 +928,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "market_street"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "east_sea"
     }
   ]
 }
