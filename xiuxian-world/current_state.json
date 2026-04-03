@@ -1,15 +1,15 @@
 {
-  "turn": 8,
-  "game_month": "第1年·八月",
-  "timestamp": "2026-04-03T15:08:39",
+  "turn": 9,
+  "game_month": "第1年·九月",
+  "timestamp": "2026-04-03T15:08:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.6711,
-      "combat_power": 648,
+      "realm_progress": 0.761,
+      "combat_power": 663,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -54,6 +54,7 @@
         "冰心草",
         "寒铁剑",
         "寒铁矿",
+        "千年灵芝",
         "千年灵芝"
       ],
       "status_tags": []
@@ -62,8 +63,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.5659,
-      "combat_power": 444,
+      "realm_progress": 0.637,
+      "combat_power": 452,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -86,8 +87,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.7639,
-      "combat_power": 467,
+      "realm_progress": 0.8675,
+      "combat_power": 478,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -115,7 +116,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -152,7 +153,8 @@
       "life_goal": "收几个好徒弟，将毕生所学传承下去",
       "current_plan": "",
       "inventory_summary": [
-        "冰心草"
+        "冰心草",
+        "千年灵芝"
       ],
       "status_tags": []
     },
@@ -164,7 +166,7 @@
       "combat_power": 185,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 206,
+      "spirit_stones": 355,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -191,7 +193,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1717,
+      "combat_power": 2318,
       "hp": 34,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -207,15 +209,17 @@
       "reputation": 0,
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "灵玉剑"
+      ],
       "status_tags": []
     },
     "ling_bo": {
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.4556,
-      "combat_power": 295,
+      "realm_progress": 0.5352,
+      "combat_power": 301,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
@@ -243,11 +247,10 @@
     "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi",
-      "ling_bo"
-    ],
-    "market_street": [
+      "ling_bo",
       "zi_die"
     ],
+    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
