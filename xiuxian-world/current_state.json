@@ -1,7 +1,7 @@
 {
-  "turn": 629,
-  "game_month": "第53年·五月",
-  "timestamp": "2026-04-03T16:55:08",
+  "turn": 630,
+  "game_month": "第53年·六月",
+  "timestamp": "2026-04-03T16:55:12",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 15656,
-      "hp": 41,
+      "combat_power": 14663,
+      "hp": 31,
       "hp_max": 100,
       "spirit_stones": 8989,
       "location": "east_sea",
@@ -1256,6 +1256,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "medicine_valley"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 5,
+      "location": "sword_tomb"
     }
   ]
 }
