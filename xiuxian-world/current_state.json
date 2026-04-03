@@ -1,7 +1,7 @@
 {
-  "turn": 138,
-  "game_month": "第12年·六月",
-  "timestamp": "2026-04-03T16:20:49",
+  "turn": 139,
+  "game_month": "第12年·七月",
+  "timestamp": "2026-04-03T16:20:53",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴中期",
-      "realm_progress": 0.3591,
-      "combat_power": 4652,
+      "realm_progress": 0.4245,
+      "combat_power": 4734,
       "hp": 426,
       "hp_max": 426,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.8,
-      "combat_power": 6820,
+      "realm_progress": 0.8833,
+      "combat_power": 6957,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 180,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 572,
-      "hp": 44,
+      "combat_power": 519,
+      "hp": 29,
       "hp_max": 100,
       "spirit_stones": 2264,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 7445,
-      "hp": 18,
+      "combat_power": 8275,
+      "hp": 33,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -472,6 +472,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "east_sea"
     }
   ]
 }
