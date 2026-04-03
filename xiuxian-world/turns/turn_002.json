@@ -1,14 +1,14 @@
 {
   "turn": 2,
   "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T15:04:27",
+  "timestamp": "2026-04-03T15:08:17",
   "world_events_triggered": [
     {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "location": "zhongzhou_city",
+      "location": "market_street",
       "duration": 1
     }
   ],
@@ -26,9 +26,9 @@
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "获得92灵石"
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null
@@ -42,6 +42,66 @@
       },
       "free_actions": [],
       "plan_update": null
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +10%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +7%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +9%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：发现了一株灵药",
+        "success": true,
+        "result": "获得寒铁矿"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "success": true,
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "ling_bo": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +10%"
+      },
+      "free_actions": [],
+      "plan_update": null
     }
   },
   "social_interactions": [],
@@ -49,7 +109,19 @@
   "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 2,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "yun_yin_zi": {
@@ -58,14 +130,44 @@
       "current_stones": 320
     },
     "chi_mang": {
-      "income": 92,
+      "income": 0,
       "expense": 0,
-      "current_stones": 672
+      "current_stones": 580
     },
     "yue_hua": {
       "income": 0,
       "expense": 0,
       "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 950
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1200
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 60
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    },
+    "ling_bo": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 290
     }
   }
 }
