@@ -1,7 +1,7 @@
 {
-  "turn": 227,
-  "game_month": "第19年·冬月",
-  "timestamp": "2026-04-03T16:26:35",
+  "turn": 228,
+  "game_month": "第19年·腊月",
+  "timestamp": "2026-04-03T16:26:39",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 5939,
+      "combat_power": 6083,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 2786,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神中期",
-      "realm_progress": 0.8381,
-      "combat_power": 13765,
+      "realm_progress": 0.8976,
+      "combat_power": 13962,
       "hp": 882,
       "hp_max": 882,
       "spirit_stones": 210,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 817,
-      "hp": 28,
+      "combat_power": 902,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 3614,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 11699,
-      "hp": 31,
+      "combat_power": 10669,
+      "hp": 18,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -598,7 +598,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
+      "turns_remaining": 4,
       "location": "ancient_ruins"
     },
     {
@@ -608,6 +608,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
