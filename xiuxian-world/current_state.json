@@ -1,7 +1,7 @@
 {
-  "turn": 740,
-  "game_month": "第62年·八月",
-  "timestamp": "2026-04-03T17:03:06",
+  "turn": 741,
+  "game_month": "第62年·九月",
+  "timestamp": "2026-04-03T17:03:10",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -174,7 +174,7 @@
       "combat_power": 2278,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 10018,
+      "spirit_stones": 10091,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
