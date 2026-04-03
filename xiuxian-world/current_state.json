@@ -1,15 +1,15 @@
 {
-  "turn": 6,
-  "game_month": "第1年·六月",
-  "timestamp": "2026-04-03T15:08:32",
+  "turn": 7,
+  "game_month": "第1年·七月",
+  "timestamp": "2026-04-03T15:08:36",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.5207,
-      "combat_power": 624,
+      "realm_progress": 0.6007,
+      "combat_power": 637,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -52,7 +52,8 @@
       "inventory_summary": [
         "火灵根",
         "冰心草",
-        "寒铁剑"
+        "寒铁剑",
+        "寒铁矿"
       ],
       "status_tags": []
     },
@@ -60,8 +61,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.4095,
-      "combat_power": 426,
+      "realm_progress": 0.4895,
+      "combat_power": 435,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -84,8 +85,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.5789,
-      "combat_power": 445,
+      "realm_progress": 0.677,
+      "combat_power": 457,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -108,8 +109,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.308,
-      "combat_power": 196,
+      "realm_progress": 0.3722,
+      "combat_power": 200,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -149,7 +150,9 @@
       "reputation": 0,
       "life_goal": "收几个好徒弟，将毕生所学传承下去",
       "current_plan": "",
-      "inventory_summary": [],
+      "inventory_summary": [
+        "冰心草"
+      ],
       "status_tags": []
     },
     "xue_ying": {
@@ -157,7 +160,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 144,
+      "combat_power": 185,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 185,
@@ -177,7 +180,8 @@
         "寒铁矿",
         "寒铁矿",
         "冰心草",
-        "寒铁剑"
+        "寒铁剑",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -209,8 +213,8 @@
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.296,
-      "combat_power": 283,
+      "realm_progress": 0.3848,
+      "combat_power": 290,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
