@@ -1,7 +1,7 @@
 {
-  "turn": 16,
-  "game_month": "第2年·四月",
-  "timestamp": "2026-04-03T15:58:59",
+  "turn": 17,
+  "game_month": "第2年·五月",
+  "timestamp": "2026-04-03T15:59:03",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1466,
+      "combat_power": 1797,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 926,
@@ -56,7 +56,8 @@
         "灵玉剑",
         "火灵根",
         "冰心诀",
-        "千年灵芝"
+        "千年灵芝",
+        "灵玉剑"
       ],
       "status_tags": []
     },
@@ -64,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.8556,
-      "combat_power": 448,
+      "realm_progress": 0.9194,
+      "combat_power": 455,
       "hp": 40,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -88,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.5007,
-      "combat_power": 621,
+      "realm_progress": 0.5967,
+      "combat_power": 636,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -199,7 +200,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4094,
+      "combat_power": 4692,
       "hp": 33,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -216,6 +217,7 @@
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
       "inventory_summary": [
+        "灵玉剑",
         "灵玉剑",
         "灵玉剑",
         "灵玉剑",
@@ -286,11 +288,11 @@
     {
       "from": "yun_yin_zi",
       "to": "zi_die",
-      "favor": 6,
+      "favor": 8,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 21,
+      "familiarity": 26,
       "tags": []
     },
     {
@@ -300,7 +302,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 21,
+      "familiarity": 26,
       "tags": []
     }
   ],
