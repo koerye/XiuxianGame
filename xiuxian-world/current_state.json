@@ -1,7 +1,7 @@
 {
-  "turn": 626,
-  "game_month": "第53年·二月",
-  "timestamp": "2026-04-03T16:54:54",
+  "turn": 627,
+  "game_month": "第53年·三月",
+  "timestamp": "2026-04-03T16:54:59",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 58132,
       "hp": 39,
       "hp_max": 100,
-      "spirit_stones": 10393,
+      "spirit_stones": 10480,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 1971,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 8080,
+      "spirit_stones": 8184,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -1262,7 +1262,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "medicine_valley"
     }
   ]
