@@ -1,7 +1,7 @@
 {
-  "turn": 39,
-  "game_month": "第4年·三月",
-  "timestamp": "2026-04-03T16:00:25",
+  "turn": 40,
+  "game_month": "第4年·四月",
+  "timestamp": "2026-04-03T16:00:29",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.2862,
-      "combat_power": 1085,
+      "realm_progress": 0.3916,
+      "combat_power": 1117,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "south_frontier",
+      "location": "wanyao_cave",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -200,7 +200,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 5807,
+      "combat_power": 6396,
       "hp": 31,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -260,7 +260,9 @@
     "tianji_mountain": [
       "ling_bo"
     ],
-    "wanyao_cave": [],
+    "wanyao_cave": [
+      "zi_die"
+    ],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
@@ -277,8 +279,7 @@
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
-      "yue_hua",
-      "zi_die"
+      "yue_hua"
     ],
     "nine_abyssal": [
       "po_jun"
@@ -405,7 +406,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     }
   ]
