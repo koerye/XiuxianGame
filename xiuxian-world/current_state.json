@@ -1,23 +1,23 @@
 {
-  "turn": 10,
-  "game_month": "第1年·十月",
-  "timestamp": "2026-04-03T16:12:46",
+  "turn": 11,
+  "game_month": "第1年·冬月",
+  "timestamp": "2026-04-03T16:12:50",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7801,
-      "combat_power": 666,
-      "hp": 100,
+      "realm_progress": 0.7,
+      "combat_power": 614,
+      "hp": 40,
       "hp_max": 100,
-      "spirit_stones": 320,
+      "spirit_stones": 220,
       "location": "zhongzhou_city",
-      "status": "idle",
+      "status": "in_seclusion",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 0,
+      "seclusion_turns_left": 2,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -26,7 +26,9 @@
       "life_goal": "在百岁之前突破元婴期",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": []
+      "status_tags": [
+        "闭关中"
+      ]
     },
     "chi_mang": {
       "name": "赤蟒",
@@ -62,8 +64,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.6904,
-      "combat_power": 458,
+      "realm_progress": 0.7516,
+      "combat_power": 465,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -85,11 +87,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "筑基中期",
-      "realm_progress": 0.9521,
-      "combat_power": 488,
-      "hp": 100,
-      "hp_max": 100,
+      "realm": "筑基后期",
+      "realm_progress": 0.0,
+      "combat_power": 540,
+      "hp": 120,
+      "hp_max": 120,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -110,8 +112,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.6126,
-      "combat_power": 213,
+      "realm_progress": 0.7058,
+      "combat_power": 218,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -138,7 +140,7 @@
       "combat_power": 5280,
       "hp": 53,
       "hp_max": 100,
-      "spirit_stones": 1343,
+      "spirit_stones": 1364,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -194,8 +196,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1535,
-      "hp": 18,
+      "combat_power": 1706,
+      "hp": 33,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -222,7 +224,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
-      "location": "medicine_valley",
+      "location": "qingyun_peak",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -240,7 +242,8 @@
   },
   "location_occupants": {
     "qingyun_peak": [
-      "bai_he"
+      "bai_he",
+      "ling_bo"
     ],
     "tianji_mountain": [],
     "wanyao_cave": [],
@@ -248,9 +251,7 @@
       "yun_yin_zi"
     ],
     "market_street": [],
-    "medicine_valley": [
-      "ling_bo"
-    ],
+    "medicine_valley": [],
     "wilderness": [
       "xue_ying"
     ],
