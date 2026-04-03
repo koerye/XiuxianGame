@@ -1,7 +1,7 @@
 {
-  "turn": 446,
-  "game_month": "第38年·二月",
-  "timestamp": "2026-04-03T16:41:05",
+  "turn": 447,
+  "game_month": "第38年·三月",
+  "timestamp": "2026-04-03T16:41:09",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 11446,
+      "combat_power": 11635,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 6263,
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 46312,
-      "hp": 36,
+      "combat_power": 42975,
+      "hp": 25,
       "hp_max": 100,
       "spirit_stones": 7694,
       "location": "east_sea",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 27123,
-      "hp": 17,
+      "combat_power": 30167,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -950,8 +950,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "south_frontier"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
