@@ -1,7 +1,7 @@
 {
-  "turn": 431,
-  "game_month": "第36年·冬月",
-  "timestamp": "2026-04-03T16:40:05",
+  "turn": 432,
+  "game_month": "第36年·腊月",
+  "timestamp": "2026-04-03T16:40:09",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1481,
-      "hp": 41,
+      "combat_power": 1396,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 6346,
       "location": "wilderness",
@@ -906,14 +906,6 @@
       "location": "market_street"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "bounty_posted",
       "type": "bounty_posted",
       "name": "高额悬赏发布",
@@ -926,16 +918,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
+      "turns_remaining": 4,
+      "location": "ancient_ruins"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
-      "location": "ancient_ruins"
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
