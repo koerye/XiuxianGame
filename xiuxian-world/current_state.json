@@ -1,7 +1,7 @@
 {
-  "turn": 988,
-  "game_month": "第83年·四月",
-  "timestamp": "2026-04-03T17:21:54",
+  "turn": 989,
+  "game_month": "第83年·五月",
+  "timestamp": "2026-04-03T17:21:58",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 3360,
-      "hp": 41,
+      "combat_power": 3168,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 13379,
       "location": "wilderness",
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 64890,
+      "combat_power": 65527,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1886,7 +1886,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {
@@ -1894,8 +1894,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "market_street"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
     },
     {
       "id": "demon_tide",
