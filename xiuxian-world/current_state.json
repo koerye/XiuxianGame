@@ -1,7 +1,7 @@
 {
-  "turn": 91,
-  "game_month": "第8年·七月",
-  "timestamp": "2026-04-03T16:03:40",
+  "turn": 92,
+  "game_month": "第8年·八月",
+  "timestamp": "2026-04-03T16:03:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 3411,
-      "hp": 31,
+      "combat_power": 3157,
+      "hp": 20,
       "hp_max": 100,
       "spirit_stones": 2022,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.8826,
-      "combat_power": 1770,
+      "realm_progress": 0.9459,
+      "combat_power": 1797,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹巅峰",
-      "realm_progress": 0.9092,
-      "combat_power": 3181,
+      "realm_progress": 0.9945,
+      "combat_power": 3245,
       "hp": 296,
       "hp_max": 296,
       "spirit_stones": 180,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 533,
-      "hp": 41,
+      "combat_power": 506,
+      "hp": 33,
       "hp_max": 100,
       "spirit_stones": 957,
       "location": "wilderness",
@@ -556,8 +556,24 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 6,
+      "turns_remaining": 5,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "wilderness"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }

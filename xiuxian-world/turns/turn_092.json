@@ -1,15 +1,32 @@
 {
   "turn": 92,
   "game_month": "第8年·八月",
-  "timestamp": "2026-04-03T15:56:36",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T16:03:43",
+  "world_events_triggered": [
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "location": "wilderness",
+      "duration": 2
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "location": "wilderness",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "获得30灵石"
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +37,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +0%"
+        "result": "修炼进度 +6%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +48,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%；突破至金丹巅峰"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +57,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得寒铁矿"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +68,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一株灵药",
+        "detail": "雪影在荒野探索：妖兽过强，负伤而逃",
         "success": true,
-        "result": "获得火灵根"
+        "result": "雪影在荒野探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
       "plan_update": null,
@@ -73,46 +90,17 @@
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [
-    {
-      "cultivator": "bai_he",
-      "name": "",
-      "new_realm": "金丹巅峰",
-      "old_realm": "金丹后期"
-    }
-  ],
+  "breakthroughs": [],
   "deaths": [],
   "messages_sent": [],
   "events": [
-    {
-      "turn": 92,
-      "type": "growth.breakthrough",
-      "actors": [
-        "bai_he"
-      ],
-      "location": "qingyun_peak",
-      "weight": 4,
-      "data": {},
-      "narrative_tags": []
-    },
     {
       "turn": 92,
       "type": "adventure.treasure_found",
       "actors": [
         "cang_qiong"
       ],
-      "location": "wilderness",
-      "weight": 3,
-      "data": {},
-      "narrative_tags": []
-    },
-    {
-      "turn": 92,
-      "type": "adventure.treasure_found",
-      "actors": [
-        "xue_ying"
-      ],
-      "location": "wilderness",
+      "location": "east_sea",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -121,9 +109,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 30,
+      "income": 0,
       "expense": 0,
-      "current_stones": 2568
+      "current_stones": 2022
     },
     "yue_hua": {
       "income": 0,
@@ -138,12 +126,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 2396
+      "current_stones": 2507
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 922
+      "current_stones": 957
     },
     "po_jun": {
       "income": 0,
