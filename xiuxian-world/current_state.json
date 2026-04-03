@@ -1,7 +1,7 @@
 {
-  "turn": 77,
-  "game_month": "第7年·五月",
-  "timestamp": "2026-04-03T16:16:57",
+  "turn": 78,
+  "game_month": "第7年·六月",
+  "timestamp": "2026-04-03T16:17:01",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 2443,
       "hp": 37,
       "hp_max": 100,
-      "spirit_stones": 1259,
+      "spirit_stones": 1293,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.7066,
-      "combat_power": 1696,
+      "realm_progress": 0.7902,
+      "combat_power": 1731,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹巅峰",
-      "realm_progress": 0.5958,
-      "combat_power": 2946,
+      "realm_progress": 0.6944,
+      "combat_power": 3020,
       "hp": 296,
       "hp_max": 296,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 12642,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 2059,
+      "spirit_stones": 2078,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -374,7 +374,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "east_sea"
     }
   ]
