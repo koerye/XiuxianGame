@@ -1,7 +1,7 @@
 {
-  "turn": 929,
-  "game_month": "第78年·五月",
-  "timestamp": "2026-04-03T17:17:16",
+  "turn": 930,
+  "game_month": "第78年·六月",
+  "timestamp": "2026-04-03T17:17:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 20991,
-      "hp": 20,
+      "combat_power": 23295,
+      "hp": 35,
       "hp_max": 100,
       "spirit_stones": 13266,
       "location": "east_sea",
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 79692,
-      "hp": 30,
+      "combat_power": 74259,
+      "hp": 20,
       "hp_max": 100,
       "spirit_stones": 14223,
       "location": "east_sea",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 61704,
-      "hp": 43,
+      "combat_power": 51656,
+      "hp": 17,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1790,6 +1790,14 @@
       "type": "bounty_posted",
       "name": "高额悬赏发布",
       "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "market_street"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "market_street"
     }
