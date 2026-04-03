@@ -1,7 +1,7 @@
 {
-  "turn": 955,
-  "game_month": "第80年·七月",
-  "timestamp": "2026-04-03T17:19:17",
+  "turn": 956,
+  "game_month": "第80年·八月",
+  "timestamp": "2026-04-03T17:19:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1864,6 +1864,14 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
