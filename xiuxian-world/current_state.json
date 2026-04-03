@@ -1,7 +1,7 @@
 {
-  "turn": 496,
-  "game_month": "第42年·四月",
-  "timestamp": "2026-04-03T16:44:31",
+  "turn": 497,
+  "game_month": "第42年·五月",
+  "timestamp": "2026-04-03T16:44:35",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 47631,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 8489,
+      "spirit_stones": 8515,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1474,
-      "hp": 26,
+      "combat_power": 1629,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 7074,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 29256,
-      "hp": 17,
+      "combat_power": 32540,
+      "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1034,14 +1034,6 @@
       "location": "medicine_valley"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "sword_tomb"
-    },
-    {
       "id": "spirit_vein_exposed",
       "type": "spirit_vein_exposed",
       "name": "灵脉外露",
@@ -1050,19 +1042,11 @@
       "location": "wilderness"
     },
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "zhongzhou_city"
-    },
-    {
       "id": "secret_realm_open",
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     }
   ]
