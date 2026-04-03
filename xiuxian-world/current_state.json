@@ -1,7 +1,7 @@
 {
-  "turn": 260,
-  "game_month": "第22年·八月",
-  "timestamp": "2026-04-03T16:28:44",
+  "turn": 261,
+  "game_month": "第22年·九月",
+  "timestamp": "2026-04-03T16:28:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 5852,
       "hp": 30,
       "hp_max": 100,
-      "spirit_stones": 3224,
+      "spirit_stones": 3240,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.9184,
-      "combat_power": 22959,
+      "realm_progress": 0.9815,
+      "combat_power": 23300,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 210,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 33205,
+      "combat_power": 33662,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 4653,
@@ -174,7 +174,7 @@
       "combat_power": 1069,
       "hp": 43,
       "hp_max": 100,
-      "spirit_stones": 4200,
+      "spirit_stones": 4232,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -654,8 +654,24 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 5,
+      "turns_remaining": 4,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "wilderness"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
