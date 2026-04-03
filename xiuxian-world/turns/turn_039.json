@@ -1,21 +1,41 @@
 {
   "turn": 39,
   "game_month": "第4年·三月",
-  "timestamp": "2026-04-03T15:53:22",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T16:00:25",
+  "world_events_triggered": [
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "location": "ancient_ruins",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：在石壁上发现了残破功法刻文",
+        "detail": "赤蟒在东海探索：找到一处藏宝洞穴",
         "success": true,
-        "result": "获得虚步诀"
+        "result": "获得56灵石"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "赤蟒"
     },
-    "yue_hua": {
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +9%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "zi_die": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
@@ -24,25 +44,14 @@
       },
       "free_actions": [],
       "plan_update": null,
-      "cultivator_name": "月华"
-    },
-    "bai_he": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +10%"
-      },
-      "free_actions": [],
-      "plan_update": null,
-      "cultivator_name": "白鹤"
+      "cultivator_name": "紫蝶"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：妖兽过强，负伤而逃",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "苍穹子在荒野探索：妖兽过强，负伤而逃"
+        "result": "获得火灵根"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +60,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
+        "detail": "雪影在荒野探索：发现了一件遗落的法器",
         "success": true,
-        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
+        "result": "获得普通飞剑"
       },
       "free_actions": [],
       "plan_update": null,
@@ -62,16 +71,30 @@
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "detail": "破军在九幽渊探索：险地深处，勉强存活",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+        "result": "破军在九幽渊探索：险地深处，勉强存活"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_039_01",
+      "initiator": "yue_hua",
+      "initiator_name": "月华",
+      "target": "zi_die",
+      "target_name": "紫蝶",
+      "location": "南疆",
+      "type": "greet",
+      "initiator_message": "（月华向紫蝶打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "月华向紫蝶主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
@@ -79,11 +102,34 @@
   "events": [
     {
       "turn": 39,
+      "type": "social.greet",
+      "actors": [
+        "yue_hua",
+        "zi_die"
+      ],
+      "location": "south_frontier",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 39,
       "type": "adventure.treasure_found",
       "actors": [
-        "chi_mang"
+        "cang_qiong"
       ],
       "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 39,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -92,29 +138,29 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 0,
+      "income": 56,
       "expense": 0,
-      "current_stones": 1457
-    },
-    "yue_hua": {
-      "income": 0,
-      "expense": 0,
-      "current_stones": 210
+      "current_stones": 1506
     },
     "bai_he": {
       "income": 0,
       "expense": 0,
       "current_stones": 180
     },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 950
+    },
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1652
+      "current_stones": 1895
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 503
+      "current_stones": 558
     },
     "po_jun": {
       "income": 0,
