@@ -1,7 +1,7 @@
 {
-  "turn": 614,
-  "game_month": "第52年·二月",
-  "timestamp": "2026-04-03T16:53:54",
+  "turn": 615,
+  "game_month": "第52年·三月",
+  "timestamp": "2026-04-03T16:53:58",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 54719,
-      "hp": 31,
+      "combat_power": 51754,
+      "hp": 23,
       "hp_max": 100,
       "spirit_stones": 10287,
       "location": "east_sea",
@@ -1248,6 +1248,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
