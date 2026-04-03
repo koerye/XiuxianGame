@@ -1,7 +1,7 @@
 {
-  "turn": 164,
-  "game_month": "第14年·八月",
-  "timestamp": "2026-04-03T16:22:28",
+  "turn": 165,
+  "game_month": "第14年·九月",
+  "timestamp": "2026-04-03T16:22:32",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.9231,
-      "combat_power": 7023,
+      "realm_progress": 0.9903,
+      "combat_power": 7133,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "化神初期",
-      "realm_progress": 0.9634,
-      "combat_power": 11601,
-      "hp": 735,
-      "hp_max": 735,
+      "realm": "化神中期",
+      "realm_progress": 0.0,
+      "combat_power": 11000,
+      "hp": 882,
+      "hp_max": 882,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -143,7 +143,7 @@
       "combat_power": 20696,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 3211,
+      "spirit_stones": 3248,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 696,
+      "combat_power": 713,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 2661,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 8963,
-      "hp": 25,
+      "combat_power": 9912,
+      "hp": 40,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -512,6 +512,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "medicine_valley"
     }
   ]
 }
