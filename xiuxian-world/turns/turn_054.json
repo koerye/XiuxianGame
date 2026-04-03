@@ -1,7 +1,7 @@
 {
   "turn": 54,
   "game_month": "第5年·六月",
-  "timestamp": "2026-04-03T15:54:16",
+  "timestamp": "2026-04-03T16:01:21",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
@@ -9,7 +9,7 @@
         "action": "explore",
         "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得千年灵芝"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +5%"
+        "result": "修炼进度 +6%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得冰心草"
+        "result": "获得基础剑诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -50,10 +50,10 @@
     },
     "xue_ying": {
       "main_action": {
-        "action": "heal",
-        "detail": "雪影静心调息，恢复15点生命",
+        "action": "explore",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "恢复15HP"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -61,10 +61,10 @@
     },
     "po_jun": {
       "main_action": {
-        "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+        "result": "恢复15HP"
       },
       "free_actions": [],
       "plan_update": null,
@@ -94,6 +94,17 @@
       "actors": [
         "cang_qiong"
       ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 54,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
       "location": "wilderness",
       "weight": 3,
       "data": {},
@@ -105,7 +116,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1628
+      "current_stones": 1521
     },
     "yue_hua": {
       "income": 0,
@@ -120,12 +131,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1733
+      "current_stones": 1979
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 713
     },
     "po_jun": {
       "income": 0,

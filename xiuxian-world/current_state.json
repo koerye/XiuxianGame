@@ -1,7 +1,7 @@
 {
-  "turn": 53,
-  "game_month": "第5年·五月",
-  "timestamp": "2026-04-03T16:01:18",
+  "turn": 54,
+  "game_month": "第5年·六月",
+  "timestamp": "2026-04-03T16:01:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.2143,
-      "combat_power": 808,
+      "realm_progress": 0.2781,
+      "combat_power": 823,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.1095,
-      "combat_power": 1445,
+      "realm_progress": 0.2024,
+      "combat_power": 1484,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "nine_abyssal",
+      "location": "wanyao_cave",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -138,7 +138,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 6279,
+      "combat_power": 6422,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 1979,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6180,
-      "hp": 26,
+      "combat_power": 6830,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -260,7 +260,9 @@
     "tianji_mountain": [
       "ling_bo"
     ],
-    "wanyao_cave": [],
+    "wanyao_cave": [
+      "zi_die"
+    ],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
@@ -280,8 +282,7 @@
       "yue_hua"
     ],
     "nine_abyssal": [
-      "po_jun",
-      "zi_die"
+      "po_jun"
     ],
     "unnamed_cave": []
   },
@@ -457,7 +458,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "ancient_ruins"
     },
     {
@@ -465,7 +466,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     },
     {
