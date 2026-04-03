@@ -1,7 +1,7 @@
 {
-  "turn": 990,
-  "game_month": "第83年·六月",
-  "timestamp": "2026-04-03T17:22:03",
+  "turn": 991,
+  "game_month": "第83年·七月",
+  "timestamp": "2026-04-03T17:22:08",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 93194,
+      "combat_power": 93654,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 14810,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 3205,
-      "hp": 32,
+      "combat_power": 2968,
+      "hp": 21,
       "hp_max": 100,
       "spirit_stones": 13379,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 57729,
-      "hp": 24,
+      "combat_power": 63885,
+      "hp": 39,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1902,7 +1902,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "east_sea"
     }
   ]
