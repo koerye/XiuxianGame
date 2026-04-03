@@ -1,7 +1,7 @@
 {
-  "turn": 842,
-  "game_month": "第71年·二月",
-  "timestamp": "2026-04-03T17:10:39",
+  "turn": 843,
+  "game_month": "第71年·三月",
+  "timestamp": "2026-04-03T17:10:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 21243,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 11914,
+      "spirit_stones": 11968,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 2889,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 11318,
+      "spirit_stones": 11356,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -1630,7 +1630,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "sword_tomb"
     },
     {
@@ -1640,6 +1640,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
