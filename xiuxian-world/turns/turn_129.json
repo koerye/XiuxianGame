@@ -1,0 +1,125 @@
+{
+  "turn": 129,
+  "game_month": "第11年·九月",
+  "timestamp": "2026-04-03T16:20:13",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +8%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +9%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
+        "success": true,
+        "result": "获得59灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：找到一处藏宝洞穴",
+        "success": true,
+        "result": "获得142灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "雪影"
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：险地中发现极品宝物",
+        "success": true,
+        "result": "获得灵玉剑"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "破军"
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [
+    {
+      "turn": 129,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "po_jun"
+      ],
+      "location": "nine_abyssal",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1820
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 59,
+      "expense": 0,
+      "current_stones": 2532
+    },
+    "xue_ying": {
+      "income": 142,
+      "expense": 0,
+      "current_stones": 2120
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
