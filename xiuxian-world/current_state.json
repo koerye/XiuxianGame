@@ -1,7 +1,7 @@
 {
-  "turn": 43,
-  "game_month": "第4年·七月",
-  "timestamp": "2026-04-03T16:14:51",
+  "turn": 44,
+  "game_month": "第4年·八月",
+  "timestamp": "2026-04-03T16:14:54",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.5902,
-      "combat_power": 894,
+      "realm_progress": 0.6689,
+      "combat_power": 912,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.9701,
-      "combat_power": 1291,
+      "realm_progress": 0.8,
+      "combat_power": 1240,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -331,6 +331,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "market_street"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "wilderness"
     }
   ]
 }
