@@ -1,7 +1,7 @@
 {
-  "turn": 167,
-  "game_month": "第14年·冬月",
-  "timestamp": "2026-04-03T16:22:40",
+  "turn": 168,
+  "game_month": "第14年·腊月",
+  "timestamp": "2026-04-03T16:22:43",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 5029,
+      "combat_power": 5125,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 2458,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.8656,
-      "combat_power": 6928,
+      "realm_progress": 0.9361,
+      "combat_power": 7044,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神中期",
-      "realm_progress": 0.1742,
-      "combat_power": 11574,
+      "realm_progress": 0.2835,
+      "combat_power": 11935,
       "hp": 882,
       "hp_max": 882,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 21264,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 3248,
+      "spirit_stones": 3350,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 673,
       "hp": 33,
       "hp_max": 100,
-      "spirit_stones": 2757,
+      "spirit_stones": 2783,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 9849,
-      "hp": 39,
+      "combat_power": 8267,
+      "hp": 14,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -512,14 +512,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
     }
   ]
 }
