@@ -1,8 +1,25 @@
 {
   "turn": 66,
   "game_month": "第6年·六月",
-  "timestamp": "2026-04-03T15:55:01",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T16:02:06",
+  "world_events_triggered": [
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "location": "zhongzhou_city",
+      "duration": 1
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "location": "south_frontier",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
@@ -20,7 +37,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +48,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +9%"
+        "result": "修炼进度 +0%；突破至金丹后期"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +57,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：找到一处藏宝洞穴",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得69灵石"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -53,7 +70,7 @@
         "action": "explore",
         "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得冰心草"
+        "result": "获得寒铁矿"
       },
       "free_actions": [],
       "plan_update": null,
@@ -61,10 +78,10 @@
     },
     "po_jun": {
       "main_action": {
-        "action": "explore",
-        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
         "success": true,
-        "result": "破军在九幽渊探索：遭遇险地BOSS"
+        "result": "恢复15HP"
       },
       "free_actions": [],
       "plan_update": null,
@@ -73,7 +90,14 @@
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [],
+  "breakthroughs": [
+    {
+      "cultivator": "bai_he",
+      "name": "",
+      "new_realm": "金丹后期",
+      "old_realm": "金丹中期"
+    }
+  ],
   "deaths": [],
   "messages_sent": [],
   "events": [
@@ -82,6 +106,28 @@
       "type": "adventure.treasure_found",
       "actors": [
         "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 66,
+      "type": "growth.breakthrough",
+      "actors": [
+        "bai_he"
+      ],
+      "location": "qingyun_peak",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 66,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
       ],
       "location": "east_sea",
       "weight": 3,
@@ -105,7 +151,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1756
+      "current_stones": 1676
     },
     "yue_hua": {
       "income": 0,
@@ -118,14 +164,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 69,
+      "income": 0,
       "expense": 0,
-      "current_stones": 2039
+      "current_stones": 2179
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 633
+      "current_stones": 927
     },
     "po_jun": {
       "income": 0,
