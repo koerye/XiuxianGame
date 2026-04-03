@@ -1,7 +1,7 @@
 {
-  "turn": 42,
-  "game_month": "第4年·六月",
-  "timestamp": "2026-04-03T16:00:37",
+  "turn": 43,
+  "game_month": "第4年·七月",
+  "timestamp": "2026-04-03T16:00:40",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2480,
-      "hp": 31,
+      "combat_power": 2296,
+      "hp": 20,
       "hp_max": 100,
       "spirit_stones": 1506,
       "location": "east_sea",
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.8854,
-      "combat_power": 683,
+      "realm_progress": 0.9437,
+      "combat_power": 692,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.5603,
-      "combat_power": 1168,
+      "realm_progress": 0.6468,
+      "combat_power": 1194,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "nine_abyssal",
+      "location": "south_frontier",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -141,7 +141,7 @@
       "combat_power": 4966,
       "hp": 45,
       "hp_max": 100,
-      "spirit_stones": 1905,
+      "spirit_stones": 1922,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -169,7 +169,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 300,
+      "combat_power": 322,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 558,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6310,
-      "hp": 29,
+      "combat_power": 6960,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -277,11 +277,11 @@
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
-      "yue_hua"
+      "yue_hua",
+      "zi_die"
     ],
     "nine_abyssal": [
-      "po_jun",
-      "zi_die"
+      "po_jun"
     ],
     "unnamed_cave": []
   },
@@ -401,27 +401,11 @@
       "location": "medicine_valley"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "demon_tide",
       "type": "demon_tide",
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
-      "location": "wilderness"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
       "location": "wilderness"
     },
     {
