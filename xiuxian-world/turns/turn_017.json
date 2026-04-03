@@ -1,0 +1,161 @@
+{
+  "turn": 17,
+  "game_month": "第2年·五月",
+  "timestamp": "2026-04-03T15:09:12",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
+        "success": true,
+        "result": "获得寒铁矿"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%；突破至筑基后期"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +9%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "苍穹子在东海探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "雪影在荒野探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇险地BOSS",
+        "success": true,
+        "result": "破军在九幽渊探索：遭遇险地BOSS"
+      },
+      "free_actions": [],
+      "plan_update": null
+    }
+  },
+  "social_interactions": [
+    {
+      "id": "si_017_01",
+      "initiator": "zi_die",
+      "target": "yun_yin_zi",
+      "location": "中州城",
+      "type": "scheme",
+      "initiator_message": "（紫蝶向云隐子打招呼）",
+      "target_response": "幸会幸会。",
+      "outcome": "紫蝶向云隐子挑拨离间",
+      "relation_changes": {}
+    }
+  ],
+  "combats": [],
+  "breakthroughs": [
+    {
+      "cultivator": "yue_hua",
+      "name": "月华",
+      "new_realm": "筑基后期",
+      "old_realm": "筑基中期"
+    }
+  ],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [
+    {
+      "turn": 17,
+      "type": "social.scheme",
+      "actors": [
+        "zi_die",
+        "yun_yin_zi"
+      ],
+      "location": "zhongzhou_city",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 17,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 17,
+      "type": "growth.breakthrough",
+      "actors": [
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 743
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1369
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 494
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
