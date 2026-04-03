@@ -1,7 +1,7 @@
 {
-  "turn": 690,
-  "game_month": "第58年·六月",
-  "timestamp": "2026-04-03T16:59:27",
+  "turn": 691,
+  "game_month": "第58年·七月",
+  "timestamp": "2026-04-03T16:59:32",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 65646,
-      "hp": 37,
+      "combat_power": 59665,
+      "hp": 23,
       "hp_max": 100,
       "spirit_stones": 10865,
       "location": "east_sea",
