@@ -1,7 +1,7 @@
 {
-  "turn": 69,
-  "game_month": "第6年·九月",
-  "timestamp": "2026-04-03T16:02:18",
+  "turn": 70,
+  "game_month": "第6年·十月",
+  "timestamp": "2026-04-03T16:02:21",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.3122,
-      "combat_power": 1093,
+      "realm_progress": 0.3965,
+      "combat_power": 1118,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.2735,
-      "combat_power": 2055,
+      "realm_progress": 0.3863,
+      "combat_power": 2120,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 7564,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 2211,
+      "spirit_stones": 2234,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 456,
+      "combat_power": 462,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 927,
@@ -524,7 +524,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "zhongzhou_city"
     },
     {
@@ -534,6 +534,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     }
   ]
 }
