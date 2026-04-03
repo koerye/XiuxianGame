@@ -1,7 +1,7 @@
 {
-  "turn": 625,
-  "game_month": "第53年·正月",
-  "timestamp": "2026-04-03T16:54:50",
+  "turn": 626,
+  "game_month": "第53年·二月",
+  "timestamp": "2026-04-03T16:54:54",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 14166,
-      "hp": 26,
+      "combat_power": 15656,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 8965,
       "location": "east_sea",
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 57683,
+      "combat_power": 58132,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 10393,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 38356,
-      "hp": 25,
+      "combat_power": 42417,
+      "hp": 40,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1255,6 +1255,14 @@
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
+      "location": "medicine_valley"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
       "location": "medicine_valley"
     }
   ]
