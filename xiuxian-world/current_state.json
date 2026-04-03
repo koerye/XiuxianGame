@@ -1,7 +1,7 @@
 {
-  "turn": 554,
-  "game_month": "第47年·二月",
-  "timestamp": "2026-04-03T16:48:31",
+  "turn": 555,
+  "game_month": "第47年·三月",
+  "timestamp": "2026-04-03T16:48:35",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 13356,
+      "combat_power": 13683,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 7734,
@@ -143,7 +143,7 @@
       "combat_power": 50466,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 9762,
+      "spirit_stones": 9792,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 1827,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 7451,
+      "spirit_stones": 7469,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 38790,
-      "hp": 38,
+      "combat_power": 34526,
+      "hp": 21,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1168,6 +1168,14 @@
       "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
