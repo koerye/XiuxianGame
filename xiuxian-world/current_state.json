@@ -1,7 +1,7 @@
 {
-  "turn": 512,
-  "game_month": "第43年·八月",
-  "timestamp": "2026-04-03T16:45:36",
+  "turn": 513,
+  "game_month": "第43年·九月",
+  "timestamp": "2026-04-03T16:45:40",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 48623,
+      "combat_power": 49048,
       "hp": 31,
       "hp_max": 100,
       "spirit_stones": 8883,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 34180,
-      "hp": 34,
+      "combat_power": 29416,
+      "hp": 13,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1078,16 +1078,8 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "south_frontier"
     },
     {
       "id": "bounty_posted",
@@ -1102,8 +1094,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "south_frontier"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 3,
+      "location": "sword_tomb"
     }
   ]
 }
