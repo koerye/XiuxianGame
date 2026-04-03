@@ -1,7 +1,7 @@
 {
-  "turn": 54,
-  "game_month": "第5年·六月",
-  "timestamp": "2026-04-03T15:11:25",
+  "turn": 55,
+  "game_month": "第5年·七月",
+  "timestamp": "2026-04-03T15:11:29",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.3471,
-      "combat_power": 1104,
+      "realm_progress": 0.4092,
+      "combat_power": 1122,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.0,
-      "combat_power": 1400,
+      "realm_progress": 0.1041,
+      "combat_power": 1443,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 8298,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 1996,
+      "spirit_stones": 2015,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 278,
+      "combat_power": 316,
       "hp": 35,
       "hp_max": 100,
       "spirit_stones": 1101,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4935,
-      "hp": 23,
+      "combat_power": 5465,
+      "hp": 38,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -392,6 +392,14 @@
       "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
       "turns_remaining": 0,
       "location": "market_street"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
