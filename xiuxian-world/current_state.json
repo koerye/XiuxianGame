@@ -1,7 +1,7 @@
 {
-  "turn": 26,
-  "game_month": "第3年·二月",
-  "timestamp": "2026-04-03T15:59:36",
+  "turn": 27,
+  "game_month": "第3年·三月",
+  "timestamp": "2026-04-03T15:59:40",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.0967,
-      "combat_power": 782,
+      "realm_progress": 0.1825,
+      "combat_power": 801,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -139,7 +139,7 @@
       "realm": "元婴初期",
       "realm_progress": 0.0,
       "combat_power": 4320,
-      "hp": 78,
+      "hp": 60,
       "hp_max": 100,
       "spirit_stones": 1515,
       "location": "east_sea",
@@ -172,7 +172,7 @@
       "combat_power": 233,
       "hp": 38,
       "hp_max": 100,
-      "spirit_stones": 283,
+      "spirit_stones": 305,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -200,7 +200,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4598,
+      "combat_power": 5183,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -217,6 +217,7 @@
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
       "inventory_summary": [
+        "灵玉剑",
         "灵玉剑",
         "灵玉剑",
         "灵玉剑",
@@ -302,7 +303,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 5,
+      "familiarity": 10,
       "tags": []
     },
     {
@@ -318,11 +319,11 @@
     {
       "from": "zi_die",
       "to": "yue_hua",
-      "favor": 2,
+      "favor": 4,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 5,
+      "familiarity": 10,
       "tags": []
     }
   ],
@@ -374,14 +375,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
-    },
-    {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
     },
     {
       "id": "demon_tide",
