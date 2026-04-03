@@ -1,23 +1,23 @@
 {
-  "turn": 100,
-  "game_month": "第9年·四月",
-  "timestamp": "2026-04-03T15:57:05",
+  "turn": 1,
+  "game_month": "第1年·正月",
+  "timestamp": "2026-04-03T15:58:00",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.8,
-      "combat_power": 669,
+      "realm_progress": 0.0704,
+      "combat_power": 551,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 220,
+      "spirit_stones": 320,
       "location": "zhongzhou_city",
-      "status": "in_seclusion",
+      "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 2,
+      "seclusion_turns_left": 0,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -26,19 +26,17 @@
       "life_goal": "在百岁之前突破元婴期",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": [
-        "闭关中"
-      ]
+      "status_tags": []
     },
     "chi_mang": {
       "name": "赤蟒",
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 5012,
-      "hp": 44,
+      "combat_power": 1000,
+      "hp": 61,
       "hp_max": 100,
-      "spirit_stones": 2696,
+      "spirit_stones": 580,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -51,24 +49,17 @@
       "reputation": 0,
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
-      "inventory_summary": [
-        "冰心草",
-        "寒铁矿",
-        "冰心草",
-        "灵玉剑",
-        "火灵根",
-        "火云诀"
-      ],
+      "inventory_summary": [],
       "status_tags": []
     },
     "yue_hua": {
       "name": "月华",
       "alive": true,
-      "realm": "金丹中期",
-      "realm_progress": 0.3451,
-      "combat_power": 1544,
-      "hp": 206,
-      "hp_max": 206,
+      "realm": "筑基中期",
+      "realm_progress": 0.0807,
+      "combat_power": 389,
+      "hp": 100,
+      "hp_max": 100,
       "spirit_stones": 210,
       "location": "south_frontier",
       "status": "idle",
@@ -88,11 +79,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "金丹巅峰",
-      "realm_progress": 0.713,
-      "combat_power": 3034,
-      "hp": 296,
-      "hp_max": 296,
+      "realm": "筑基中期",
+      "realm_progress": 0.0839,
+      "combat_power": 389,
+      "hp": 100,
+      "hp_max": 100,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -112,17 +103,17 @@
     "zi_die": {
       "name": "紫蝶",
       "alive": true,
-      "realm": "筑基初期",
-      "realm_progress": 0.0,
-      "combat_power": 260,
-      "hp": 120,
-      "hp_max": 120,
-      "spirit_stones": 850,
+      "realm": "炼气巅峰",
+      "realm_progress": 0.0862,
+      "combat_power": 184,
+      "hp": 100,
+      "hp_max": 100,
+      "spirit_stones": 950,
       "location": "market_street",
-      "status": "in_seclusion",
+      "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 2,
+      "seclusion_turns_left": 0,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -131,20 +122,18 @@
       "life_goal": "积累足够的财富和人脉，成为修仙界最大的商人",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": [
-        "闭关中"
-      ]
+      "status_tags": []
     },
     "cang_qiong": {
       "name": "苍穹子",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.5473,
-      "combat_power": 13202,
-      "hp": 31,
+      "realm_progress": 0.0,
+      "combat_power": 3200,
+      "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 2431,
-      "location": "wilderness",
+      "spirit_stones": 1200,
+      "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -156,14 +145,7 @@
       "reputation": 0,
       "life_goal": "收几个好徒弟，将毕生所学传承下去",
       "current_plan": "",
-      "inventory_summary": [
-        "千年灵芝",
-        "冰心诀",
-        "火灵根",
-        "灵玉剑",
-        "千年灵芝",
-        "冰心诀"
-      ],
+      "inventory_summary": [],
       "status_tags": []
     },
     "xue_ying": {
@@ -171,10 +153,10 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 329,
-      "hp": 31,
+      "combat_power": 120,
+      "hp": 61,
       "hp_max": 100,
-      "spirit_stones": 922,
+      "spirit_stones": 60,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -187,14 +169,7 @@
       "reputation": 0,
       "life_goal": "超越一切，成为这个世界最强的人",
       "current_plan": "",
-      "inventory_summary": [
-        "寒铁矿",
-        "千年灵芝",
-        "千年灵芝",
-        "火灵根",
-        "普通飞剑",
-        "火云诀"
-      ],
+      "inventory_summary": [],
       "status_tags": []
     },
     "po_jun": {
@@ -202,8 +177,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6805,
-      "hp": 16,
+      "combat_power": 1900,
+      "hp": 100,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -218,30 +193,23 @@
       "reputation": 0,
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
-      "inventory_summary": [
-        "灵玉剑",
-        "灵玉剑",
-        "灵玉剑",
-        "灵玉剑",
-        "灵玉剑",
-        "灵玉剑"
-      ],
+      "inventory_summary": [],
       "status_tags": []
     },
     "ling_bo": {
       "name": "凌波",
       "alive": true,
       "realm": "筑基初期",
-      "realm_progress": 0.8,
-      "combat_power": 322,
+      "realm_progress": 0.0986,
+      "combat_power": 267,
       "hp": 100,
       "hp_max": 100,
-      "spirit_stones": 190,
+      "spirit_stones": 290,
       "location": "tianji_mountain",
-      "status": "in_seclusion",
+      "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
-      "seclusion_turns_left": 2,
+      "seclusion_turns_left": 0,
       "sect": null,
       "sect_rank": null,
       "master": null,
@@ -250,9 +218,7 @@
       "life_goal": "炼出一炉能让人飞升的仙丹",
       "current_plan": "",
       "inventory_summary": [],
-      "status_tags": [
-        "闭关中"
-      ]
+      "status_tags": []
     }
   },
   "location_occupants": {
@@ -271,11 +237,11 @@
     ],
     "medicine_valley": [],
     "wilderness": [
-      "xue_ying",
-      "cang_qiong"
+      "xue_ying"
     ],
     "east_sea": [
-      "chi_mang"
+      "chi_mang",
+      "cang_qiong"
     ],
     "penglai_island": [],
     "ancient_ruins": [],
@@ -289,134 +255,5 @@
     "unnamed_cave": []
   },
   "relationships": [],
-  "active_world_events": [
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "market_street"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "south_frontier"
-    },
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "turns_remaining": 0,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "bounty_posted",
-      "type": "bounty_posted",
-      "name": "高额悬赏发布",
-      "description": "城镇悬赏告示板更新，有新任务可领取",
-      "turns_remaining": 0,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "wilderness"
-    },
-    {
-      "id": "spirit_vein_exposed",
-      "type": "spirit_vein_exposed",
-      "name": "灵脉外露",
-      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
-      "turns_remaining": 0,
-      "location": "medicine_valley"
-    },
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "turns_remaining": 0,
-      "location": "zhongzhou_city"
-    },
-    {
-      "id": "spirit_vein_exposed",
-      "type": "spirit_vein_exposed",
-      "name": "灵脉外露",
-      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
-      "turns_remaining": 0,
-      "location": "east_sea"
-    },
-    {
-      "id": "spirit_vein_exposed",
-      "type": "spirit_vein_exposed",
-      "name": "灵脉外露",
-      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
-      "turns_remaining": 0,
-      "location": "zhongzhou_city"
-    }
-  ]
+  "active_world_events": []
 }
