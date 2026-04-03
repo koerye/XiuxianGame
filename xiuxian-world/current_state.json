@@ -1,7 +1,7 @@
 {
-  "turn": 850,
-  "game_month": "第71年·十月",
-  "timestamp": "2026-04-03T17:11:15",
+  "turn": 851,
+  "game_month": "第71年·冬月",
+  "timestamp": "2026-04-03T17:11:20",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 77708,
+      "combat_power": 78306,
       "hp": 39,
       "hp_max": 100,
       "spirit_stones": 12603,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 53021,
-      "hp": 28,
+      "combat_power": 58519,
+      "hp": 43,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1654,7 +1654,7 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "medicine_valley"
     }
   ]
