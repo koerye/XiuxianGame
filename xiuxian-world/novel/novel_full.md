@@ -1,0 +1,14 @@
+# 修仙世界纪事
+
+> 此为修仙世界生态模拟器自动生成的小说记录。
+
+---
+
+
+
+## 第1回
+
+{"thinking": "先把境界练上去再说", "main_action": {"action": "cultivate", "detail": "修炼"}, "free_actions": []}
+
+---
+
