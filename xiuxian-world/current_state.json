@@ -1,7 +1,7 @@
 {
-  "turn": 80,
-  "game_month": "第7年·八月",
-  "timestamp": "2026-04-03T15:12:59",
+  "turn": 81,
+  "game_month": "第7年·九月",
+  "timestamp": "2026-04-03T15:13:03",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 3074,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 1205,
+      "spirit_stones": 1258,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.9211,
-      "combat_power": 1786,
+      "realm_progress": 0.8,
+      "combat_power": 1736,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.7,
-      "combat_power": 2156,
+      "realm_progress": 0.788,
+      "combat_power": 2203,
       "hp": 98,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 416,
+      "combat_power": 439,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 1365,
@@ -424,6 +424,14 @@
       "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
