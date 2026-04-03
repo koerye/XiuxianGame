@@ -1,7 +1,7 @@
 {
-  "turn": 41,
-  "game_month": "第4年·五月",
-  "timestamp": "2026-04-03T16:14:43",
+  "turn": 42,
+  "game_month": "第4年·六月",
+  "timestamp": "2026-04-03T16:14:47",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 1285,
+      "combat_power": 1618,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 852,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.4328,
-      "combat_power": 858,
+      "realm_progress": 0.5111,
+      "combat_power": 876,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.7628,
-      "combat_power": 1228,
+      "realm_progress": 0.8652,
+      "combat_power": 1259,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 8908,
+      "combat_power": 9502,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 1702,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 262,
+      "combat_power": 268,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 474,
@@ -323,6 +323,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
