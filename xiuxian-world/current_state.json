@@ -1,7 +1,7 @@
 {
-  "turn": 741,
-  "game_month": "第62年·九月",
-  "timestamp": "2026-04-03T17:03:10",
+  "turn": 742,
+  "game_month": "第62年·十月",
+  "timestamp": "2026-04-03T17:03:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 2278,
-      "hp": 34,
+      "combat_power": 2172,
+      "hp": 27,
       "hp_max": 100,
       "spirit_stones": 10091,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 47317,
-      "hp": 30,
+      "combat_power": 42478,
+      "hp": 15,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1382,6 +1382,14 @@
       "type": "demon_tide",
       "name": "妖潮来袭",
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
     }
