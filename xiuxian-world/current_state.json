@@ -1,7 +1,7 @@
 {
-  "turn": 344,
-  "game_month": "第29年·八月",
-  "timestamp": "2026-04-03T16:34:16",
+  "turn": 345,
+  "game_month": "第29年·九月",
+  "timestamp": "2026-04-03T16:34:20",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 7648,
       "hp": 36,
       "hp_max": 100,
-      "spirit_stones": 5084,
+      "spirit_stones": 5107,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -143,7 +143,7 @@
       "combat_power": 36857,
       "hp": 31,
       "hp_max": 100,
-      "spirit_stones": 6047,
+      "spirit_stones": 6082,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 21269,
-      "hp": 32,
+      "combat_power": 18551,
+      "hp": 13,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -778,14 +778,6 @@
       "location": "wilderness"
     },
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
-    },
-    {
       "id": "bounty_posted",
       "type": "bounty_posted",
       "name": "高额悬赏发布",
@@ -800,6 +792,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "market_street"
     }
   ]
 }
