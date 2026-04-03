@@ -1,67 +1,63 @@
 {
   "turn": 55,
   "game_month": "第5年·七月",
-  "timestamp": "2026-04-03T15:11:29",
-  "world_events_triggered": [
-    {
-      "id": "demon_tide",
-      "type": "demon_tide",
-      "name": "妖潮来袭",
-      "description": "大批妖兽涌来，需多方修仙者合力抵御",
-      "location": "medicine_valley",
-      "duration": 1
-    }
-  ],
+  "timestamp": "2026-04-03T15:54:20",
+  "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
         "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得千年灵芝"
+        "result": "获得寒铁矿"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +6%"
+        "result": "修炼进度 +5%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "月华"
     },
     "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +10%"
+        "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
+        "detail": "苍穹子在荒野探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "获得19灵石"
+        "result": "获得28灵石"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：发现了一件遗落的法器",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得灵玉剑"
+        "result": "获得冰心诀"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
@@ -71,7 +67,8 @@
         "result": "恢复15HP"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
@@ -108,7 +105,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 942
+      "current_stones": 1628
     },
     "yue_hua": {
       "income": 0,
@@ -121,14 +118,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 19,
+      "income": 28,
       "expense": 0,
-      "current_stones": 2015
+      "current_stones": 1761
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1101
+      "current_stones": 633
     },
     "po_jun": {
       "income": 0,
