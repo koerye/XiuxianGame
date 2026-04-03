@@ -1,7 +1,7 @@
 {
-  "turn": 449,
-  "game_month": "第38年·五月",
-  "timestamp": "2026-04-03T16:41:18",
+  "turn": 450,
+  "game_month": "第38年·六月",
+  "timestamp": "2026-04-03T16:41:22",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 47526,
       "hp": 40,
       "hp_max": 100,
-      "spirit_stones": 7713,
+      "spirit_stones": 7739,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -171,8 +171,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 1350,
-      "hp": 26,
+      "combat_power": 1492,
+      "hp": 41,
       "hp_max": 100,
       "spirit_stones": 6437,
       "location": "wilderness",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 29558,
-      "hp": 29,
+      "combat_power": 32602,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -960,6 +960,22 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }

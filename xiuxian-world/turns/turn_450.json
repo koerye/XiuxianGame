@@ -1,0 +1,142 @@
+{
+  "turn": 450,
+  "game_month": "第38年·六月",
+  "timestamp": "2026-04-03T16:41:22",
+  "world_events_triggered": [
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "location": "wilderness",
+      "duration": 1
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "location": "medicine_valley",
+      "duration": 1
+    }
+  ],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：发现了一株灵药",
+        "success": true,
+        "result": "获得寒铁矿"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": ""
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "白鹤"
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
+        "success": true,
+        "result": "获得26灵石"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "heal",
+        "detail": "雪影静心调息，恢复15点生命",
+        "success": true,
+        "result": "恢复15HP"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "雪影"
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
+        "success": true,
+        "result": "恢复15HP"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "破军"
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [
+    {
+      "turn": 450,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "chi_mang"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 6369
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 26,
+      "expense": 0,
+      "current_stones": 7739
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 6437
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
