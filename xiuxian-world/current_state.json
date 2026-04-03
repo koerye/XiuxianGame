@@ -1,7 +1,7 @@
 {
-  "turn": 222,
-  "game_month": "第19年·六月",
-  "timestamp": "2026-04-03T16:26:16",
+  "turn": 223,
+  "game_month": "第19年·七月",
+  "timestamp": "2026-04-03T16:26:20",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "化神中期",
-      "realm_progress": 0.4984,
-      "combat_power": 12644,
+      "realm_progress": 0.5646,
+      "combat_power": 12863,
       "hp": 882,
       "hp_max": 882,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神巅峰",
-      "realm_progress": 0.9844,
-      "combat_power": 23315,
+      "realm_progress": 0.8,
+      "combat_power": 22320,
       "hp": 1269,
       "hp_max": 1269,
       "spirit_stones": 180,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 10907,
-      "hp": 21,
+      "combat_power": 12095,
+      "hp": 36,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -598,7 +598,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     },
     {
@@ -606,8 +606,8 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "zhongzhou_city"
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
