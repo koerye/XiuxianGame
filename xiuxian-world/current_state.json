@@ -1,7 +1,7 @@
 {
-  "turn": 953,
-  "game_month": "第80年·五月",
-  "timestamp": "2026-04-03T17:19:07",
+  "turn": 954,
+  "game_month": "第80年·六月",
+  "timestamp": "2026-04-03T17:19:12",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 24823,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 13512,
+      "spirit_stones": 13552,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 3023,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 12806,
+      "spirit_stones": 12873,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 58436,
+      "combat_power": 59021,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -1848,14 +1848,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "east_sea"
     },
     {
       "id": "spirit_vein_exposed",
