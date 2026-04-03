@@ -1,0 +1,130 @@
+{
+  "turn": 29,
+  "game_month": "第3年·五月",
+  "timestamp": "2026-04-03T15:09:55",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "explore",
+        "detail": "赤蟒在东海探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "赤蟒在东海探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +8%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：发现了一株灵药",
+        "success": true,
+        "result": "获得千年灵芝"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
+        "success": true,
+        "result": "获得冰心诀"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "heal",
+        "detail": "破军静心调息，恢复15点生命",
+        "success": true,
+        "result": "恢复15HP"
+      },
+      "free_actions": [],
+      "plan_update": null
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [
+    {
+      "turn": 29,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 29,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 783
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1412
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 687
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
