@@ -1,7 +1,7 @@
 {
-  "turn": 176,
-  "game_month": "第15年·八月",
-  "timestamp": "2026-04-03T16:23:18",
+  "turn": 177,
+  "game_month": "第15年·九月",
+  "timestamp": "2026-04-03T16:23:24",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.8,
-      "combat_power": 6820,
+      "realm_progress": 0.8698,
+      "combat_power": 6935,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "化神后期",
-      "realm_progress": 0.0,
-      "combat_power": 14000,
+      "realm_progress": 0.0808,
+      "combat_power": 14339,
       "hp": 1058,
       "hp_max": 1058,
       "spirit_stones": 180,
@@ -171,7 +171,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 705,
+      "combat_power": 727,
       "hp": 33,
       "hp_max": 100,
       "spirit_stones": 2986,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 9216,
-      "hp": 29,
+      "combat_power": 10165,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -519,14 +519,6 @@
       "name": "高额悬赏发布",
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
-      "location": "zhongzhou_city"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
       "location": "zhongzhou_city"
     },
     {
