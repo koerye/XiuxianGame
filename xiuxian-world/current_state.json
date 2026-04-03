@@ -1,7 +1,7 @@
 {
-  "turn": 303,
-  "game_month": "第26年·三月",
-  "timestamp": "2026-04-03T16:31:34",
+  "turn": 304,
+  "game_month": "第26年·四月",
+  "timestamp": "2026-04-03T16:31:38",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 36174,
+      "combat_power": 37247,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 5657,
@@ -722,14 +722,6 @@
       "location": "wilderness"
     },
     {
-      "id": "secret_realm_open",
-      "type": "secret_realm_open",
-      "name": "秘境开启",
-      "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 1,
-      "location": "ancient_ruins"
-    },
-    {
       "id": "bounty_posted",
       "type": "bounty_posted",
       "name": "高额悬赏发布",
@@ -742,7 +734,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 4,
+      "turns_remaining": 3,
       "location": "sword_tomb"
     }
   ]
