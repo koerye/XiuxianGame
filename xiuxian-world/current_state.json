@@ -1,7 +1,7 @@
 {
-  "turn": 149,
-  "game_month": "第13年·五月",
-  "timestamp": "2026-04-03T16:21:30",
+  "turn": 150,
+  "game_month": "第13年·六月",
+  "timestamp": "2026-04-03T16:21:34",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 4215,
+      "combat_power": 4358,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 2076,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "元婴后期",
-      "realm_progress": 0.1521,
-      "combat_power": 5750,
+      "realm_progress": 0.2312,
+      "combat_power": 5881,
       "hp": 511,
       "hp_max": 511,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "元婴巅峰",
-      "realm_progress": 0.754,
-      "combat_power": 8583,
+      "realm_progress": 0.8611,
+      "combat_power": 8808,
       "hp": 613,
       "hp_max": 613,
       "spirit_stones": 180,
@@ -143,7 +143,7 @@
       "combat_power": 20867,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 2902,
+      "spirit_stones": 2933,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -174,7 +174,7 @@
       "combat_power": 553,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 2423,
+      "spirit_stones": 2451,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -478,7 +478,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "sword_tomb"
     },
     {
@@ -488,6 +488,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "wilderness"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "medicine_valley"
     }
   ]
 }
