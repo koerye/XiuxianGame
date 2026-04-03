@@ -1,20 +1,32 @@
 {
   "turn": 72,
   "game_month": "第6年·腊月",
-  "timestamp": "2026-04-03T15:12:31",
+  "timestamp": "2026-04-03T15:55:23",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：发现了一株灵药",
+        "detail": "赤蟒在东海探索：发现了一件遗落的法器",
         "success": true,
-        "result": "获得火灵根"
+        "result": "获得灵玉剑"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "赤蟒"
     },
     "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "月华"
+    },
+    "bai_he": {
       "main_action": {
         "action": "cultivate",
         "detail": "",
@@ -22,27 +34,19 @@
         "result": "修炼进度 +8%"
       },
       "free_actions": [],
-      "plan_update": null
-    },
-    "bai_he": {
-      "main_action": {
-        "action": "cultivate",
-        "detail": "",
-        "success": true,
-        "result": "修炼进度 +10%"
-      },
-      "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "白鹤"
     },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在东海探索：找到一处藏宝洞穴",
+        "detail": "苍穹子在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "获得84灵石"
+        "result": "获得寒铁矿"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "苍穹子"
     },
     "xue_ying": {
       "main_action": {
@@ -52,17 +56,19 @@
         "result": "雪影在荒野探索：妖兽过强，负伤而逃"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "雪影"
     },
     "po_jun": {
       "main_action": {
         "action": "explore",
-        "detail": "破军在九幽渊探索：险地中发现极品宝物",
+        "detail": "破军在九幽渊探索：遭遇险地BOSS",
         "success": true,
-        "result": "获得灵玉剑"
+        "result": "破军在九幽渊探索：遭遇险地BOSS"
       },
       "free_actions": [],
-      "plan_update": null
+      "plan_update": null,
+      "cultivator_name": "破军"
     }
   },
   "social_interactions": [],
@@ -86,9 +92,9 @@
       "turn": 72,
       "type": "adventure.treasure_found",
       "actors": [
-        "po_jun"
+        "cang_qiong"
       ],
-      "location": "nine_abyssal",
+      "location": "wilderness",
       "weight": 3,
       "data": {},
       "narrative_tags": []
@@ -99,7 +105,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1127
+      "current_stones": 1917
     },
     "yue_hua": {
       "income": 0,
@@ -112,14 +118,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 84,
+      "income": 0,
       "expense": 0,
-      "current_stones": 2241
+      "current_stones": 2199
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1347
+      "current_stones": 844
     },
     "po_jun": {
       "income": 0,
