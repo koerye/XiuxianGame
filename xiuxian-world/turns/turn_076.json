@@ -1,0 +1,107 @@
+{
+  "turn": 76,
+  "game_month": "第7年·四月",
+  "timestamp": "2026-04-03T15:12:45",
+  "world_events_triggered": [],
+  "actions": {
+    "chi_mang": {
+      "main_action": {
+        "action": "heal",
+        "detail": "赤蟒静心调息，恢复15点生命",
+        "success": true,
+        "result": "恢复15HP"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "yue_hua": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +6%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "bai_he": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +10%"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "cang_qiong": {
+      "main_action": {
+        "action": "explore",
+        "detail": "苍穹子在东海探索：妖兽过强，负伤而逃",
+        "success": true,
+        "result": "苍穹子在东海探索：妖兽过强，负伤而逃"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "xue_ying": {
+      "main_action": {
+        "action": "explore",
+        "detail": "雪影在荒野探索：在荒野中探索，无甚收获",
+        "success": true,
+        "result": "雪影在荒野探索：在荒野中探索，无甚收获"
+      },
+      "free_actions": [],
+      "plan_update": null
+    },
+    "po_jun": {
+      "main_action": {
+        "action": "explore",
+        "detail": "破军在九幽渊探索：遭遇极强魔物，身受重伤",
+        "success": true,
+        "result": "破军在九幽渊探索：遭遇极强魔物，身受重伤"
+      },
+      "free_actions": [],
+      "plan_update": null
+    }
+  },
+  "social_interactions": [],
+  "combats": [],
+  "breakthroughs": [],
+  "deaths": [],
+  "messages_sent": [],
+  "events": [],
+  "movement": [],
+  "economy": {
+    "chi_mang": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1127
+    },
+    "yue_hua": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 210
+    },
+    "bai_he": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 180
+    },
+    "cang_qiong": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 2241
+    },
+    "xue_ying": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 1365
+    },
+    "po_jun": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 400
+    }
+  }
+}
