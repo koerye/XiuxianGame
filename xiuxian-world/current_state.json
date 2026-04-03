@@ -1,7 +1,7 @@
 {
-  "turn": 35,
-  "game_month": "第3年·冬月",
-  "timestamp": "2026-04-03T16:00:11",
+  "turn": 36,
+  "game_month": "第3年·腊月",
+  "timestamp": "2026-04-03T16:00:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.5504,
-      "combat_power": 629,
+      "realm_progress": 0.6088,
+      "combat_power": 638,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "筑基巅峰",
-      "realm_progress": 0.9208,
-      "combat_power": 969,
-      "hp": 144,
-      "hp_max": 144,
+      "realm": "金丹初期",
+      "realm_progress": 0.0,
+      "combat_power": 1000,
+      "hp": 172,
+      "hp_max": 172,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -141,7 +141,7 @@
       "combat_power": 4480,
       "hp": 60,
       "hp_max": 100,
-      "spirit_stones": 1727,
+      "spirit_stones": 1757,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -303,7 +303,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 45,
+      "familiarity": 47,
       "tags": []
     },
     {
@@ -323,7 +323,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 45,
+      "familiarity": 47,
       "tags": []
     }
   ],

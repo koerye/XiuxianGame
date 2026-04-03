@@ -1,7 +1,7 @@
 {
   "turn": 36,
   "game_month": "第3年·腊月",
-  "timestamp": "2026-04-03T15:53:11",
+  "timestamp": "2026-04-03T16:00:14",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
@@ -9,7 +9,7 @@
         "action": "explore",
         "detail": "赤蟒在东海探索：发现了一株灵药",
         "success": true,
-        "result": "获得火灵根"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +5%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +31,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +7%；突破至金丹初期"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +40,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：在荒野中探索，无甚收获",
+        "detail": "苍穹子在东海探索：击败妖兽，缴获战利品",
         "success": true,
-        "result": "苍穹子在荒野探索：在荒野中探索，无甚收获"
+        "result": "获得30灵石"
       },
       "free_actions": [],
       "plan_update": null,
@@ -71,12 +71,45 @@
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_036_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yue_hua",
+      "target_name": "月华",
+      "location": "南疆",
+      "type": "scheme",
+      "initiator_message": "（紫蝶向月华打招呼）",
+      "target_response": "幸会幸会。",
+      "outcome": "紫蝶向月华挑拨离间",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
-  "breakthroughs": [],
+  "breakthroughs": [
+    {
+      "cultivator": "bai_he",
+      "name": "",
+      "new_realm": "金丹初期",
+      "old_realm": "筑基巅峰"
+    }
+  ],
   "deaths": [],
   "messages_sent": [],
   "events": [
+    {
+      "turn": 36,
+      "type": "social.scheme",
+      "actors": [
+        "zi_die",
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
     {
       "turn": 36,
       "type": "adventure.treasure_found",
@@ -87,6 +120,17 @@
       "weight": 3,
       "data": {},
       "narrative_tags": []
+    },
+    {
+      "turn": 36,
+      "type": "growth.breakthrough",
+      "actors": [
+        "bai_he"
+      ],
+      "location": "qingyun_peak",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
     }
   ],
   "movement": [],
@@ -94,7 +138,7 @@
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1457
+      "current_stones": 1378
     },
     "yue_hua": {
       "income": 0,
@@ -107,14 +151,14 @@
       "current_stones": 180
     },
     "cang_qiong": {
-      "income": 0,
+      "income": 30,
       "expense": 0,
-      "current_stones": 1622
+      "current_stones": 1757
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 480
+      "current_stones": 474
     },
     "po_jun": {
       "income": 0,
