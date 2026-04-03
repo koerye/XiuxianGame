@@ -1,15 +1,15 @@
 {
-  "turn": 2,
-  "game_month": "第1年·二月",
-  "timestamp": "2026-04-03T15:08:17",
+  "turn": 3,
+  "game_month": "第1年·三月",
+  "timestamp": "2026-04-03T15:08:20",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
       "name": "云隐子",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.1732,
-      "combat_power": 568,
+      "realm_progress": 0.2691,
+      "combat_power": 583,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 320,
@@ -50,7 +50,8 @@
       "life_goal": "成为东海一带无人能敌的强者",
       "current_plan": "",
       "inventory_summary": [
-        "火灵根"
+        "火灵根",
+        "冰心草"
       ],
       "status_tags": []
     },
@@ -58,8 +59,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.1402,
-      "combat_power": 395,
+      "realm_progress": 0.2033,
+      "combat_power": 403,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -82,8 +83,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.1877,
-      "combat_power": 401,
+      "realm_progress": 0.2945,
+      "combat_power": 413,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 180,
@@ -111,7 +112,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -130,8 +131,8 @@
       "name": "苍穹子",
       "alive": true,
       "realm": "元婴初期",
-      "realm_progress": 0.1826,
-      "combat_power": 3375,
+      "realm_progress": 0.2813,
+      "combat_power": 3470,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1200,
@@ -173,7 +174,8 @@
       "current_plan": "",
       "inventory_summary": [
         "寒铁矿",
-        "寒铁矿"
+        "寒铁矿",
+        "冰心草"
       ],
       "status_tags": []
     },
@@ -182,8 +184,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 1831,
-      "hp": 44,
+      "combat_power": 1546,
+      "hp": 19,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -210,7 +212,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 290,
-      "location": "tianji_mountain",
+      "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -230,22 +232,20 @@
     "qingyun_peak": [
       "bai_he"
     ],
-    "tianji_mountain": [
-      "ling_bo"
-    ],
+    "tianji_mountain": [],
     "wanyao_cave": [],
     "zhongzhou_city": [
-      "yun_yin_zi"
-    ],
-    "market_street": [
+      "yun_yin_zi",
       "zi_die"
     ],
+    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
     ],
     "east_sea": [
-      "chi_mang"
+      "chi_mang",
+      "ling_bo"
     ],
     "penglai_island": [
       "cang_qiong"
@@ -269,6 +269,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "market_street"
+    },
+    {
+      "id": "spirit_rain",
+      "type": "spirit_rain",
+      "name": "天降灵雨",
+      "description": "天降灵雨，某地修炼速度大幅提升",
+      "turns_remaining": 3,
+      "location": "east_sea"
     }
   ]
 }
