@@ -1,7 +1,7 @@
 {
-  "turn": 762,
-  "game_month": "第64年·六月",
-  "timestamp": "2026-04-03T17:04:42",
+  "turn": 763,
+  "game_month": "第64年·七月",
+  "timestamp": "2026-04-03T17:04:46",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -174,7 +174,7 @@
       "combat_power": 2294,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 10336,
+      "spirit_stones": 10371,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 48229,
-      "hp": 31,
+      "combat_power": 41370,
+      "hp": 10,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1424,6 +1424,14 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "market_street"
     }
   ]
 }
