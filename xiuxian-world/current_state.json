@@ -1,7 +1,7 @@
 {
-  "turn": 64,
-  "game_month": "第6年·四月",
-  "timestamp": "2026-04-03T16:16:08",
+  "turn": 65,
+  "game_month": "第6年·五月",
+  "timestamp": "2026-04-03T16:16:12",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1848,
       "hp": 30,
       "hp_max": 100,
-      "spirit_stones": 1025,
+      "spirit_stones": 1150,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.8621,
-      "combat_power": 1258,
+      "realm_progress": 0.9233,
+      "combat_power": 1276,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹后期",
-      "realm_progress": 0.3822,
-      "combat_power": 2117,
+      "realm_progress": 0.4921,
+      "combat_power": 2180,
       "hp": 247,
       "hp_max": 247,
       "spirit_stones": 180,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 11957,
+      "combat_power": 12562,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 2031,
@@ -174,7 +174,7 @@
       "combat_power": 265,
       "hp": 34,
       "hp_max": 100,
-      "spirit_stones": 942,
+      "spirit_stones": 975,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,7 +202,7 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4067,
+      "combat_power": 4660,
       "hp": 32,
       "hp_max": 100,
       "spirit_stones": 400,
@@ -219,6 +219,7 @@
       "life_goal": "在死之前，与天下所有强者战上一场",
       "current_plan": "",
       "inventory_summary": [
+        "灵玉剑",
         "灵玉剑",
         "灵玉剑",
         "灵玉剑",
@@ -352,19 +353,11 @@
       "location": "zhongzhou_city"
     },
     {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "east_sea"
-    },
-    {
       "id": "secret_realm_open",
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 6,
+      "turns_remaining": 5,
       "location": "sword_tomb"
     }
   ]
