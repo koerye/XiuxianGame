@@ -1,7 +1,7 @@
 {
-  "turn": 782,
-  "game_month": "第66年·二月",
-  "timestamp": "2026-04-03T17:06:10",
+  "turn": 783,
+  "game_month": "第66年·三月",
+  "timestamp": "2026-04-03T17:06:14",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 20277,
       "hp": 42,
       "hp_max": 100,
-      "spirit_stones": 10848,
+      "spirit_stones": 10886,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -1446,7 +1446,7 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "medicine_valley"
     },
     {
@@ -1454,8 +1454,16 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "wilderness"
+    },
+    {
+      "id": "legendary_treasure",
+      "type": "legendary_treasure",
+      "name": "传说宝物现世",
+      "description": "一件传说中的宝物在某处现世，引发哄抢",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
