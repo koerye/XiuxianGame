@@ -1,7 +1,7 @@
 {
-  "turn": 333,
-  "game_month": "第28年·九月",
-  "timestamp": "2026-04-03T16:33:33",
+  "turn": 334,
+  "game_month": "第28年·十月",
+  "timestamp": "2026-04-03T16:33:37",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 7448,
       "hp": 32,
       "hp_max": 100,
-      "spirit_stones": 4857,
+      "spirit_stones": 4890,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 38473,
+      "combat_power": 39086,
       "hp": 43,
       "hp_max": 100,
       "spirit_stones": 5903,
@@ -766,8 +766,16 @@
       "type": "plague",
       "name": "瘟疫蔓延",
       "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "south_frontier"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 6,
+      "location": "sword_tomb"
     }
   ]
 }
