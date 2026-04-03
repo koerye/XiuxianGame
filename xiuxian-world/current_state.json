@@ -1,7 +1,7 @@
 {
-  "turn": 568,
-  "game_month": "第48年·四月",
-  "timestamp": "2026-04-03T16:49:29",
+  "turn": 569,
+  "game_month": "第48年·五月",
+  "timestamp": "2026-04-03T16:49:33",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 12929,
-      "hp": 27,
+      "combat_power": 14279,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 7782,
       "location": "east_sea",
@@ -1192,6 +1192,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "market_street"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "south_frontier"
     }
   ]
 }
