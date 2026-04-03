@@ -1,7 +1,7 @@
 {
-  "turn": 376,
-  "game_month": "第32年·四月",
-  "timestamp": "2026-04-03T16:36:24",
+  "turn": 377,
+  "game_month": "第32年·五月",
+  "timestamp": "2026-04-03T16:36:28",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 8965,
+      "combat_power": 9061,
       "hp": 44,
       "hp_max": 100,
       "spirit_stones": 5254,
@@ -140,8 +140,8 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 36208,
-      "hp": 22,
+      "combat_power": 40125,
+      "hp": 37,
       "hp_max": 100,
       "spirit_stones": 6655,
       "location": "east_sea",
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 23746,
-      "hp": 29,
+      "combat_power": 26191,
+      "hp": 44,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -846,7 +846,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "sword_tomb"
     }
   ]
