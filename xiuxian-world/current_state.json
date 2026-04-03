@@ -1,7 +1,7 @@
 {
-  "turn": 25,
-  "game_month": "第3年·正月",
-  "timestamp": "2026-04-03T15:59:32",
+  "turn": 26,
+  "game_month": "第3年·二月",
+  "timestamp": "2026-04-03T15:59:36",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 2128,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 1244,
+      "spirit_stones": 1266,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.0,
-      "combat_power": 760,
+      "realm_progress": 0.0967,
+      "combat_power": 782,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -113,8 +113,8 @@
       "name": "紫蝶",
       "alive": true,
       "realm": "炼气巅峰",
-      "realm_progress": 0.8529,
-      "combat_power": 226,
+      "realm_progress": 0.9228,
+      "combat_power": 229,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
@@ -169,8 +169,8 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 211,
-      "hp": 23,
+      "combat_power": 233,
+      "hp": 38,
       "hp_max": 100,
       "spirit_stones": 283,
       "location": "wilderness",
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4127,
-      "hp": 15,
+      "combat_power": 4598,
+      "hp": 30,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -296,6 +296,16 @@
       "tags": []
     },
     {
+      "from": "yue_hua",
+      "to": "zi_die",
+      "favor": 0,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
+      "tags": []
+    },
+    {
       "from": "zi_die",
       "to": "yun_yin_zi",
       "favor": 0,
@@ -303,6 +313,16 @@
       "fear": 0,
       "hatred": 0,
       "familiarity": 36,
+      "tags": []
+    },
+    {
+      "from": "zi_die",
+      "to": "yue_hua",
+      "favor": 2,
+      "trust": 0,
+      "fear": 0,
+      "hatred": 0,
+      "familiarity": 5,
       "tags": []
     }
   ],
@@ -360,7 +380,7 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "ancient_ruins"
     },
     {

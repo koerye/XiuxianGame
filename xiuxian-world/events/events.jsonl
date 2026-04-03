@@ -340,3 +340,5 @@
 {"turn": 21, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 22, "type": "growth.breakthrough", "actors": ["yue_hua"], "location": "south_frontier", "weight": 4, "data": {}, "narrative_tags": []}
 {"turn": 23, "type": "adventure.treasure_found", "actors": ["xue_ying"], "location": "wilderness", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 25, "type": "growth.breakthrough", "actors": ["bai_he"], "location": "qingyun_peak", "weight": 4, "data": {}, "narrative_tags": []}
+{"turn": 25, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
