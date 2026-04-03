@@ -1,7 +1,7 @@
 {
-  "turn": 31,
-  "game_month": "第3年·七月",
-  "timestamp": "2026-04-03T15:52:52",
+  "turn": 32,
+  "game_month": "第3年·八月",
+  "timestamp": "2026-04-03T15:52:56",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2142,
+      "combat_power": 2332,
       "hp": 42,
       "hp_max": 100,
       "spirit_stones": 1420,
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.8,
-      "combat_power": 669,
+      "realm_progress": 0.8798,
+      "combat_power": 682,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -88,11 +88,11 @@
     "bai_he": {
       "name": "白鹤",
       "alive": true,
-      "realm": "筑基后期",
-      "realm_progress": 0.897,
-      "combat_power": 685,
-      "hp": 120,
-      "hp_max": 120,
+      "realm": "筑基巅峰",
+      "realm_progress": 0.0,
+      "combat_power": 760,
+      "hp": 144,
+      "hp_max": 144,
       "spirit_stones": 180,
       "location": "qingyun_peak",
       "status": "idle",
@@ -174,7 +174,7 @@
       "combat_power": 186,
       "hp": 45,
       "hp_max": 100,
-      "spirit_stones": 354,
+      "spirit_stones": 370,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -335,6 +335,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "medicine_valley"
     }
   ]
 }
