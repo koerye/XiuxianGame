@@ -1,7 +1,7 @@
 {
-  "turn": 47,
-  "game_month": "第4年·冬月",
-  "timestamp": "2026-04-03T16:00:55",
+  "turn": 48,
+  "game_month": "第4年·腊月",
+  "timestamp": "2026-04-03T16:00:59",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,8 +35,8 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 2548,
-      "hp": 35,
+      "combat_power": 2396,
+      "hp": 26,
       "hp_max": 100,
       "spirit_stones": 1521,
       "location": "east_sea",
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.8,
-      "combat_power": 1240,
+      "realm_progress": 0.8966,
+      "combat_power": 1268,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "south_frontier",
+      "location": "wanyao_cave",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -260,7 +260,9 @@
     "tianji_mountain": [
       "ling_bo"
     ],
-    "wanyao_cave": [],
+    "wanyao_cave": [
+      "zi_die"
+    ],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
@@ -277,8 +279,7 @@
     "ancient_ruins": [],
     "sword_tomb": [],
     "south_frontier": [
-      "yue_hua",
-      "zi_die"
+      "yue_hua"
     ],
     "nine_abyssal": [
       "po_jun"
