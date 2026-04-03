@@ -1,7 +1,7 @@
 {
-  "turn": 898,
-  "game_month": "第75年·十月",
-  "timestamp": "2026-04-03T17:14:53",
+  "turn": 899,
+  "game_month": "第75年·冬月",
+  "timestamp": "2026-04-03T17:14:57",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -140,7 +140,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 77580,
+      "combat_power": 77721,
       "hp": 30,
       "hp_max": 100,
       "spirit_stones": 13629,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 60302,
-      "hp": 41,
+      "combat_power": 51505,
+      "hp": 18,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1760,14 +1760,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "south_frontier"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "east_sea"
     },
     {
       "id": "legendary_treasure",
