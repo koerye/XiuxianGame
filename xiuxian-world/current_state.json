@@ -1,7 +1,7 @@
 {
-  "turn": 40,
-  "game_month": "第4年·四月",
-  "timestamp": "2026-04-03T16:00:29",
+  "turn": 41,
+  "game_month": "第4年·五月",
+  "timestamp": "2026-04-03T16:00:33",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.7518,
-      "combat_power": 661,
+      "realm_progress": 0.8134,
+      "combat_power": 671,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.3916,
-      "combat_power": 1117,
+      "realm_progress": 0.4778,
+      "combat_power": 1143,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 180,
@@ -118,7 +118,7 @@
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 950,
-      "location": "wanyao_cave",
+      "location": "nine_abyssal",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -141,7 +141,7 @@
       "combat_power": 4345,
       "hp": 45,
       "hp_max": 100,
-      "spirit_stones": 1895,
+      "spirit_stones": 1905,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 6396,
-      "hp": 31,
+      "combat_power": 5660,
+      "hp": 14,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -260,9 +260,7 @@
     "tianji_mountain": [
       "ling_bo"
     ],
-    "wanyao_cave": [
-      "zi_die"
-    ],
+    "wanyao_cave": [],
     "zhongzhou_city": [
       "yun_yin_zi"
     ],
@@ -282,7 +280,8 @@
       "yue_hua"
     ],
     "nine_abyssal": [
-      "po_jun"
+      "po_jun",
+      "zi_die"
     ],
     "unnamed_cave": []
   },
@@ -406,8 +405,24 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "ancient_ruins"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "wilderness"
+    },
+    {
+      "id": "plague",
+      "type": "plague",
+      "name": "瘟疫蔓延",
+      "description": "某地灵气污染，短时间内不宜修炼",
+      "turns_remaining": 2,
+      "location": "wilderness"
     }
   ]
 }
