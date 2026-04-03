@@ -1,7 +1,7 @@
 {
-  "turn": 29,
-  "game_month": "第3年·五月",
-  "timestamp": "2026-04-03T15:59:47",
+  "turn": 30,
+  "game_month": "第3年·六月",
+  "timestamp": "2026-04-03T15:59:51",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.2591,
-      "combat_power": 581,
+      "realm_progress": 0.331,
+      "combat_power": 593,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基巅峰",
-      "realm_progress": 0.3519,
-      "combat_power": 840,
+      "realm_progress": 0.4298,
+      "combat_power": 857,
       "hp": 144,
       "hp_max": 144,
       "spirit_stones": 180,
@@ -169,7 +169,7 @@
       "alive": true,
       "realm": "炼气后期",
       "realm_progress": 0.0,
-      "combat_power": 272,
+      "combat_power": 289,
       "hp": 38,
       "hp_max": 100,
       "spirit_stones": 305,
@@ -200,8 +200,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 4476,
-      "hp": 10,
+      "combat_power": 5006,
+      "hp": 25,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -299,11 +299,11 @@
     {
       "from": "yue_hua",
       "to": "zi_die",
-      "favor": 0,
+      "favor": 2,
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 15,
+      "familiarity": 20,
       "tags": []
     },
     {
@@ -323,7 +323,7 @@
       "trust": 0,
       "fear": 0,
       "hatred": 0,
-      "familiarity": 15,
+      "familiarity": 20,
       "tags": []
     }
   ],
@@ -399,6 +399,14 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "medicine_valley"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 5,
+      "location": "sword_tomb"
     }
   ]
 }

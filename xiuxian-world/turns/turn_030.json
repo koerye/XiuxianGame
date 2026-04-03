@@ -1,15 +1,24 @@
 {
   "turn": 30,
   "game_month": "第3年·六月",
-  "timestamp": "2026-04-03T15:52:49",
-  "world_events_triggered": [],
+  "timestamp": "2026-04-03T15:59:51",
+  "world_events_triggered": [
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "location": "sword_tomb",
+      "duration": 1
+    }
+  ],
   "actions": {
     "chi_mang": {
       "main_action": {
         "action": "explore",
-        "detail": "赤蟒在东海探索：击败妖兽，缴获战利品",
+        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得20灵石"
+        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,7 +40,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +1%"
+        "result": "修炼进度 +7%"
       },
       "free_actions": [],
       "plan_update": null,
@@ -40,9 +49,9 @@
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：发现了一株灵药",
+        "detail": "苍穹子在东海探索：在荒野中探索，无甚收获",
         "success": true,
-        "result": "获得冰心草"
+        "result": "苍穹子在东海探索：在荒野中探索，无甚收获"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +60,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：找到一处藏宝洞穴",
+        "detail": "雪影在荒野探索：在石壁上发现了残破功法刻文",
         "success": true,
-        "result": "获得67灵石"
+        "result": "获得冰心诀"
       },
       "free_actions": [],
       "plan_update": null,
@@ -71,7 +80,21 @@
       "cultivator_name": "破军"
     }
   },
-  "social_interactions": [],
+  "social_interactions": [
+    {
+      "id": "si_030_01",
+      "initiator": "zi_die",
+      "initiator_name": "紫蝶",
+      "target": "yue_hua",
+      "target_name": "月华",
+      "location": "南疆",
+      "type": "greet",
+      "initiator_message": "（紫蝶向月华打招呼）",
+      "target_response": "道友有礼了。",
+      "outcome": "紫蝶向月华主动搭话",
+      "relation_changes": {}
+    }
+  ],
   "combats": [],
   "breakthroughs": [],
   "deaths": [],
@@ -79,9 +102,21 @@
   "events": [
     {
       "turn": 30,
+      "type": "social.greet",
+      "actors": [
+        "zi_die",
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 2,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 30,
       "type": "adventure.treasure_found",
       "actors": [
-        "cang_qiong"
+        "xue_ying"
       ],
       "location": "wilderness",
       "weight": 3,
@@ -92,9 +127,9 @@
   "movement": [],
   "economy": {
     "chi_mang": {
-      "income": 20,
+      "income": 0,
       "expense": 0,
-      "current_stones": 1384
+      "current_stones": 1266
     },
     "yue_hua": {
       "income": 0,
@@ -109,12 +144,12 @@
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1556
+      "current_stones": 1515
     },
     "xue_ying": {
-      "income": 67,
+      "income": 0,
       "expense": 0,
-      "current_stones": 354
+      "current_stones": 305
     },
     "po_jun": {
       "income": 0,
