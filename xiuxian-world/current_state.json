@@ -1,7 +1,7 @@
 {
-  "turn": 902,
-  "game_month": "第76年·二月",
-  "timestamp": "2026-04-03T17:15:11",
+  "turn": 903,
+  "game_month": "第76年·三月",
+  "timestamp": "2026-04-03T17:15:16",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -174,7 +174,7 @@
       "combat_power": 2964,
       "hp": 35,
       "hp_max": 100,
-      "spirit_stones": 12216,
+      "spirit_stones": 12316,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 54948,
-      "hp": 27,
+      "combat_power": 60685,
+      "hp": 42,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1768,14 +1768,6 @@
       "description": "一件传说中的宝物在某处现世，引发哄抢",
       "turns_remaining": 0,
       "location": "wilderness"
-    },
-    {
-      "id": "spirit_rain",
-      "type": "spirit_rain",
-      "name": "天降灵雨",
-      "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
     }
   ]
 }
