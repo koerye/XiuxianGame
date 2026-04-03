@@ -1,6 +1,6 @@
 {
-  "game_id": "sim_20260403_150427",
-  "started_at": "2026-04-03T15:04:27",
+  "game_id": "sim_20260403_150810",
+  "started_at": "2026-04-03T15:08:10",
   "seed": 42,
   "max_turns": 100,
   "time_scale": "1回合 = 1个月",
@@ -280,7 +280,7 @@
       "id": "chi_mang",
       "name": "赤蟒",
       "llm_model": "local-proxy",
-      "origin": "散修",
+      "origin": "万妖宫妖修后裔",
       "initial_realm": "金丹初期",
       "personality": {
         "valor": 85,
@@ -302,7 +302,7 @@
       "id": "yue_hua",
       "name": "月华",
       "llm_model": "local-proxy",
-      "origin": "散修",
+      "origin": "青云宗外门弟子",
       "initial_realm": "筑基中期",
       "personality": {
         "valor": 55,
@@ -319,6 +319,137 @@
       "initial_location": "south_frontier",
       "color": "#FF6B6B",
       "life_goal": "保护所有在乎的人，守护这片土地"
+    },
+    {
+      "id": "bai_he",
+      "name": "白鹤",
+      "llm_model": "local-proxy",
+      "origin": "青云宗外门弟子",
+      "initial_realm": "筑基中期",
+      "personality": {
+        "valor": 60,
+        "ambition": 65,
+        "loyalty": 70,
+        "cunning": 40,
+        "sociability": 60,
+        "traits": [
+          "剑痴",
+          "好为人师"
+        ]
+      },
+      "initial_location": "qingyun_peak",
+      "color": "#FF6B6B",
+      "life_goal": "成为天下第一剑修"
+    },
+    {
+      "id": "zi_die",
+      "name": "紫蝶",
+      "llm_model": "local-proxy",
+      "origin": "商贾之子",
+      "initial_realm": "炼气巅峰",
+      "personality": {
+        "valor": 30,
+        "ambition": 90,
+        "loyalty": 45,
+        "cunning": 85,
+        "sociability": 80,
+        "traits": [
+          "贪财",
+          "疑心病重",
+          "恋爱脑"
+        ]
+      },
+      "initial_location": "market_street",
+      "color": "#BD10E0",
+      "life_goal": "积累足够的财富和人脉，成为修仙界最大的商人"
+    },
+    {
+      "id": "cang_qiong",
+      "name": "苍穹子",
+      "llm_model": "local-proxy",
+      "origin": "书香门第",
+      "initial_realm": "元婴初期",
+      "personality": {
+        "valor": 65,
+        "ambition": 40,
+        "loyalty": 85,
+        "cunning": 70,
+        "sociability": 50,
+        "traits": [
+          "好为人师",
+          "护短",
+          "沉默寡言"
+        ]
+      },
+      "initial_location": "penglai_island",
+      "color": "#4A90D9",
+      "life_goal": "收几个好徒弟，将毕生所学传承下去"
+    },
+    {
+      "id": "xue_ying",
+      "name": "雪影",
+      "llm_model": "local-proxy",
+      "origin": "孤儿院出身",
+      "initial_realm": "炼气后期",
+      "personality": {
+        "valor": 75,
+        "ambition": 85,
+        "loyalty": 50,
+        "cunning": 60,
+        "sociability": 20,
+        "traits": [
+          "修炼狂",
+          "冷血无情",
+          "争强好胜"
+        ]
+      },
+      "initial_location": "wilderness",
+      "color": "#7ED321",
+      "life_goal": "超越一切，成为这个世界最强的人"
+    },
+    {
+      "id": "po_jun",
+      "name": "破军",
+      "llm_model": "local-proxy",
+      "origin": "落魄贵族",
+      "initial_realm": "金丹后期",
+      "personality": {
+        "valor": 95,
+        "ambition": 60,
+        "loyalty": 55,
+        "cunning": 40,
+        "sociability": 40,
+        "traits": [
+          "酒鬼",
+          "争强好胜",
+          "义薄云天"
+        ]
+      },
+      "initial_location": "nine_abyssal",
+      "color": "#9013FE",
+      "life_goal": "在死之前，与天下所有强者战上一场"
+    },
+    {
+      "id": "ling_bo",
+      "name": "凌波",
+      "llm_model": "local-proxy",
+      "origin": "天机阁学徒",
+      "initial_realm": "筑基初期",
+      "personality": {
+        "valor": 35,
+        "ambition": 75,
+        "loyalty": 60,
+        "cunning": 80,
+        "sociability": 65,
+        "traits": [
+          "痴迷炼丹",
+          "话痨",
+          "恋爱脑"
+        ]
+      },
+      "initial_location": "tianji_mountain",
+      "color": "#50E3C2",
+      "life_goal": "炼出一炉能让人飞升的仙丹"
     }
   ]
 }
