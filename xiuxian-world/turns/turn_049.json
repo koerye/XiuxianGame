@@ -1,15 +1,15 @@
 {
   "turn": 49,
   "game_month": "第5年·正月",
-  "timestamp": "2026-04-03T15:53:58",
+  "timestamp": "2026-04-03T16:01:03",
   "world_events_triggered": [],
   "actions": {
     "chi_mang": {
       "main_action": {
-        "action": "explore",
-        "detail": "赤蟒在东海探索：在荒野中探索，无甚收获",
+        "action": "heal",
+        "detail": "赤蟒静心调息，恢复15点生命",
         "success": true,
-        "result": "赤蟒在东海探索：在荒野中探索，无甚收获"
+        "result": "恢复15HP"
       },
       "free_actions": [],
       "plan_update": null,
@@ -20,7 +20,7 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +5%"
+        "result": "修炼进度 +0%；突破至筑基巅峰"
       },
       "free_actions": [],
       "plan_update": null,
@@ -31,18 +31,29 @@
         "action": "cultivate",
         "detail": "",
         "success": true,
-        "result": "修炼进度 +8%"
+        "result": "修炼进度 +9%"
       },
       "free_actions": [],
       "plan_update": null,
       "cultivator_name": "白鹤"
     },
+    "zi_die": {
+      "main_action": {
+        "action": "cultivate",
+        "detail": "",
+        "success": true,
+        "result": "修炼进度 +10%"
+      },
+      "free_actions": [],
+      "plan_update": null,
+      "cultivator_name": "紫蝶"
+    },
     "cang_qiong": {
       "main_action": {
         "action": "explore",
-        "detail": "苍穹子在荒野探索：妖兽过强，负伤而逃",
+        "detail": "苍穹子在东海探索：发现了一件遗落的法器",
         "success": true,
-        "result": "苍穹子在荒野探索：妖兽过强，负伤而逃"
+        "result": "获得寒铁剑"
       },
       "free_actions": [],
       "plan_update": null,
@@ -51,9 +62,9 @@
     "xue_ying": {
       "main_action": {
         "action": "explore",
-        "detail": "雪影在荒野探索：妖兽过强，负伤而逃",
+        "detail": "雪影在荒野探索：发现了一株灵药",
         "success": true,
-        "result": "雪影在荒野探索：妖兽过强，负伤而逃"
+        "result": "获得冰心草"
       },
       "free_actions": [],
       "plan_update": null,
@@ -73,16 +84,57 @@
   },
   "social_interactions": [],
   "combats": [],
-  "breakthroughs": [],
+  "breakthroughs": [
+    {
+      "cultivator": "yue_hua",
+      "name": "",
+      "new_realm": "筑基巅峰",
+      "old_realm": "筑基后期"
+    }
+  ],
   "deaths": [],
   "messages_sent": [],
-  "events": [],
+  "events": [
+    {
+      "turn": 49,
+      "type": "growth.breakthrough",
+      "actors": [
+        "yue_hua"
+      ],
+      "location": "south_frontier",
+      "weight": 4,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 49,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "cang_qiong"
+      ],
+      "location": "east_sea",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    },
+    {
+      "turn": 49,
+      "type": "adventure.treasure_found",
+      "actors": [
+        "xue_ying"
+      ],
+      "location": "wilderness",
+      "weight": 3,
+      "data": {},
+      "narrative_tags": []
+    }
+  ],
   "movement": [],
   "economy": {
     "chi_mang": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1628
+      "current_stones": 1521
     },
     "yue_hua": {
       "income": 0,
@@ -94,15 +146,20 @@
       "expense": 0,
       "current_stones": 180
     },
+    "zi_die": {
+      "income": 0,
+      "expense": 0,
+      "current_stones": 950
+    },
     "cang_qiong": {
       "income": 0,
       "expense": 0,
-      "current_stones": 1665
+      "current_stones": 1922
     },
     "xue_ying": {
       "income": 0,
       "expense": 0,
-      "current_stones": 518
+      "current_stones": 655
     },
     "po_jun": {
       "income": 0,
