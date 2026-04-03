@@ -1,7 +1,7 @@
 {
-  "turn": 439,
-  "game_month": "第37年·七月",
-  "timestamp": "2026-04-03T16:40:37",
+  "turn": 440,
+  "game_month": "第37年·八月",
+  "timestamp": "2026-04-03T16:40:41",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -35,7 +35,7 @@
       "alive": true,
       "realm": "金丹初期",
       "realm_progress": 0.0,
-      "combat_power": 11068,
+      "combat_power": 11257,
       "hp": 41,
       "hp_max": 100,
       "spirit_stones": 6122,
@@ -174,7 +174,7 @@
       "combat_power": 1435,
       "hp": 35,
       "hp_max": 100,
-      "spirit_stones": 6364,
+      "spirit_stones": 6375,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 25906,
-      "hp": 11,
+      "combat_power": 28949,
+      "hp": 26,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -936,14 +936,6 @@
       "description": "大批妖兽涌来，需多方修仙者合力抵御",
       "turns_remaining": 0,
       "location": "east_sea"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "market_street"
     },
     {
       "id": "legendary_treasure",
