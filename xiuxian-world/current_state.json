@@ -1,7 +1,7 @@
 {
-  "turn": 581,
-  "game_month": "第49年·五月",
-  "timestamp": "2026-04-03T16:50:53",
+  "turn": 582,
+  "game_month": "第49年·六月",
+  "timestamp": "2026-04-03T16:51:03",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -143,7 +143,7 @@
       "combat_power": 55989,
       "hp": 44,
       "hp_max": 100,
-      "spirit_stones": 10123,
+      "spirit_stones": 10137,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -202,8 +202,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 35107,
-      "hp": 19,
+      "combat_power": 38989,
+      "hp": 34,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -1230,8 +1230,16 @@
       "type": "spirit_rain",
       "name": "天降灵雨",
       "description": "天降灵雨，某地修炼速度大幅提升",
-      "turns_remaining": 3,
+      "turns_remaining": 2,
       "location": "wilderness"
+    },
+    {
+      "id": "secret_realm_open",
+      "type": "secret_realm_open",
+      "name": "秘境开启",
+      "description": "某处秘境突然开启，灵气外溢，江湖震动",
+      "turns_remaining": 5,
+      "location": "sword_tomb"
     }
   ]
 }
