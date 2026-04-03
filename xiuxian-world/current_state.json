@@ -1,7 +1,7 @@
 {
-  "turn": 519,
-  "game_month": "第44年·三月",
-  "timestamp": "2026-04-03T16:46:05",
+  "turn": 520,
+  "game_month": "第44年·四月",
+  "timestamp": "2026-04-03T16:46:09",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -174,7 +174,7 @@
       "combat_power": 1674,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 7302,
+      "spirit_stones": 7338,
       "location": "wilderness",
       "status": "idle",
       "travel_destination": null,
@@ -1080,6 +1080,30 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "east_sea"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "south_frontier"
+    },
+    {
+      "id": "bounty_posted",
+      "type": "bounty_posted",
+      "name": "高额悬赏发布",
+      "description": "城镇悬赏告示板更新，有新任务可领取",
+      "turns_remaining": 0,
+      "location": "south_frontier"
+    },
+    {
+      "id": "spirit_vein_exposed",
+      "type": "spirit_vein_exposed",
+      "name": "灵脉外露",
+      "description": "某处地下灵脉受地震影响外露，修炼圣地出现",
+      "turns_remaining": 0,
+      "location": "wilderness"
     }
   ]
 }
