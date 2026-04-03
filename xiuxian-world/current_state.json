@@ -1,7 +1,7 @@
 {
-  "turn": 851,
-  "game_month": "第71年·冬月",
-  "timestamp": "2026-04-03T17:11:20",
+  "turn": 852,
+  "game_month": "第71年·腊月",
+  "timestamp": "2026-04-03T17:11:24",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -1648,14 +1648,6 @@
       "description": "城镇悬赏告示板更新，有新任务可领取",
       "turns_remaining": 0,
       "location": "zhongzhou_city"
-    },
-    {
-      "id": "plague",
-      "type": "plague",
-      "name": "瘟疫蔓延",
-      "description": "某地灵气污染，短时间内不宜修炼",
-      "turns_remaining": 1,
-      "location": "medicine_valley"
     }
   ]
 }
