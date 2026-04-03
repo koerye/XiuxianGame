@@ -1,7 +1,7 @@
 {
-  "turn": 55,
-  "game_month": "第5年·七月",
-  "timestamp": "2026-04-03T16:15:35",
+  "turn": 56,
+  "game_month": "第5年·八月",
+  "timestamp": "2026-04-03T16:15:39",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -65,8 +65,8 @@
       "name": "月华",
       "alive": true,
       "realm": "金丹初期",
-      "realm_progress": 0.2187,
-      "combat_power": 1065,
+      "realm_progress": 0.287,
+      "combat_power": 1086,
       "hp": 172,
       "hp_max": 172,
       "spirit_stones": 210,
@@ -89,8 +89,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "金丹中期",
-      "realm_progress": 0.5625,
-      "combat_power": 1636,
+      "realm_progress": 0.6545,
+      "combat_power": 1674,
       "hp": 206,
       "hp_max": 206,
       "spirit_stones": 180,
@@ -347,8 +347,16 @@
       "type": "secret_realm_open",
       "name": "秘境开启",
       "description": "某处秘境突然开启，灵气外溢，江湖震动",
-      "turns_remaining": 2,
+      "turns_remaining": 1,
       "location": "sword_tomb"
+    },
+    {
+      "id": "demon_tide",
+      "type": "demon_tide",
+      "name": "妖潮来袭",
+      "description": "大批妖兽涌来，需多方修仙者合力抵御",
+      "turns_remaining": 0,
+      "location": "zhongzhou_city"
     }
   ]
 }
