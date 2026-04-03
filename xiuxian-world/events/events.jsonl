@@ -1067,3 +1067,4 @@
 {"turn": 762, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 762, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
 {"turn": 763, "type": "adventure.treasure_found", "actors": ["cang_qiong"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
+{"turn": 764, "type": "adventure.treasure_found", "actors": ["chi_mang"], "location": "east_sea", "weight": 3, "data": {}, "narrative_tags": []}
