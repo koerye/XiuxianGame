@@ -1,7 +1,7 @@
 {
-  "turn": 12,
-  "game_month": "第1年·腊月",
-  "timestamp": "2026-04-03T15:58:45",
+  "turn": 13,
+  "game_month": "第2年·正月",
+  "timestamp": "2026-04-03T15:58:48",
   "phase": "running",
   "cultivators": {
     "yun_yin_zi": {
@@ -38,7 +38,7 @@
       "combat_power": 1324,
       "hp": 41,
       "hp_max": 100,
-      "spirit_stones": 754,
+      "spirit_stones": 837,
       "location": "east_sea",
       "status": "idle",
       "travel_destination": null,
@@ -62,8 +62,8 @@
       "name": "月华",
       "alive": true,
       "realm": "筑基中期",
-      "realm_progress": 0.9095,
-      "combat_power": 483,
+      "realm_progress": 0.9748,
+      "combat_power": 491,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 210,
@@ -86,8 +86,8 @@
       "name": "白鹤",
       "alive": true,
       "realm": "筑基后期",
-      "realm_progress": 0.0906,
-      "combat_power": 554,
+      "realm_progress": 0.2001,
+      "combat_power": 572,
       "hp": 120,
       "hp_max": 120,
       "spirit_stones": 180,
@@ -115,7 +115,7 @@
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 950,
-      "location": "market_street",
+      "location": "zhongzhou_city",
       "status": "idle",
       "travel_destination": null,
       "travel_turns_left": 0,
@@ -135,7 +135,7 @@
       "alive": true,
       "realm": "元婴初期",
       "realm_progress": 0.0,
-      "combat_power": 3679,
+      "combat_power": 4159,
       "hp": 100,
       "hp_max": 100,
       "spirit_stones": 1292,
@@ -155,7 +155,8 @@
         "冰心诀",
         "冰心草",
         "冰心草",
-        "千年灵芝"
+        "千年灵芝",
+        "冰心诀"
       ],
       "status_tags": []
     },
@@ -195,8 +196,8 @@
       "alive": true,
       "realm": "金丹后期",
       "realm_progress": 0.0,
-      "combat_power": 3520,
-      "hp": 12,
+      "combat_power": 3930,
+      "hp": 27,
       "hp_max": 100,
       "spirit_stones": 400,
       "location": "nine_abyssal",
@@ -255,11 +256,10 @@
     ],
     "wanyao_cave": [],
     "zhongzhou_city": [
-      "yun_yin_zi"
-    ],
-    "market_street": [
+      "yun_yin_zi",
       "zi_die"
     ],
+    "market_street": [],
     "medicine_valley": [],
     "wilderness": [
       "xue_ying"
